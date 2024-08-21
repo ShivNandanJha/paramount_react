@@ -22,21 +22,21 @@ const relatedBlog = [
   {
     title:
       'The Importance of Mental Health: Understanding and Managing Anxiety Disorders',
-    thumbUrl: '/images/blog/post_1.jpeg',
+    thumbUrl: '/images/blog/rcu.webp',
     date: 'March 12',
     btnText: 'Learn More',
     href: '/blog/blog-details',
   },
   {
     title: `A Parent's Guide to Childhood Vaccinations: What You Need to Know`,
-    thumbUrl: '/images/blog/post_2.jpeg',
+    thumbUrl: '/images/blog/hdu.webp',
     date: 'March 11',
     btnText: 'Learn More',
     href: '/blog/blog-details',
   },
   {
     title: 'Preventing Heart Disease: Tips for a Heart-Healthy Lifestyle',
-    thumbUrl: '/images/blog/post_3.jpeg',
+    thumbUrl: '/images/blog/testimonial5.webp',
     date: 'March 9',
     btnText: 'Learn More',
     href: '/blog/blog-details',

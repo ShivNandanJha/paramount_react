@@ -22,7 +22,7 @@ const menuDataTwo = [
 
 export default function Footer() {
   return (
-    <footer className="cs_footer cs_style_1 cs_heading_color">
+    <footer className = "cs_footer cs_style_1 cs_heading_color">
       <div
         className="cs_footer_logo_wrap"
         style={{ backgroundImage: 'url(/images/footer_bg_1.svg)' }}

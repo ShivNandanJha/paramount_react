@@ -9,7 +9,10 @@ export default function BannerSectionStyle2({ bgUrl, title, subTitle }) {
         style={{ backgroundImage: `url(${bgUrl})` }}
       >
         <div className="cs_section_heading cs_style_1">
-          <h2 className="cs_section_title cs_fs_72 m-0 cs_white_color">
+          <h2 className="cs_section_title cs_fs_72 m-0 cs_primary" style={{
+            backgroundColor: " rgba(243, 239, 239, 0.678)",
+            padding:"10px"
+          }}>
             {parse(title)}
           </h2>
           <div className="cs_height_22" />

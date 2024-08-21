@@ -13,7 +13,7 @@ const departmentData = [
     href: '/departments/department-details',
   },
   {
-    iconUrl: 'images/departments/icon_1.svg',
+    iconUrl: 'images/departments/cardiology.svg',
     title: 'Cardiology Department',
     subTitle:
       'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',

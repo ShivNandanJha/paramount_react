@@ -28,15 +28,15 @@ function App() {
   }, [pathname]);
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<HomeStyle2 />} />
-        <Route path="about" element={<About />} />
-        <Route path="doctors" element={<Doctors />} />
-        <Route path="doctors/:doctorId" element={<DoctorDetails />} />
-        <Route path="blog" element={<Blog />} />
-        <Route path="blog/:blogId" element={<BlogDetails />} />
-        <Route path="appointments" element={<Appointments />} />
-        <Route path="departments" element={<Departments />} />
+      <Route path          = "/" element                 = {<Layout />}>
+      <Route index element = {<HomeStyle2 />} />
+      <Route path          = "about" element             = {<About />} />
+      <Route path          = "doctors" element           = {<Doctors />} />
+      <Route path          = "doctors/:doctorId" element = {<DoctorDetails />} />
+      <Route path          = "blog" element              = {<Blog />} />
+        <Route path = "blog/:blogId" element      = {<BlogDetails />} />
+        <Route path = "appointments" element      = {<Appointments />} />
+        <Route path = "departments" element       = {<Departments />} />
         <Route
           path="departments/:departmentId"
           element={<DepartmentDetails />}
