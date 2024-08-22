@@ -14,9 +14,9 @@ export default function BannerSectionStyle3({
 }) {
   const containerStyle = {
     position: 'relative',
-    width   : '120%',
+    width   : '100%',
     height  : 'auto',
-    marginBottom: "30px"
+    marginBottom: "20px"
   };
   return (
     <section

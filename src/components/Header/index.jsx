@@ -32,7 +32,9 @@ export default function Header({ logoSrc, variant }) {
           mobileToggle ? 'cs_mobile_toggle_active' : ''
         } ${variant} ${isSticky ? 'cs_active_sticky' : ''}`}
       >
-        <div className="cs_main_header">
+        <div className="cs_main_header" style={{
+          backgroundColor:"white"
+        }}>
           <div className="container">
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">

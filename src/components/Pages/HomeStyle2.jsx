@@ -199,7 +199,6 @@ export default function HomeStyle2() {
   pageTitle("Homepage");
   return (
     <>
-      {" "}
       <div
         className="cs_hero cs_style_2 cs_bg_filed"
         style={{
@@ -211,6 +210,7 @@ export default function HomeStyle2() {
           alignItems: "center",
           justifyContent: "center",
           background: "black", // Optional: Set a fallback background color
+          zIndex: -11, // Ensure this has a lower z-index than the overlapping section
         }}
       >
         {/* Background Video */}
@@ -220,23 +220,23 @@ export default function HomeStyle2() {
           loop
           muted
           style={{
-            position: "absolute", // Position video absolutely within the parent
+            position: "fixed", // Fix the video in place
             top: 0,
             left: 0,
             width: "100%", // Make the video cover the full width
             height: "100%", // Make the video cover the full height
             objectFit: "cover", // Ensure the video covers the area without distortion
+            zIndex: -1, // Place the video behind other content
           }}
         />
-
-      
       </div>
-      {/* <HeroStyle2
+
+      {/* HeroStyle2 Section overlapping the video */}
+
+      <HeroStyle2
         title="Compassionate care, exceptional results."
-        subTitle="Our team of experienced doctors and healthcare professionals are
-        committed to providing quality care and personalized attention to
-        our patients."
-        bgUrl="/public/images/home_2/herobanner.mp4"
+        subTitle="Our team of experienced doctors and healthcare professionals are committed to providing quality care and personalized attention to our patients."
+        bgUrl="/public/images/home_2/hero_bg.jpeg"
         imgUrl="/images/home_2/patents.png"
         videoBtnText="See how we work"
         videoUrl="/public/images/home_2/herobanner.mp4"
@@ -248,16 +248,30 @@ export default function HomeStyle2() {
           { number: "5000+", title: "Patients served annually" },
           { number: "10+", title: "Healthcare providers on staff" },
         ]}
-      /> */}
-      <Section bottomMd={190} bottomLg={145} bottomXl={105}>
+      />
+
+      {/* Remaining Sections */}
+      <Section
+        bottomMd={190}
+        bottomLg={145}
+        bottomXl={105}
+        style={{ backgroundImage: `url(/images/home_2/testimonial_bg.svg)` }}
+      >
         <AboutSectionStyle3
           titleUp="ABOUT US"
-          title="Paramount Hospital is a team of experienced medical professional"
+          title="Paramount Hospital is a team of experienced medical professionals"
           subTitle="Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms."
           imgUrl="/images/home_2/about.png"
         />
       </Section>
-      <Section bottomMd={125} bottomLg={125} bottomXl={85}>
+      <Section
+        bottomMd={125}
+        bottomLg={125}
+        bottomXl={85}
+        style={{
+          backgroundColor: "white",
+        }}
+      >
         <DepartmentSectionStyle4
           sectionTitle="For Your Health"
           sectionTitleUp="OUR DEPARTMENTS"
@@ -287,6 +301,9 @@ export default function HomeStyle2() {
         bottomMd={200}
         bottomLg={150}
         bottomXl={110}
+        style={{
+          backgroundColor: "white",
+        }}
       >
         <WorkingProcess
           sectionTitle="How it Works"
@@ -296,7 +313,11 @@ export default function HomeStyle2() {
           data={workingProcessData}
         />
       </Section>
-      <Section>
+      <Section
+        style={{
+          backgroundColor: "white",
+        }}
+      >
         <BannerSectionStyle2
           bgUrl="/images/home_2/care.webp"
           title="Don’t Let Your Health Take a Backseat!"
@@ -304,7 +325,14 @@ export default function HomeStyle2() {
           experienced medical professionals today!"
         />
       </Section>
-      <Section topMd={190} topLg={145} topXl={105}>
+      <Section
+        topMd={190}
+        topLg={145}
+        topXl={105}
+        style={{
+          backgroundColor: "white",
+        }}
+      >
         <BlogSectionStyle3
           sectionTitle="Latest Update"
           sectionTitleUp="BLOG POSTS"
@@ -314,6 +342,7 @@ export default function HomeStyle2() {
         />
       </Section>
       {/* Start FAQ Section */}
+
       <Section
         topMd={190}
         topLg={145}
@@ -321,15 +350,32 @@ export default function HomeStyle2() {
         bottomMd={200}
         bottomLg={150}
         bottomXl={110}
+        style={{
+          position: "relative",
+          backgroundColor: "white",
+          backgroundImage: `
+          linear-gradient(to right, #f0f0f0 1px, transparent 1px),
+          linear-gradient(to bottom, #f0f0f0 1px, transparent 1px)
+        `,
+          backgroundSize: "6rem 4rem",
+        }}
       >
-        <FaqSectionStyle2
+        <FaqSectionStyle2    style={{
+          position       : 'absolute',
+        
+          backgroundImage: 'radial-gradient(circle 800px at 100% 200px, #d5c5ff, transparent)',
+        }}
           data={faqData}
           sectionTitle="Usually Asked"
           sectionTitleUp="What People"
         />
       </Section>
       {/* End FAQ Section */}
-      <Section>
+      <Section
+        style={{
+          backgroundColor: "white",
+        }}
+      >
         <AppointmentSectionStyle2
           bgUrl="/images/home_2/appointment_bg.svg"
           imgUrl="/images/home_2/about.png"

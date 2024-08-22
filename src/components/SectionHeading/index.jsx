@@ -11,7 +11,8 @@ export default function SectionHeading({
 }) {
   return (
     <div
-      className={`cs_section_heading cs_style_1 ${center ? 'text-center' : ''}`}
+      className = {`cs_section_heading cs_style_1 ${center ? 'text-center' : ''}`}
+     
     >
       {titleUp && (
         <>

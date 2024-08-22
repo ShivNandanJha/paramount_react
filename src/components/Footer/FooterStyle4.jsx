@@ -25,18 +25,18 @@ const menuDataThree = [
 
 export default function FooterStyle4() {
   return (
-    <footer className="cs_footer cs_style_2 cs_type_1 cs_accent_bg cs_white_color">
+    <footer className="cs_footer cs_style_2 cs_type_1 cs_primary_bg cs_primary_color" style={{ backgroundImage: `url(/images/home_2/testimonial_bg.svg)` }}>
       <div className="container">
-        <NewsletterStyle4
+        {/* <NewsletterStyle4
           title="Be Our Subscribers"
           subTitle="Join our newsletter to keep up to date <br />health from our experts"
-        />
+        /> */}
         <div className="cs_footer_in">
           <div className="cs_footer_col">
             <div className="cs_footer_item">
               <TextWidget
                 logoUrl="/images/logo.svg"
-                text="ProHealth Medical & Healthcare Center"
+                text="Paramount Hospital Pvt. Ltd."
               />
               <ContactInfoWidget />
             </div>
@@ -62,7 +62,7 @@ export default function FooterStyle4() {
       <div className="cs_footer_bottom">
         <div className="container">
           <div className="cs_copyright">
-            Copyright © 2023 Pro Health. All rights reserved.
+           Healing Touch Par Excellence
           </div>
         </div>
       </div>
