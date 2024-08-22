@@ -1,9 +1,9 @@
-import React from 'react';
+
 import TextWidget from '../Widget/TextWidget';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
 import SocialWidget from '../Widget/SocialWidget';
 import MenuWidget from '../Widget/MenuWidget';
-import NewsletterStyle4 from '../Widget/NewsletterStyle4';
+
 const menuDataOne = [
   { title: 'About Us', href: '/about' },
   { title: 'Departments', href: '/departments' },
@@ -27,16 +27,13 @@ export default function FooterStyle4() {
   return (
     <footer className="cs_footer cs_style_2 cs_type_1 cs_primary_bg cs_primary_color" style={{ backgroundImage: `url(/images/home_2/testimonial_bg.svg)` }}>
       <div className="container">
-        {/* <NewsletterStyle4
-          title="Be Our Subscribers"
-          subTitle="Join our newsletter to keep up to date <br />health from our experts"
-        /> */}
+   
         <div className="cs_footer_in">
           <div className="cs_footer_col">
             <div className="cs_footer_item">
               <TextWidget
-                logoUrl="/images/logo.svg"
-                text="Paramount Hospital Pvt. Ltd."
+                logoUrl="/images/logo 1.svg"
+                text="Healing Touch Par Excellence"
               />
               <ContactInfoWidget />
             </div>

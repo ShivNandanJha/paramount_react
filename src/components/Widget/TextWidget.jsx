@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 import parse from 'html-react-parser';
 
 export default function TextWidget({ logoUrl, text }) {
@@ -9,3 +9,7 @@ export default function TextWidget({ logoUrl, text }) {
     </div>
   );
 }
+TextWidget.propTypes = {
+  logoUrl: PropTypes.string, // logoUrl should be a string if provided
+  text: PropTypes.string, // text should be a string if provided
+};

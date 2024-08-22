@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import DropDown from './DropDown';
 import SocialWidget from '../Widget/SocialWidget';
@@ -6,7 +6,38 @@ import Newsletter from '../Widget/Newsletter';
 import IconBoxStyle11 from '../IconBox/IconBoxStyle11';
 import Spacing from '../Spacing';
 
-export default function Header({ logoSrc, variant }) {
+export default function Header({ logoSrc, LgLogoSrc, variant }) {
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // Inline styles for the large and small logos
+  const logoStyleLarge = {
+    display: isSmallScreen ? 'none' : 'block',
+    width: '300px', // Adjust for large screens
+    height: 'auto',
+    marginTop: '5px'
+  };
+
+  const logoStyleSmall = {
+    display: isSmallScreen ? 'block' : 'none',
+    width: '50px', // Adjust for small screens
+    height: 'auto',
+    marginTop: '5px'
+  };
+
+  // Header styles
+  const headerStyle = {
+    backgroundColor: 'white'
+  };
+
   const [isSticky, setIsSticky] = useState(false);
   const [mobileToggle, setMobileToggle] = useState(false);
   const [sideNav, setSideNav] = useState(false);
@@ -39,7 +70,16 @@ export default function Header({ logoSrc, variant }) {
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
                 <Link className="cs_site_branding" to="/">
-                  <img src={logoSrc} alt="Logo" />
+                <img
+                  src={LgLogoSrc}
+                  alt="Large Logo"
+                  style={logoStyleLarge}
+                />
+                <img
+                  src={logoSrc}
+                  alt="Small Logo"
+                  style={logoStyleSmall}
+                />
                 </Link>
                 <nav className="cs_nav">
                   <ul

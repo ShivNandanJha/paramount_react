@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
 import MenuWidget from '../Widget/MenuWidget';
 import SocialWidget from '../Widget/SocialWidget';
