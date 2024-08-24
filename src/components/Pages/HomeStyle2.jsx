@@ -269,8 +269,7 @@ export default function HomeStyle2() {
         bottomLg={125}
         bottomXl={85}
         style={{
-      backgroundImage: "url('/public/images/bg-patter.png')",
-      backgroundSize : "cover"
+     backgroundColor: "white"
         }}
       >
         <DepartmentSectionStyle4 

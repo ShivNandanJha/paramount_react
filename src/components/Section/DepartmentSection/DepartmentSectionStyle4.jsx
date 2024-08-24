@@ -11,8 +11,8 @@ export default function DepartmentSectionStyle4({
   return (
     <div className="container" >
       <div
-        className="container"
-        style={{
+        className = "container"
+        style     = {{
           height: "40px",
           
         }}
