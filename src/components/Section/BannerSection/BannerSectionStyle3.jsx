@@ -42,10 +42,10 @@ export default function BannerSectionStyle3({
       </div>
       <div className="container">
         <div className="cs_banner_text">
-          <h2 className="cs_banner_title cs_fs_72">{parse(title)}</h2>
-          <p className="cs_banner_subtitle cs_fs_20 mb-0 cs_heading_color">
+          <h1 className="cs_banner_title cs_fs_72">{parse(title)}</h1>
+          <h2 className="cs_banner_subtitle cs_fs_20 mb-0 cs_heading_color">
             {parse(subTitle)}
-          </p>
+          </h2>
           {btnText && (
             <>
               <Spacing md="25" lg="25" xl="25" />

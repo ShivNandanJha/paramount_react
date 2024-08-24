@@ -89,12 +89,13 @@ const Appointment = () => {
         <div className="col-lg-6">
           <label className="cs_input_label cs_heading_color">Name</label>
           <input
-            type="text"
-            name="name"
-            placeholder="David John"
-            value={formData.name}
-            onChange={handleChange}
-            className="cs_form_field"
+            type        = "text"
+            name        = "name"
+            placeholder = "David John"
+            value       = {formData.name}
+            onChange    = {handleChange}
+            className   = "cs_form_field"
+            required
           />
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
@@ -108,7 +109,7 @@ const Appointment = () => {
             placeholder="(123) 456 - 789"
             value={formData.phone}
             onChange={handleChange}
-            className="cs_form_field"
+            className="cs_form_field"    required
           />
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
@@ -120,7 +121,7 @@ const Appointment = () => {
             placeholder="Email"
             value={formData.email}
             onChange={handleChange}
-            className="cs_form_field"
+            className="cs_form_field"     required
           />
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
@@ -144,7 +145,7 @@ const Appointment = () => {
               minDate={new Date()}
               isClearable
               placeholderText="dd/mm/yyyy"
-              className="cs_form_field"
+              className="cs_form_field"    required
             />
             <i>
               <Icon icon="fa6-solid:calendar-days" />
@@ -163,7 +164,7 @@ const Appointment = () => {
               placeholder="10:00AM"
               value={formData.time}
               onChange={handleChange}
-              className="cs_form_field cs_timepicker"
+              className="cs_form_field cs_timepicker"     required
             />
             <i>
               <Icon icon="fa6-regular:clock" />
@@ -179,7 +180,7 @@ const Appointment = () => {
             name="specialization"
             value={formData.specialization}
             onChange={handleSpecializationChange}
-            className="cs_form_field"
+            className="cs_form_field"     required
           >
             <option value="">Choose specialization</option>
             <option value="cardiology">Cardiology</option>
@@ -196,7 +197,7 @@ const Appointment = () => {
               name="doctor"
               value={formData.doctor}
               onChange={handleChange}
-              className="cs_form_field"
+              className="cs_form_field"     required
             >
               <option value="">Choose doctor</option>
               {formData.specialization === "cardiology" && (

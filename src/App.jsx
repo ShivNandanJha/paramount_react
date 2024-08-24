@@ -16,6 +16,7 @@ import Timetable from "./components/Pages/Timetable";
 import Contact from "./components/Pages/Contact";
 import { useEffect } from "react";
 import ErrorPage from "./components/Pages/ErrorPage";
+import Neurology from "./components/Pages/neurology";
 
 function App() {
   const { pathname } = useLocation();
@@ -28,7 +29,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomeStyle2 />} />
-          {/* <Route path          = "about" element             = {<About />} />
+          <Route path          = "about" element             = {<About />} />
       <Route path = "doctors" element           = {<Doctors />} />
       <Route path = "doctors/:doctorId" element = {<DoctorDetails />} />
       <Route path = "blog" element              = {<Blog />} />
@@ -39,10 +40,10 @@ function App() {
           path    = "departments/:departmentId"
           element = {<DepartmentDetails />}
         />
-        <Route path = "pricing-plan" element = {<PricingPlan />} />
+        <Route path = "departments/neurology" element = {<Neurology/>} />
         <Route path = "gallery" element      = {<Gallery />} />
         <Route path = "timetable" element    = {<Timetable />} />
-        <Route path = "contact" element      = {<Contact />} /> */}
+        <Route path = "contact" element      = {<Contact />} />
         </Route>
         {/* <Route element={<Layout2 />}>
         <Route path = "home-v2" element = {<HomeStyle2 />} />

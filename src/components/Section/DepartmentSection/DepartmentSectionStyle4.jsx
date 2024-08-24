@@ -9,18 +9,21 @@ export default function DepartmentSectionStyle4({
   data,
 }) {
   return (
-    <div className="container">
+    <div className="container" >
       <div
         className="container"
         style={{
           height: "40px",
+          
         }}
       ></div>
       <SectionHeading title={sectionTitle} titleUp={sectionTitleUp} />
       <Spacing md="72" lg="50" />
-      <div className="row">
+      <div className="row" >
         {data?.map((item, index) => (
-          <div className="col-xl-4 col-md-6" key={index}>
+          <div className="col-xl-4 col-md-6" key={index} style={{
+        background: 'white'
+      }}>
             <IconBoxStyle2 {...item} />
           </div>
         ))}

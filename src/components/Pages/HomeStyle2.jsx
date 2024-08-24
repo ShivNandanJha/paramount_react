@@ -257,7 +257,7 @@ export default function HomeStyle2() {
         bottomXl={105}
         style={{ backgroundImage: `url(/images/home_2/testimonial_bg.svg)` }}
       >
-        <AboutSectionStyle3
+        <AboutSectionStyle3 
           titleUp="ABOUT US"
           title="Paramount Hospital is a team of experienced medical professionals"
           subTitle="Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms."
@@ -269,10 +269,11 @@ export default function HomeStyle2() {
         bottomLg={125}
         bottomXl={85}
         style={{
-          backgroundColor: "white",
+      backgroundImage: "url('/public/images/bg-patter.png')",
+      backgroundSize : "cover"
         }}
       >
-        <DepartmentSectionStyle4
+        <DepartmentSectionStyle4 
           sectionTitle="For Your Health"
           sectionTitleUp="OUR DEPARTMENTS"
           data={departmentData}

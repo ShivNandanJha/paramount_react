@@ -12,3 +12,15 @@ export default function Button({ btnUrl, btnText, variant }) {
     </Link>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
