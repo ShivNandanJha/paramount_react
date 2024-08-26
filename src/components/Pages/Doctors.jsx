@@ -6,7 +6,7 @@ import Section from '../Section';
 import { pageTitle } from '../../helpers/PageTitle';
 const teamData = [
   {
-    imgUrl: '/images/doctors/doctor_1.png',
+    imgUrl: '/images/doctors/AmalBasak.png',
     department: 'Emergency Department',
     name: 'Dr. Lisa Chen, MD',
     designation: 'Emergency Medicine Specialist',
@@ -21,7 +21,7 @@ const teamData = [
     href: '/doctors/doctor-details',
   },
   {
-    imgUrl: '/images/doctors/doctor_2.png',
+    imgUrl: '/images/doctors/SajalBiswas.png',
     department: 'Emergency Department',
     name: 'Dr. Michael Johnson, MD',
     designation: 'Emergency Medicine Specialist',
@@ -36,7 +36,7 @@ const teamData = [
     href: '/doctors/doctor-details',
   },
   {
-    imgUrl: '/images/doctors/doctor_3.png',
+    imgUrl: '/images/doctors/VivekSarkar.png',
     department: 'Emergency Department',
     name: 'Dr. Karen Lee, MD',
     designation: 'Emergency Medicine Specialist',
@@ -51,7 +51,7 @@ const teamData = [
     href: '/doctors/doctor-details',
   },
   {
-    imgUrl: '/images/doctors/doctor_4.png',
+    imgUrl: '/images/doctors/DeepakTomar.png',
     department: 'Pediatric Department',
     name: 'Dr. Sarah Patel, MD',
     designation: 'Pediatrician',
@@ -66,7 +66,7 @@ const teamData = [
     href: '/doctors/doctor-details',
   },
   {
-    imgUrl: '/images/doctors/doctor_5.png',
+    imgUrl: '/images/doctors/BarunKumar.png',
     department: 'Pediatric Department',
     name: 'Dr. David Nguyen, MD',
     designation: 'Pediatrician',
@@ -81,7 +81,7 @@ const teamData = [
     href: '/doctors/doctor-details',
   },
   {
-    imgUrl: '/images/doctors/doctor_6.png',
+    imgUrl: '/images/doctors/AlokeSinha.png',
     department: 'Pediatric Department',
     name: 'Dr. Susan Bones, MD',
     designation: 'Pediatrician',
@@ -96,7 +96,7 @@ const teamData = [
     href: '/doctors/doctor-details',
   },
   {
-    imgUrl: '/images/doctors/doctor_7.png',
+    imgUrl: '/images/doctors/IndranilSen.png',
     department: 'Emergency Department',
     name: 'Dr. Lisa Chen, MD',
     designation: 'Cardiologist',
@@ -111,7 +111,7 @@ const teamData = [
     href: '/doctors/doctor-details',
   },
   {
-    imgUrl: '/images/doctors/doctor_8.png',
+    imgUrl: '/images/doctors/ManojKumar.png',
     department: 'Emergency Department',
     name: 'Dr. Michelle Kim, MD',
     designation: 'Cardiologist',
@@ -126,7 +126,7 @@ const teamData = [
     href: '/doctors/doctor-details',
   },
   {
-    imgUrl: '/images/doctors/doctor_9.png',
+    imgUrl: '/images/doctors/KundanKumar.png',
     department: 'Emergency Department',
     name: 'Dr. John Smith, MD',
     designation: 'Cardiologist',
@@ -141,7 +141,7 @@ const teamData = [
     href: '/doctors/doctor-details',
   },
   {
-    imgUrl: '/images/doctors/doctor_10.png',
+    imgUrl: '/images/doctors/MKDas.png',
     department: 'Psychiatry Department',
     name: 'Dr. Sarah Lee, MD',
     designation: 'Psychiatrist',
@@ -156,7 +156,7 @@ const teamData = [
     href: '/doctors/doctor-details',
   },
   {
-    imgUrl: '/images/doctors/doctor_11.png',
+    imgUrl: '/images/doctors/NRHalder.png',
     department: 'Psychiatry Department',
     name: 'Dr. David Park, MD',
     designation: 'Psychiatrist',
@@ -171,7 +171,202 @@ const teamData = [
     href: '/doctors/doctor-details',
   },
   {
-    imgUrl: '/images/doctors/doctor_12.png',
+    imgUrl: '/images/doctors/PenzimBhutiya.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/PBera.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/PrabhatRanjan.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/RajivAgarwa.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/RanjanPal.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/SandeepGhosh.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/SantanuHazra.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/SChaterjee.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/ShantanuDe.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/SKKhutia.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/SoumyaGayen.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/SoumyaGhosh.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/SurajitPaul.png',
+    department: 'Psychiatry Department',
+    name: 'Dr. Maria Rodriguez, MD',
+    designation: 'Psychiatrist',
+    description:
+      'Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.',
+    social: [
+      { icon: 'fa6-brands:facebook-f', href: '/about' },
+      { icon: 'fa6-brands:linkedin-in', href: '/about' },
+      { icon: 'fa6-brands:twitter', href: '/about' },
+    ],
+    category: 'pediatric',
+    href: '/doctors/doctor-details',
+  },
+  {
+    imgUrl: '/images/doctors/VikrantDeshmukh.png',
     department: 'Psychiatry Department',
     name: 'Dr. Maria Rodriguez, MD',
     designation: 'Psychiatrist',

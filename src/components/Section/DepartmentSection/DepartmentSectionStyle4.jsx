@@ -9,32 +9,38 @@ export default function DepartmentSectionStyle4({
   data,
 }) {
   return (
-    <div className="container" >
+    <div className = "container">
       <div
-        className = "container"
-        style     = {{
+        className="container"
+        style={{
           height: "40px",
-          
         }}
       ></div>
       <SectionHeading title={sectionTitle} titleUp={sectionTitleUp} />
       <Spacing md="72" lg="50" />
-      <div className="row" >
+      <div className="row">
         {data?.map((item, index) => (
-          <div className="col-xl-4 col-md-6" key={index} style={{
-        background: 'white'
-      }}>
+          <div
+            className="col-xl-4 col-md-6"
+            key={index}
+            style={{
+              background: "white",
+            }}
+          >
             <IconBoxStyle2 {...item} />
           </div>
         ))}
       </div>
-      <button className="cs_btn cs_style_1"> <Link to="/departments">
-        <span>View More</span>
-        <i>
-          <img src="/images/icons/arrow_white.svg" alt="Icon" />
-          <img src="/images/icons/arrow_white.svg" alt="Icon" />
-        </i>
-      </Link> </button>
+      <button className="cs_btn cs_style_1">
+        {" "}
+        <Link to="/departments">
+          <span>View More</span>
+          <i>
+            <img src="/images/icons/arrow_white.svg" alt="Icon" />
+            <img src="/images/icons/arrow_white.svg" alt="Icon" />
+          </i>
+        </Link>{" "}
+      </button>
     </div>
   );
 }

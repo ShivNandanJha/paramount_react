@@ -29,8 +29,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomeStyle2 />} />
-          <Route path          = "about" element             = {<About />} />
-      <Route path = "doctors" element           = {<Doctors />} />
+          <Route path="about" element={<About />} />
+          {/* <Route path = "doctors" element           = {<Doctors />} />
       <Route path = "doctors/:doctorId" element = {<DoctorDetails />} />
       <Route path = "blog" element              = {<Blog />} />
       <Route path = "blog/:blogId" element      = {<BlogDetails />} />
@@ -41,15 +41,10 @@ function App() {
           element = {<DepartmentDetails />}
         />
         <Route path = "departments/neurology" element = {<Neurology/>} />
-        <Route path = "gallery" element      = {<Gallery />} />
-        <Route path = "timetable" element    = {<Timetable />} />
-        <Route path = "contact" element      = {<Contact />} />
+        <Route path = "gallery" element               = {<Gallery />} />
+        <Route path = "timetable" element             = {<Timetable />} />
+        <Route path = "contact" element               = {<Contact />} /> */}
         </Route>
-        {/* <Route element={<Layout2 />}>
-        <Route path = "home-v2" element = {<HomeStyle2 />} />
-    
-      </Route> */}
-
         <Route path="*" element={<ErrorPage />} />
       </Routes>{" "}
     </>
