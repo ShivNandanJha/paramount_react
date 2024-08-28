@@ -1,4 +1,4 @@
-import React from "react";
+
 import HeroStyle2 from "../Hero/HeroStyle2";
 import Section from "../Section";
 import AboutSectionStyle3 from "../Section/AboutSection/AboutSectionStyle3";
@@ -14,45 +14,51 @@ import video from "./herobanner.mp4";
 import { pageTitle } from "../../helpers/PageTitle";
 const departmentData = [
   {
-    title: "Laparoscopic & General Surgery",
-    iconUrl: "/images/home_2/general.svg",
+    title: "Gastrointestinal & Hepatology",
+    iconUrl: "/images/home_2/Stomach.png",
     href: "/departments/department-details",
   },
   {
-    title: "Neurosurgery",
-    iconUrl: "/images/home_2/neuro_surgery.svg",
+    title: "Neurosurgery & Neurology",
+    iconUrl: "/images/home_2/Brain.png",
     href: "/departments/department-details",
   },
   {
     title: "Orthopaedic & Joint Replacement Surgery",
-    iconUrl: "/images/home_2/rheumatology.svg",
+    iconUrl: "/images/home_2/Knee.png",
     href: "/departments/department-details",
   },
   {
-    title: "Cardiology Department",
-    iconUrl: "/images/home_2/cardiology.svg",
+    title: "Cardiology",
+    iconUrl: "/images/home_2/Heart.png",
     href: "/departments/department-details",
   },
   {
     title: "Spine Surgery",
-    iconUrl: "/images/home_2/orthopaedics.svg",
+    iconUrl: "/images/home_2/Spine.png",
     href: "/departments/department-details",
   },
   {
     title: "Nephrology",
-    iconUrl: "/images/home_2/nephrology.svg",
+    iconUrl: "/images/home_2/Kidney.png",
     href: "/departments/department-details",
   },
   {
     title: "Obstetrics & Gynaecology",
-    iconUrl: "/images/home_2/gynecology.svg",
+    iconUrl: "/images/home_2/gynae.png",
     href: "/departments/department-details",
   },
   {
-    title: "Paediatrics & Neonatal Surgery",
-    iconUrl: "/images/home_2/pediatrics.svg",
+    title: "Pulmonology",
+    iconUrl: "/images/home_2/Lungs.png",
     href: "/departments/department-details",
   },
+  {
+    title: "Urology",
+    iconUrl: "/images/home_2/Bladder.png",
+    href: "/departments/department-details",
+  },
+  
 ];
 const testimonialData = [
   {

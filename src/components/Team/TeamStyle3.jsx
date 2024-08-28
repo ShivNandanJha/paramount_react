@@ -38,25 +38,13 @@ export default function TeamStyle3({
           </div>
           <div className="cs_doctor_meta cs_accent_bg">
             <div className="cs_doctor_meta_left cs_white_color">
-              {availableUrl && (
-                <Link to={availableUrl}>
-                  <img src="/images/departments/clock.svg" alt="Icon" />
-                  Avaibility
-                </Link>
-              )}
-              {callUrl && (
-                <Link to={callUrl}>
-                  <img src="/images/departments/call.svg" alt="Icon" />
-                  Call
-                </Link>
-              )}
 
-              {chatUrl && (
-                <Link to={chatUrl}>
-                  <img src="/images/departments/chat.svg" alt="Icon" />
-                  Chat
-                </Link>
-              )}
+
+              <img src="/images/departments/clock.svg" alt="Icon" />
+              {availableUrl}
+
+
+
             </div>
             <div className="cs_doctor_meta_right cs_white_color cs_semibold">
               <Link to={btnUrl}>

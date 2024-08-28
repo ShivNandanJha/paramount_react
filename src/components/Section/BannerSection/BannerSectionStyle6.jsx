@@ -5,7 +5,9 @@ export default function BannerSectionStyle6({ imgUrl, title, subTitle }) {
   return (
     <div className="container">
       <div className="cs_banner cs_style_6 cs_white_bg cs_radius_30">
-        <div className="cs_banner_img">
+        <div className="cs_banner_img" style={{
+         backgroundSize:'cover'
+        }}>
           <img src={imgUrl} alt="Banner" />
         </div>
         <h2 className="cs_banner_title cs_fs_72">{parse(title)}</h2>

@@ -17,6 +17,8 @@ import Contact from "./components/Pages/Contact";
 import { useEffect } from "react";
 import ErrorPage from "./components/Pages/ErrorPage";
 import Neurology from "./components/Pages/neurology";
+import Laparoscopic from "./components/Pages/Laparoscopic";
+import Neurosurgery from "./components/Pages/Neurosurgery";
 
 function App() {
   const { pathname } = useLocation();
@@ -30,20 +32,22 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<HomeStyle2 />} />
           <Route path="about" element={<About />} />
-          {/* <Route path = "doctors" element           = {<Doctors />} />
-      <Route path = "doctors/:doctorId" element = {<DoctorDetails />} />
-      <Route path = "blog" element              = {<Blog />} />
-      <Route path = "blog/:blogId" element      = {<BlogDetails />} />
-      <Route path = "appointments" element      = {<Appointments />} />
-      <Route path = "departments" element       = {<Departments />} />
-        <Route
-          path    = "departments/:departmentId"
-          element = {<DepartmentDetails />}
-        />
-        <Route path = "departments/neurology" element = {<Neurology/>} />
-        <Route path = "gallery" element               = {<Gallery />} />
-        <Route path = "timetable" element             = {<Timetable />} />
-        <Route path = "contact" element               = {<Contact />} /> */}
+          <Route path="doctors" element={<Doctors />} />
+          <Route path="doctors/:doctorId" element={<DoctorDetails />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="blog/:blogId" element={<BlogDetails />} />
+          <Route path="appointments" element={<Appointments />} />
+          <Route path="departments" element={<Departments />} />
+          <Route
+            path="departments/:departmentId"
+            element={<DepartmentDetails />}
+          />
+          <Route path = "departments/neurology" element                   = {<Neurology />} />
+          <Route path = "departments/neurosurgery" element                = {<Neurosurgery />} />
+          <Route path = "departments/Laparoscopic&GeneralSurgery" element = {<Laparoscopic />} />
+          <Route path = "gallery" element                                 = {<Gallery />} />
+          <Route path = "timetable" element                               = {<Timetable />} />
+          <Route path = "contact" element                                 = {<Contact />} />
         </Route>
         <Route path="*" element={<ErrorPage />} />
       </Routes>{" "}

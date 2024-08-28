@@ -84,7 +84,7 @@ export default function TeamSectionStyle2({ data }) {
         ))}
       </div>
       <Spacing md="90" />
-      <Pagination />
+     
     </div>
   );
 }

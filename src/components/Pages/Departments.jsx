@@ -4,6 +4,7 @@ import Section from "../Section";
 import DepartmentSectionStyle3 from "../Section/DepartmentSection/DepartmentSectionStyle3";
 import BannerSectionStyle6 from "../Section/BannerSection/BannerSectionStyle6";
 import { pageTitle } from "../../helpers/PageTitle";
+import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 const departmentData = [
   {
     iconUrl: "images/departments/emergency.svg",
@@ -17,7 +18,7 @@ const departmentData = [
     title: "Laparoscopic & General Surgery",
     subTitle:
       "Offers minimally invasive procedures for a variety of surgical conditions, as well as general surgical care.",
-    href: "/departments/laparoscopic-general-surgery",
+    href: "/departments/Laparoscopic&GeneralSurgery",
   },
   {
     iconUrl: "images/departments/neuro_surgery.svg",
@@ -196,7 +197,7 @@ export default function Departments() {
     <>
       <BannerSectionStyle5
         bgUrl="/images/departments/banner_bg.svg"
-        imgUrl="/images/departments/banner_img.png"
+        imgUrl="/images/departments/banner_img.JPG"
         title="Get to Know <br>Paramount Hospital Departments"
         subTitle="At ProHealth, we offer a wide range of medical and healthcare services that are designed to meet your individual needs and help you achieve optimal health."
       />
@@ -204,8 +205,8 @@ export default function Departments() {
         <DepartmentSectionStyle3 data={departmentData} />
       </Section>
       <Section className="cs_footer_margin_0">
-        <BannerSectionStyle6
-          imgUrl="/images/departments/banner_img_2.png"
+        <BannerSectionStyle4
+          bgUrl="/images/departments/banner_img3.JPG"
           title="Don’t Let Your Health Take a Backseat!"
           subTitle="Schedule an appointment with one of our <br />experienced medical professionals today!"
         />

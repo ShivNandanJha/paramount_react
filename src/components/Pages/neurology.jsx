@@ -37,72 +37,15 @@ const featureData = [
 
 const doctorData = [
   {
-    imgUrl: '/images/departments/related_doctor_1.jpeg',
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
-    description:
-      'With experience in managing complex <br />medical conditions in children',
-    social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
-    ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
+    imgUrl: '/images/doctors/NRHalder.png',
+    name: 'Dr. N R Halder, MD,DM',
+    designation: 'Consultant Neurologist',
+    description: "",
+    social: [],
+    availableUrl: '08 AM - 10 AM & 05 PM - 07 PM',
+
     btnText: 'Booking',
     btnUrl: '/appointments',
-  },
-  {
-    imgUrl: '/images/departments/related_doctor_1.jpeg',
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
-    description:
-      'With experience in managing complex <br />medical conditions in children',
-    social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
-    ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
-    btnText: 'Booking',
-    btnUrl: '/',
-  },
-  {
-    imgUrl: '/images/departments/related_doctor_1.jpeg',
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
-    description:
-      'With experience in managing complex <br />medical conditions in children',
-    social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
-    ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
-    btnText: 'Booking',
-    btnUrl: '/',
-  },
-  {
-    imgUrl: '/images/departments/related_doctor_1.jpeg',
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
-    description:
-      'With experience in managing complex <br />medical conditions in children',
-    social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
-    ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
-    btnText: 'Booking',
-    btnUrl: '/',
   },
 ];
 
@@ -115,7 +58,7 @@ export default function Neurology() {
         <AboutSectionStyle2
           title="Neurology Department"
           subTitle="This department specializes in the care of infants, children, adolescents, and provides a range of services including preventive care, developmental screenings, and treatment of childhood illnesses and conditions."
-          imgUrl="/images/departments/department_img_1.png"
+          imgUrl="/images/departments/neurology.png"
         />
       </Section>
 
