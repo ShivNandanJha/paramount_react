@@ -56,7 +56,7 @@ export default function Neurology() {
       <BreadcrumbStyle2 />
       <Section topMd={135} topLg={100} topXl={100}>
         <AboutSectionStyle2
-          title="Neurology Department"
+          title="Neurology "
           subTitle="This department specializes in the care of infants, children, adolescents, and provides a range of services including preventive care, developmental screenings, and treatment of childhood illnesses and conditions."
           imgUrl="/images/departments/neurology.png"
         />

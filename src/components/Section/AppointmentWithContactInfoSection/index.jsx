@@ -1,9 +1,9 @@
-import React from 'react';
+
 import AppointmentForm from '../../AppointmentForm';
 const contactInfo = [
-  { title: 'Phone', subTitle: '123-456-7890' },
-  { title: 'Email Us', subTitle: 'hellocallcenter@gmail.com' },
-  { title: 'Our Location', subTitle: '123 Anywhere St., Any City, 12345' },
+  { title: 'Phone', subTitle: '98008 96529, 98008 96529' },
+  { title: 'Email Us', subTitle: 'contact@paramouthospital.in' },
+  { title: 'Our Location', subTitle: 'Mangal Pandey Road, Khalpara, Siliguri, West Bengal - 734005' },
 ];
 
 export default function AppointmentWithContactInfoSection() {

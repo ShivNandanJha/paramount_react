@@ -8,19 +8,19 @@ export default function ContactInfoWidget() {
         <i className="cs_accent_bg">
           <Icon icon="ep:location" />
         </i>
-        123 Anywhere St., Any City 12345
+        Mangal Pandey Road, Khalpara, Siliguri, West Bengal - 734005
       </li>
       <li>
         <i className="cs_accent_bg">
           <Icon icon="fluent:call-24-regular" />
         </i>
-        123-456-7890
+       98008 96538, 98008 96529
       </li>
       <li>
         <i className="cs_accent_bg">
           <Icon icon="bi:envelope" />
         </i>
-        hellocallcenter@gmail.com
+        contact@paramouthospital.in
       </li>
     </ul>
   );

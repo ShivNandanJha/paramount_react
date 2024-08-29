@@ -176,19 +176,19 @@ export default function Header({ logoSrc, LgLogoSrc, variant }) {
           <Spacing md="35" lg="50" xl="35" />
           <IconBoxStyle11
             title="Phone"
-            subTitle="123-456-7890"
+            subTitle="98008 96538, 98008 96529"
             iconSrc="/images/contact/icon_1.svg"
           />
           <Spacing md="30" lg="30" xl="30" />
           <IconBoxStyle11
             title="Email"
-            subTitle="hellocallcenter@gmail.com"
+            subTitle="contact@paramouthospital.in"
             iconSrc="/images/contact/icon_2.svg"
           />
           <Spacing md="30" lg="30" xl="30" />
           <IconBoxStyle11
             title="Location"
-            subTitle="123 Anywhere St., Any City, 12345"
+            subTitle="Mangal Pandey Road, Khalpara, Siliguri, West Bengal - 734005"
             iconSrc="/images/contact/icon_3.svg"
           />
           <Spacing md="60" lg="60" xl="60" />

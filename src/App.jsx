@@ -19,6 +19,11 @@ import ErrorPage from "./components/Pages/ErrorPage";
 import Neurology from "./components/Pages/neurology";
 import Laparoscopic from "./components/Pages/Laparoscopic";
 import Neurosurgery from "./components/Pages/Neurosurgery";
+import Orthopaedic from "./components/Pages/Orthopaedic";
+import Spine from "./components/Pages/Spine";
+import Cardiothoracic from "./components/Pages/Cardiology";
+import Cardiology from "./components/Pages/Cardiology";
+import Paeditrics_Surgery from "./components/Pages/PaediatricsNeonatalSurgery";
 
 function App() {
   const { pathname } = useLocation();
@@ -42,12 +47,16 @@ function App() {
             path="departments/:departmentId"
             element={<DepartmentDetails />}
           />
-          <Route path = "departments/neurology" element                   = {<Neurology />} />
-          <Route path = "departments/neurosurgery" element                = {<Neurosurgery />} />
-          <Route path = "departments/Laparoscopic&GeneralSurgery" element = {<Laparoscopic />} />
-          <Route path = "gallery" element                                 = {<Gallery />} />
-          <Route path = "timetable" element                               = {<Timetable />} />
-          <Route path = "contact" element                                 = {<Contact />} />
+          <Route path = "departments/neurology" element                             = {<Neurology />} />
+          <Route path = "departments/neurosurgery" element                          = {<Neurosurgery />} />
+          <Route path = "departments/Laparoscopic&GeneralSurgery" element           = {<Laparoscopic />} />
+          <Route path = "departments/orthopaedic-joint-replacement-surgery" element = {<Orthopaedic />} />
+          <Route path = "departments/spine-surgery" element                         = {<Spine />} />
+          <Route path = "departments/cardiology" element                            = {<Cardiology />} />
+          <Route path = "departments/paediatrics-neonatal-surgery" element          = {<Paeditrics_Surgery/>} />
+          <Route path = "gallery" element                                           = {<Gallery />} />
+          <Route path = "timetable" element                                         = {<Timetable />} />
+          <Route path = "contact" element                                           = {<Contact />} />
         </Route>
         <Route path="*" element={<ErrorPage />} />
       </Routes>{" "}
