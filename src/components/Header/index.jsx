@@ -59,9 +59,8 @@ export default function Header({ logoSrc, LgLogoSrc, variant }) {
   return (
     <>
       <header
-        className={`cs_site_header cs_style1 cs_sticky_header ${
-          mobileToggle ? "cs_mobile_toggle_active" : ""
-        } ${variant} ${isSticky ? "cs_active_sticky" : ""}`}
+        className={`cs_site_header cs_style1 cs_sticky_header ${mobileToggle ? "cs_mobile_toggle_active" : ""
+          } ${variant} ${isSticky ? "cs_active_sticky" : ""}`}
       >
         <div
           className="cs_main_header"
@@ -82,9 +81,8 @@ export default function Header({ logoSrc, LgLogoSrc, variant }) {
                 </Link>
                 <nav className="cs_nav">
                   <ul
-                    className={`${
-                      mobileToggle ? "cs_nav_list cs_active" : "cs_nav_list"
-                    }`}
+                    className={`${mobileToggle ? "cs_nav_list cs_active" : "cs_nav_list"
+                      }`}
                   >
                     <li>
                       <Link to="/">Home</Link>

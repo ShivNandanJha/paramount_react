@@ -10,7 +10,6 @@ import Departments from "./components/Pages/Departments";
 import DepartmentDetails from "./components/Pages/DepartmentDetails";
 import BlogDetails from "./components/Pages/BlogDetails";
 import DoctorDetails from "./components/Pages/DoctorDetails";
-import PricingPlan from "./components/Pages/PricingPlan";
 import Gallery from "./components/Pages/Gallery";
 import Timetable from "./components/Pages/Timetable";
 import Contact from "./components/Pages/Contact";
@@ -21,7 +20,6 @@ import Laparoscopic from "./components/Pages/Laparoscopic";
 import Neurosurgery from "./components/Pages/Neurosurgery";
 import Orthopaedic from "./components/Pages/Orthopaedic";
 import Spine from "./components/Pages/Spine";
-import Cardiothoracic from "./components/Pages/Cardiology";
 import Cardiology from "./components/Pages/Cardiology";
 import Paeditrics_Surgery from "./components/Pages/PaediatricsNeonatalSurgery";
 
@@ -38,7 +36,7 @@ function App() {
           <Route index element={<HomeStyle2 />} />
           <Route path="about" element={<About />} />
           <Route path="doctors" element={<Doctors />} />
-          <Route path="doctors/:doctorId" element={<DoctorDetails />} />
+          {/* <Route path="doctors/:doctorId" element={<DoctorDetails />} /> */}
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:blogId" element={<BlogDetails />} />
           <Route path="appointments" element={<Appointments />} />
