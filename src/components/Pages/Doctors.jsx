@@ -1,4 +1,4 @@
-import BannerSectionStyle5 from "../Section/BannerSection/BannerSectionStyle5";
+import BannerSectionStyle5 from "../Section/BannerSection/BannerSectionStyle3";
 import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 import TeamSectionStyle2 from "../Section/TeamSection/TeamSectionStyle2";
 import Section from "../Section";
@@ -477,8 +477,8 @@ export default function Doctors() {
   return (
     <>
       <BannerSectionStyle5
-        bgUrl="/images/doctors/banner_bg.svg"
-        imgUrl="/images/doctors/banner_img2.JPG"
+        bgUrl="/images/doctors/banner_bg.jpg"
+
         title="Introduce You to <br />Our Experts"
         subTitle="The list of certified doctors with years of <br />professional experiences"
       />

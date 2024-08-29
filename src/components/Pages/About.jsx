@@ -156,7 +156,7 @@ export default function About() {
   return (
     <>
       <BannerSectionStyle3
-        bgUrl="/images/about/banner_bg.svg"
+        bgUrl="/images/about/banner_bg.jpg"
         videoUrl="/images/about/paramount.mp4"
         imgUrl="/images/about/banner_img.png"
         title="Welcome to <br />Paramount Hospital"

@@ -14,8 +14,8 @@ export default function BannerSectionStyle3({
 }) {
   const containerStyle = {
     position: 'relative',
-    width   : '100%',
-    height  : 'auto',
+    width: '100%',
+    height: 'auto',
     marginBottom: "20px"
   };
   return (
@@ -23,9 +23,9 @@ export default function BannerSectionStyle3({
       className="cs_banner cs_style_3 cs_bg_filed"
       style={{ backgroundImage: `url(${bgUrl})` }}
     >
-      <div className = "cs_banner_img">
-      
-      {videoUrl ? (
+      <div className="cs_banner_img">
+
+        {videoUrl ? (
           <video
             src={videoUrl}
             autoPlay
@@ -42,8 +42,8 @@ export default function BannerSectionStyle3({
       </div>
       <div className="container">
         <div className="cs_banner_text">
-          <h1 className="cs_banner_title cs_fs_72">{parse(title)}</h1>
-          <h2 className="cs_banner_subtitle cs_fs_20 mb-0 cs_heading_color">
+          <h1 className="cs_banner_title cs_white_color cs_fs_72">{parse(title)}</h1>
+          <h2 className="cs_banner_subtitle cs_fs_20 mb-0 cs_white_color">
             {parse(subTitle)}
           </h2>
           {btnText && (

@@ -21,7 +21,7 @@ export default function BannerSectionStyle8({
             <h2 className="cs_banner_title cs_fs_72 cs_white_color">
               {parse(title)}
             </h2>
-            <p className="cs_banner_subtitle cs_heading_color cs_fs_20 mb-0">
+            <p className="cs_banner_subtitle cs_white_color cs_fs_20 mb-0">
               {parse(subTitle)}
             </p>
           </div>

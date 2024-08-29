@@ -1,5 +1,5 @@
 import React from "react";
-import BannerSectionStyle5 from "../Section/BannerSection/BannerSectionStyle5";
+import BannerSectionStyle5 from "../Section/BannerSection/BannerSectionStyle3";
 import Section from "../Section";
 import DepartmentSectionStyle3 from "../Section/DepartmentSection/DepartmentSectionStyle3";
 import BannerSectionStyle6 from "../Section/BannerSection/BannerSectionStyle6";
@@ -196,10 +196,10 @@ export default function Departments() {
   return (
     <>
       <BannerSectionStyle5
-        bgUrl="/images/departments/banner_bg.svg"
-        imgUrl="/images/departments/banner_img.JPG"
+        bgUrl="/images/departments/banner_bg.jpg"
+        
         title="Get to Know <br>Paramount Hospital Departments"
-        subTitle="At ProHealth, we offer a wide range of medical and healthcare services that are designed to meet your individual needs and help you achieve optimal health."
+        subTitle="At Paramount Hospital, we offer a wide range of medical and healthcare services that are designed to meet your individual needs and help you achieve optimal health."
       />
       <Section bottomMd={140} bottomLg={100} bottomXl={60}>
         <DepartmentSectionStyle3 data={departmentData} />
