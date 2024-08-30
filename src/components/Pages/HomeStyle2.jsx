@@ -9,7 +9,6 @@ import BannerSectionStyle2 from "../Section/BannerSection/BannerSectionStyle2";
 import BlogSectionStyle3 from "../Section/BlogSection/BlogSectionStyle3";
 import FaqSectionStyle2 from "../Section/FaqSection/FaqSectionStyle2";
 import AppointmentSectionStyle2 from "../Section/AppointmentSection/AppointmentSectionStyle2";
-import BrandsSectionStyle2 from "../Section/BrandsSection/BrandsSectionStyle2";
 import video from "./herobanner.mp4";
 import { pageTitle } from "../../helpers/PageTitle";
 const departmentData = [
@@ -171,36 +170,7 @@ const faqData = [
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
   },
 ];
-const brandData = [
-  {
-    imgUrl: "/images/brand_1.png",
-    imgAlt: "Brand",
-  },
-  {
-    imgUrl: "/images/brand_2.png",
-    imgAlt: "Brand",
-  },
-  {
-    imgUrl: "/images/brand_3.png",
-    imgAlt: "Brand",
-  },
-  {
-    imgUrl: "/images/brand_4.png",
-    imgAlt: "Brand",
-  },
-  {
-    imgUrl: "/images/brand_5.png",
-    imgAlt: "Brand",
-  },
-  {
-    imgUrl: "/images/brand_6.png",
-    imgAlt: "Brand",
-  },
-  {
-    imgUrl: "/images/brand_7.png",
-    imgAlt: "Brand",
-  },
-];
+
 export default function HomeStyle2() {
   pageTitle("Homepage");
   return (
@@ -242,8 +212,7 @@ export default function HomeStyle2() {
       <HeroStyle2
         title="Compassionate care, exceptional results."
         subTitle="Our team of experienced doctors and healthcare professionals are committed to providing quality care and personalized attention to our patients."
-        bgUrl="/public/images/home_2/hero_bg.jpeg"
-        imgUrl="/images/home_2/patents.png"
+        bgUrl="/public/images/home_2/banner_bg.jpg"
         videoBtnText="See how we work"
         videoUrl="/public/images/home_2/herobanner.mp4"
         btnText="Paramount Hospital"

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import VideoModal from "../VideoModal";
 
@@ -6,7 +6,6 @@ export default function HeroStyle2({
   title,
   subTitle,
   bgUrl,
-  imgUrl,
   videoBtnText,
   videoUrl,
   funfactList,
