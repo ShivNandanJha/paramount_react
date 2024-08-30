@@ -210,14 +210,14 @@ export default function HomeStyle2() {
       {/* HeroStyle2 Section overlapping the video */}
 
       <HeroStyle2
-        title="Compassionate care, exceptional results."
-        subTitle="Our team of experienced doctors and healthcare professionals are committed to providing quality care and personalized attention to our patients."
-        bgUrl="/public/images/home_2/banner_bg.jpg"
-        videoBtnText="See how we work"
-        videoUrl="/public/images/home_2/herobanner.mp4"
-        btnText="Paramount Hospital"
-        btnUrl="/"
-        funfactList={[
+        title        = "Compassionate care, exceptional results."
+        subTitle     = "Our team of experienced doctors and healthcare professionals are committed to providing quality care and personalized attention to our patients."
+        bgUrl        = "/public/images/home_2/banner_bg.jpg"
+        videoBtnText = "See how we work"
+        videoUrl     = "/public/images/home_2/herobanner.mp4"
+        btnText      = "Paramount Hospital"
+        btnUrl       = "/"
+        funfactList  = {[
           { number: "28+", title: "Years of experience" },
           { number: "95%", title: "Patient satisfaction rating" },
           { number: "5000+", title: "Patients served annually" },
