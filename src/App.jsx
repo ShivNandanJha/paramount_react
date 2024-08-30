@@ -35,11 +35,11 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<HomeStyle2 />} />
           <Route path="about" element={<About />} />
-          <Route path="doctors" element={<Doctors />} />
+          {/* <Route path="doctors" element={<Doctors />} /> */}
           {/* <Route path="doctors/:doctorId" element={<DoctorDetails />} /> */}
-          <Route path="blog" element={<Blog />} />
+          {/* <Route path="blog" element={<Blog />} />
           <Route path="blog/:blogId" element={<BlogDetails />} />
-          <Route path="appointments" element={<Appointments />} />
+          <Route path="appointments" element={<Appointments />} /> */}
           <Route path="departments" element={<Departments />} />
           <Route
             path="departments/:departmentId"
@@ -54,7 +54,7 @@ function App() {
           <Route path = "departments/paediatrics-neonatal-surgery" element          = {<Paeditrics_Surgery/>} />
           <Route path = "gallery" element                                           = {<Gallery />} />
           <Route path = "timetable" element                                         = {<Timetable />} />
-          <Route path = "contact" element                                           = {<Contact />} />
+          {/* <Route path = "contact" element                                           = {<Contact />} /> */}
         </Route>
         <Route path="*" element={<ErrorPage />} />
       </Routes>{" "}
