@@ -15,7 +15,7 @@ export default function HeroStyle2({
   return (
     <section
       className = "cs_hero cs_style_2 "
-      style={{ backgroundImage: `url(${bgUrl})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}
+      style     = {{ backgroundImage: `url(${bgUrl})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}
     >
       <div className="container">
         <div className="cs_hero_text">

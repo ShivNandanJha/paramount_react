@@ -96,7 +96,7 @@ const teamData = [
   },
   {
     imgUrl: "/images/doctors/VivekSarkar.png",
-    department: "Laparoscopic & Genral Surgery",
+    department: "Laparoscopic & General Surgery",
     name: "Dr. Vivek Sarkar, MS",
     designation: "Senior Consultant Laparoscopic and General surgeon",
     description:
@@ -110,9 +110,24 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/DeepakTomar.png",
+    imgUrl: "/images/doctors/JameezulIrfan.png",
+    department: "Laparoscopic & General Surgery",
+    name: "Dr. J Jameezul Irfan, MS",
+    designation: "Consultant Laparoscopic and General surgeon",
+    description:
+      "Dr. J. Jameezul Irfan (MS) is a distinguished Consultant in Laparoscopic and General Surgery, renowned for his expertise in minimally invasive surgical techniques and comprehensive general ...",
+    social: [
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
+    ],
+    category: "Laparoscopic & General Surgery",
+    href: "/doctors/doctor-details",
+  },
+  {
+    imgUrl: "/images/doctors/ArabindaSaha.png",
     department: "Cardiology",
-    name: "Dr. Deepak Tomar, MD, DM",
+    name: "Dr. Arabinda Saha, MD, DM",
     designation: "Consultant Interventional Cardiologist",
     description:
       "Interventional cardiology is a branch of cardiology that deals specifically with the catheter based treatment of structural heart diseases. Andreas Gruentzig is considered the father of interventional cardiology after the development of angioplasty",
@@ -153,6 +168,22 @@ const teamData = [
     ],
     category: "Paediatric & Neonatal Surgery",
     href: "/doctors/doctor-details",
+  },
+  {
+    imgUrl: "/images/doctors/JameezulIrfan.png",
+    department: "Paediatric & Neonatal Surgery",
+    name: "Dr. J Jameezul Irfan, MS",
+    designation: "Consultant Paediatric & Neonatal Surgeon",
+    description:
+      "Dr. J. Jameezul Irfan is a highly skilled Consultant in Pediatric and Neonatal Surgery, specializing in the surgical care of infants, children, and newborns. With a focus on addressing congenital anomalies, traumas...",
+    social: [
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
+    ],
+    category: "Paediatric & Neonatal Surgery",
+    href: "/doctors/doctor-details",
+
   },
   {
     imgUrl: "/images/doctors/VivekSarkar.png",
@@ -246,9 +277,9 @@ const teamData = [
   },
   {
     imgUrl: "/images/doctors/PenzimBhutiya.png",
-    department: "Orthopaedic & Joint Replacement Surgery",
+    department: "Laparoscopic & General Surgery",
     name: "Dr. Penzim D Bhutiya, MS",
-    designation: "Consultant Orthopaedic & Joint Replacement Surgeon",
+    designation: "Consultant Laparoscopic & General Surgeon",
     description:
       "Dr. Penzim D. Bhutia (MS) is a distinguished Consultant Orthopaedic and Joint Replacement Surgeon with extensive expertise in the field of orthopaedics. With a commitment to excellence ...",
     social: [
@@ -256,7 +287,7 @@ const teamData = [
       { icon: "fa6-brands:linkedin-in", href: "/about" },
       { icon: "fa6-brands:twitter", href: "/about" },
     ],
-    category: "Orthopaedic & Joint Replacement Surgery",
+    category: "Laparoscopic & General Surgery",
     href: "/doctors/doctor-details",
   },
   {
@@ -305,6 +336,21 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
+    imgUrl: "/images/doctors/PunamSarkar.png",
+    department: "Obstetrics & Gynaecology",
+    name: "Dr. Punam Sarkar, MS",
+    designation: "Consultant  Obstetrics & Gynaecologist",
+    description:
+      "Dr. Punam Sarkar is a highly skilled Consultant in Obstetrics and Gynecology, offering comprehensive care for women across all stages of life. With her extensive expertise in managing..",
+    social: [
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
+    ],
+    category: "Obstetrics & Gynaecology",
+    href: "/doctors/doctor-details",
+  },
+  {
     imgUrl: "/images/doctors/RanjanPal.png",
     department: "Obstetrics & Gynaecology",
     name: "Dr. Ranjan Pal, MD",
@@ -316,7 +362,7 @@ const teamData = [
       { icon: "fa6-brands:linkedin-in", href: "/about" },
       { icon: "fa6-brands:twitter", href: "/about" },
     ],
-    category: "pediatric",
+    category: "Obstetrics & Gynaecology",
     href: "/doctors/doctor-details",
   },
   {
@@ -398,7 +444,7 @@ const teamData = [
     imgUrl: "/images/doctors/ShantanuDe.png",
     department: "Neuropsychiatry",
     name: "Dr.Shantanu De, MD",
-    designation: "Consulatnt  Neuropsychiatrist",
+    designation: "Consultant  Neuropsychiatrist",
     description:
       "Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.",
     social: [
@@ -440,6 +486,21 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
+    imgUrl: "/images/doctors/PenzimBhutiya.png",
+    department: "Plastic Cosmetic & Reconstructive Surgery",
+    name: "Dr. Penzim D Bhutiya, MS",
+    designation: "Consultant Plastic Cosmetic & Reconstructive Surgeon",
+    description:
+      "Dr. Penzim D. Bhutia is a renowned Consultant Plastic, Cosmetic, and Reconstructive Surgeon, specializing in a wide range of procedures designed to enhance both aesthetic appearance ...",
+    social: [
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
+    ],
+    category: "Plastic Cosmetic & Reconstructive Surgery",
+    href: "/doctors/doctor-details",
+  },
+  {
     imgUrl: "/images/doctors/SoumyaGhosh.png",
     department: "Pulmonology",
     name: "Dr. Soumya Ghosh, MD",
@@ -455,12 +516,26 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SurajitPaul.png",
-    department: "Urology",
-    name: "Dr. Surajit Paul, MS, MCh",
-    designation: "Consulatnt Urologist",
-    description:
+    imgUrl     : "/images/doctors/SurajitPaul.png",
+    department : "Urology",
+    name       : "Dr. Surajit Paul, MS, MCh",
+    designation: "Consultant Urologist",
+    description: 
       "Dr. Suraji Paul (MS, MCh) is a highly respected Consultant Urologist with extensive expertise in diagnosing and treating a wide range of urological conditions. With advanced qualifications and a deep commitment to patient care...",
+    social: [
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
+    ],
+    category: "Urology",
+    href    : "/doctors/doctor-details",
+  },  {
+    imgUrl: "/images/doctors/BiswajeetDutta.png",
+    department: "Urology",
+    name: "Dr. Biswajit Dutta, MS, MCh",
+    designation: "Consultant Urologist",
+    description:
+      "Dr. Biswajeet Dutta is a distinguished Consultant in Urology, specializing in the diagnosis and treatment of conditions affecting the urinary tract and male reproductive system. With a wealth of...",
     social: [
       { icon: "fa6-brands:facebook-f", href: "/about" },
       { icon: "fa6-brands:linkedin-in", href: "/about" },
@@ -469,7 +544,52 @@ const teamData = [
     category: "Urology",
     href: "/doctors/doctor-details",
   },
+  {
+    imgUrl: "/images/doctors/ParthaPratim.png",
+    department: "Otorhinolaryngology (ENT)",
+    name: "Dr. partha Pratim Saha, MS",
+    designation: "Consultant Otorhinolaryngologist",
+    description:
+      "Dr. Partha Pratim Saha (MS) is a highly respected Consultant OtorhinolaryngologistWith a profound understanding of the intricate structures of the ear, nose, and throat, Dr. Ghosh is committed to providing top-notch medical care...",
+    social: [
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
+    ],
+    category: "Otorhinolaryngology (ENT)",
+    href: "/doctors/doctor-details",
+  },
+  {
+    imgUrl: "/images/doctors/RajarshiKumar.png",
+    department: "Paediatrics & Neonatal Surgery",
+    name: "Dr. Rajarshi Kumar, MS,MCh",
+    designation: "Consultant Paediatrics & Neonatal Surgeon",
+    description:
+      "Dr. Rajarshi Kumar is a distinguished Consultant in Pediatric and Neonatal Surgery, specializing in the surgical management of infants, children, and newborns. With extensive training and...",
+    social: [
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
+    ],
+    category: "Paediatric & Neonatal Surgery",
+    href: "/doctors/doctor-details",
+  },
 
+  {
+    imgUrl: "/images/doctors/MukeshChhetri.png",
+    department: "Oral & Maxillofacial Surgery & Dentistry",
+    name: "Dr.Mukesh Chhetri, BDS",
+    designation: "Consultant Oral & Maxillofacial Surgeon & Dentist",
+    description:
+      "Dr. Mukesh Chhteri is a leading Consultant in Oral and Maxillofacial Surgery and Dentistry, offering specialized care for conditions affecting the mouth, jaw, and face. With extensive training...",
+    social: [
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
+    ],
+    category: "Oral & Maxillofacial Surgery & Dentistry",
+    href: "/doctors/doctor-details",
+  },
 ];
 
 export default function Doctors() {
