@@ -54,7 +54,7 @@ function App() {
           <Route path = "departments/paediatrics-neonatal-surgery" element          = {<Paeditrics_Surgery/>} />
           <Route path = "gallery" element                                           = {<Gallery />} />
           <Route path = "timetable" element                                         = {<Timetable />} />
-          {/* <Route path = "contact" element                                           = {<Contact />} /> */}
+          <Route path = "contact" element                                           = {<Contact />} />
         </Route>
         <Route path="*" element={<ErrorPage />} />
       </Routes>{" "}
