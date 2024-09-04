@@ -22,6 +22,7 @@ import Orthopaedic from "./components/Pages/Orthopaedic";
 import Spine from "./components/Pages/Spine";
 import Cardiology from "./components/Pages/Cardiology";
 import Paeditrics_Surgery from "./components/Pages/PaediatricsNeonatalSurgery";
+import MetaTagsComponent from "./components/MetaTagsComponent";
 
 function App() {
   const { pathname } = useLocation();
@@ -31,6 +32,7 @@ function App() {
   }, [pathname]);
   return (
     <>
+      <MetaTagsComponent/>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomeStyle2 />} />
