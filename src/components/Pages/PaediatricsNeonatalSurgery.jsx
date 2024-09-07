@@ -7,30 +7,31 @@ import AboutSectionStyle2 from '../Section/AboutSection/AboutSectionStyle2';
 import FeaturesSectionStyle3 from '../Section/FeaturesSection/FeaturesSectionStyle5';
 import TeamSectionStyle3 from '../Section/TeamSection/TeamSectionStyle3';
 import { pageTitle } from '../../helpers/PageTitle';
+import img from '../../assets/neurosurgery.jpg'
 
 const featureData = [
     {
-        title: 'Vaccinations Department',
+        title: 'Paediatrics and Neonatal Surgery',
         subTitle:
-            'he Cardiology Department provides comprehensive evaluation and management of heart conditions such as congenital heart defects, arrhythmias, and coronary artery disease. Our team uses advanced diagnostic tools to assess heart health and develop personalized treatment plans.',
+            'Our Paediatrics and Neonatal Surgery department offers specialized care for infants, children, and adolescents, addressing a range of conditions from congenital abnormalities to complex surgical needs. We utilize advanced techniques and compassionate care to ensure the best outcomes for our young patients.',
         iconUrl: '/images/departments/icon_9.svg',
     },
     {
-        title: 'Cardiac Stress Testing',
+        title: 'Neonatal Intensive Care Unit (NICU)',
         subTitle:
-            'Our department offers cardiac stress testing to assess how well the heart performs under physical exertion. This helps in diagnosing conditions such as coronary artery disease and evaluating the effectiveness of treatments.',
+            'The NICU provides intensive care for critically ill or premature newborns, with a focus on stabilizing and nurturing fragile infants. Our team of neonatologists and neonatal nurses offer round-the-clock care and support to ensure the best possible start for these tiny patients.',
         iconUrl: '/images/departments/icon_10.svg',
     },
     {
-        title: 'Interventional Cardiology',
+        title: 'Pediatric Surgery',
         subTitle:
-            'The Cardiology Department performs minimally invasive procedures such as angioplasty and stent placement to treat blocked arteries and other cardiovascular issues. Our expert cardiologists use state-of-the-art technology to ensure optimal patient outcomes.',
+            'Our Pediatric Surgery team is skilled in performing surgical procedures for children of all ages, from minor operations to complex interventions. We use the latest technology and techniques to minimize discomfort and promote quick recovery for our young patients.',
         iconUrl: '/images/departments/icon_11.svg',
     },
     {
-        title: 'Heart Failure Management',
+        title: 'Developmental and Behavioral Pediatrics',
         subTitle:
-            'We provide specialized care for patients with heart failure, including medication management, lifestyle counseling, and monitoring of cardiac function to improve quality of life and overall heart health.',
+            'We offer comprehensive evaluations and interventions for children with developmental and behavioral challenges. Our approach includes diagnostic assessments, therapy options, and support for families to help children achieve their full potential.',
         iconUrl: '/images/departments/icon_12.svg',
     },
 ];
@@ -93,7 +94,7 @@ export default function Paeditrics_Surgery() {
             <Section topMd={135} topLg={100} topXl={100}>
                 <AboutSectionStyle2
                     title="Paediatrics & Neonatal Surgery"
-                    subTitle="Paramount Hospital Siliguri offers comprehensive cardiology services to manage and treat heart conditions. Our experienced cardiologists use advanced diagnostic tools and innovative treatments to address a range of cardiac issues, from routine check-ups to complex procedures. We are committed to providing personalized care to ensure heart health and overall well-being."
+                    subTitle="Paramount Hospital's pediatric department is driven by a profound understanding that children are not just small adults. Pediatric surgery, especially neonatal surgery, requires a special set of skills and an environment tailored to the unique needs of young patients. At Paramount Hospital, children and neonates receive the care, attention, and specialized treatment they deserve. "
                     imgUrl="/images/departments/paediatrics.jpg"
                 />
             </Section>
@@ -105,6 +106,42 @@ export default function Paeditrics_Surgery() {
                     data={featureData}
                 />
             </Section>
+
+            <Section topMd={200} topLg={150} topXl={100}>
+                <div className="row cs_dept_blog" >
+                    <div className="col-lg-8">
+                        <div className="cs_blog_details">
+                            <h2>State-of-the-Art Pediatric Facilities</h2>
+                            <p>
+                                Yhe hospital&apos;s pediatric and neonatal units are equipped with state-of-the-art facilities. This includes advanced diagnostic and imaging equipment, minimally invasive surgical tools, and cutting-edge technologies that aid in the diagnosis and treatment of complex pediatric conditions. Paramount Hospital ensures that the smallest patients have access to the best resources available.
+                            </p>
+                            <h2>Patient-Centric Pediatric Care </h2>
+                            <p>
+
+                                Beyond the technical expertise, Paramount Hospital places a strong emphasis on patient-centric care in the field of pediatrics and neonatal surgery. The hospital is dedicated to ensuring that both young patients and their parents feel comfortable, informed, and well-supported throughout their healthcare journey. Child-friendly environments, child life specialists, and clear communication are hallmarks of the pediatric care provided.
+                            </p>
+                            <blockquote
+                                style={{
+                                    backgroundImage: `url(${img})`
+                                }}
+                            >
+                                <p>
+                                    “Paramount Hospital stands out with a stellar medical team, renowned for extraordinary skills and impactful contributions, shaping the forefront of healthcare excellence in Siliguri. ”
+                                </p>
+                            </blockquote>
+                            <h2>
+                                Highly Skilled Pediatric Surgeons
+                            </h2>
+                            <p>
+                                The cornerstone of Paramount Hospital's pediatric success is its team of highly skilled pediatric surgeons. These surgeons are not only experts in their field but also have a deep understanding of the unique needs and challenges associated with treating children and neonates. Their expertise spans a wide range of pediatric surgical procedures, and their commitment to patient care is unwavering.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </Section>
+
+
             <Section topMd={200} topLg={150} topXl={100}>
                 <TeamSectionStyle3 sectionTitle="Related Doctor" data={doctorData} />
             </Section>

@@ -363,10 +363,10 @@ input[type='time']::-webkit-calendar-picker-indicator {
     // Responsive adjustments
   @media (max-width: 768px) {
     flex-direction: column;  // Stack items vertically on smaller screens
-    padding       : 1rem;    // Padding for small devices
+    padding       : 4rem;    // Padding for small devices
   }
 
   @media (max-width: 480px) {
-    padding: 0.5rem; // Reduced padding for very small devices
+    padding:1rem; // Reduced padding for very small devices
   }
 }

@@ -4,33 +4,33 @@ import Section from '../Section';
 import AppointmentSection from '../Section/AppointmentSection';
 import BreadcrumbStyle2 from '../Breadcrumb/BreadcrumbStyle2';
 import AboutSectionStyle2 from '../Section/AboutSection/AboutSectionStyle2';
-import FeaturesSectionStyle3 from '../Section/FeaturesSection/FeaturesSectionStyle3';
+import FeaturesSectionStyle3 from '../Section/FeaturesSection/FeaturesSectionStyle5';
 import TeamSectionStyle3 from '../Section/TeamSection/TeamSectionStyle3';
 import { pageTitle } from '../../helpers/PageTitle';
-
+import img from '../../assets/neurosurgery.jpg'
 const featureData = [
   {
-    title: 'Vaccinations Department',
+    title: 'Minimized Scarring',
     subTitle:
-      'The Pediatric Department provides vaccinations to help protect children from a range of illnesses and diseases, including measles.',
-    iconUrl: '/images/departments/icon_9.svg',
+      'One of the primary advantages of laparoscopic surgery is the minimal scarring it leaves behind. Our expert surgeons make tiny incisions, resulting in smaller scars compared to traditional open surgery.',
+      iconUrl: '/images/departments/icon_9.svg',
   },
   {
-    title: 'Management of acute illnesses',
+    title: 'Faster Recovery',
     subTitle:
-      'The Pediatric Department provides treatment for common childhood illnesses, such as ear infections, strep throat, and viral infections.',
+      'Laparoscopic procedures typically require less downtime, allowing patients to return to their daily activities sooner. Reduced pain and discomfort contribute to a speedier recovery. ',
     iconUrl: '/images/departments/icon_10.svg',
   },
   {
-    title: 'Treatment of chronic conditions',
+    title: 'Greater Precision',
     subTitle:
-      'The Pediatric Department provides ongoing care and treatment for children with chronic conditions such as asthma, diabetes, and allergies.',
+      'Laparoscopic surgery offers surgeons a magnified, high-definition view of the surgical area, enabling them to perform procedures with enhanced precision and accuracy.',
     iconUrl: '/images/departments/icon_11.svg',
   },
   {
-    title: 'Developmental screenings',
+    title: 'Less Pain and Discomfort',
     subTitle:
-      'The Pediatric Department provides regular developmental screenings to identify any delays or concerns and provide early intervention services.',
+      'The minimally invasive nature of laparoscopic surgery often leads to less postoperative pain and discomfort for patients. Smaller incisions mean fewer tissues are affected during the procedure',
     iconUrl: '/images/departments/icon_12.svg',
   },
 ];
@@ -102,6 +102,74 @@ export default function Neurology() {
           data={featureData}
         />
       </Section>
+      <Section topMd={200} topLg={150} topXl={100}>
+        <div className="row cs_dept_blog" >
+          <div className="col-lg-8">
+            <div className="cs_blog_details">
+              <h2>Why Choose Laparoscopic Surgery at Paramount Hospital?</h2>
+
+              <ol>
+                <li>
+                  <b>Minimized Scarring: </b>
+                  <br />
+                  One of the primary advantages of laparoscopic surgery is the minimal scarring it leaves behind. Our expert surgeons make tiny incisions, resulting in smaller scars compared to traditional open surgery.
+                </li>
+                <li>
+                  <b>Faster Recovery: </b> <br />
+                  Laparoscopic procedures typically require less downtime, allowing patients to return to their daily activities sooner. Reduced pain and discomfort contribute to a speedier recovery.                </li>
+                <li>
+                  <b>  Less Pain and Discomfort: </b>
+                  <br />
+                  The minimally invasive nature of laparoscopic surgery often leads to less postoperative pain and discomfort for patients. Smaller incisions mean fewer tissues are affected during the procedure.
+                </li>
+                <li>
+                  <b> Shorter Hospital Stays:  </b>
+                  <br />
+                  In many cases, patients undergoing laparoscopic surgery experience shorter hospital stays compared to traditional surgery. This means less time spent in the hospital and a quicker return to the comforts of home.                </li>
+                <li>
+                  <b>Greater Precision:  </b> <br />
+                  Laparoscopic surgery offers surgeons a magnified, high-definition view of the surgical area, enabling them to perform procedures with enhanced precision and accuracy.
+                </li>
+
+              </ol>
+              <h2>Patient-Centered Care </h2>
+              <p>
+
+
+                At Paramount Hospital, patient well-being and comfort are at the forefront of our approach to laparoscopic surgery. Our dedicated surgical team works closely with each patient to ensure they receive personalized care, clear communication, and support throughout their surgical journey.
+
+                If you or a loved one are considering surgery, rest assured that Paramount Hospital's laparoscopic surgery services are characterized by excellence, innovation, and a commitment to your health and recovery. We are here to provide you with the most advanced and minimally invasive surgical options available. Your health is our paramount concern, and your journey to wellness begins with us.
+              </p>
+              <blockquote
+                style={{
+                  backgroundImage: `url(${img})`
+                }}
+              >
+                <p>
+                  “Paramount Hospital stands out with a stellar medical team, renowned for extraordinary skills and impactful contributions, shaping the forefront of healthcare excellence in Siliguri. ”
+                </p>
+              </blockquote>
+              <h2>
+                Common Laparoscopic Procedures at Paramount Hospital
+              </h2>
+              <p>
+                <ol>
+                  <li> Laparoscopic cholecystectomy (gallbladder removal)</li>
+                  <li> Laparoscopic appendectomy (appendix removal)</li>
+                  <li> Laparoscopic hernia repair</li>
+                  <li> Laparoscopic colon and rectal surgery</li>
+                  <li> Laparoscopic gynecological surgery (e.g., hysterectomy)</li>
+                  <li> Laparoscopic bariatric surgery (weight loss surgery)</li>
+                  <li> Laparoscopic urological procedures</li>
+                </ol>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </Section>
+
+
       <Section topMd={200} topLg={150} topXl={100}>
         <TeamSectionStyle3 sectionTitle="Related Doctor" data={doctorData} />
       </Section>

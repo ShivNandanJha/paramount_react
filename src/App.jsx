@@ -23,6 +23,8 @@ import Spine from "./components/Pages/Spine";
 import Cardiology from "./components/Pages/Cardiology";
 import Paeditrics_Surgery from "./components/Pages/PaediatricsNeonatalSurgery";
 import MetaTagsComponent from "./components/MetaTagsComponent";
+import Urology from "./components/Pages/Urology";
+import Gynaecology from "./components/Pages/Gynaecology";
 
 function App() {
   const { pathname } = useLocation();
@@ -53,7 +55,9 @@ function App() {
           <Route path = "departments/orthopaedic-joint-replacement-surgery" element = {<Orthopaedic />} />
           <Route path = "departments/spine-surgery" element                         = {<Spine />} />
           <Route path = "departments/cardiology" element                            = {<Cardiology />} />
-          <Route path = "departments/paediatrics-neonatal-surgery" element          = {<Paeditrics_Surgery/>} />
+          <Route path = "departments/paediatrics-neonatal-surgery" element          = {<Paeditrics_Surgery />} />
+          <Route path = "/departments/urology" element                              = {<Urology/>} />
+          <Route path = "/departments/obstetrics-gynecology" element                              = {<Gynaecology/>} />
           <Route path = "gallery" element                                           = {<Gallery />} />
           <Route path = "timetable" element                                         = {<Timetable />} />
           <Route path = "contact" element                                           = {<Contact />} />
