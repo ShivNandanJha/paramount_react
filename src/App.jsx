@@ -25,6 +25,9 @@ import Paeditrics_Surgery from "./components/Pages/PaediatricsNeonatalSurgery";
 import MetaTagsComponent from "./components/MetaTagsComponent";
 import Urology from "./components/Pages/Urology";
 import Gynaecology from "./components/Pages/Gynaecology";
+import Ent from "./components/Pages/Ent";
+import Dentist from "./components/Pages/Dentist";
+import Radiology from "./components/Pages/Radiology";
 
 function App() {
   const { pathname } = useLocation();
@@ -34,7 +37,7 @@ function App() {
   }, [pathname]);
   return (
     <>
-      <MetaTagsComponent/>
+      <MetaTagsComponent />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomeStyle2 />} />
@@ -56,11 +59,15 @@ function App() {
           <Route path = "departments/spine-surgery" element                         = {<Spine />} />
           <Route path = "departments/cardiology" element                            = {<Cardiology />} />
           <Route path = "departments/paediatrics-neonatal-surgery" element          = {<Paeditrics_Surgery />} />
-          <Route path = "/departments/urology" element                              = {<Urology/>} />
-          <Route path = "/departments/obstetrics-gynecology" element                              = {<Gynaecology/>} />
+          <Route path = "/departments/urology" element                              = {<Urology />} />
+          <Route path = "/departments/obstetrics-gynecology" element                = {<Gynaecology />} />
+          <Route path = "/departments/otorhinolaryngology" element                  = {<Ent />} />
+          <Route path = "/departments/oral-maxillofacial-surgery" element           = {<Dentist />} />
+          <Route path = "/departments/radiology" element                            = {<Radiology />} />
           <Route path = "gallery" element                                           = {<Gallery />} />
           <Route path = "timetable" element                                         = {<Timetable />} />
           <Route path = "contact" element                                           = {<Contact />} />
+
         </Route>
         <Route path="*" element={<ErrorPage />} />
       </Routes>{" "}

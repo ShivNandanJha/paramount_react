@@ -515,35 +515,36 @@ const teamData = [
     category: "Pulmonology",
     href: "/doctors/doctor-details",
   },
-  {
-    imgUrl     : "/images/doctors/SurajitPaul.png",
-    department : "Urology",
-    name       : "Dr. Surajit Paul, MS, MCh",
-    designation: "Consultant Urologist",
-    description: 
-      "Dr. Suraji Paul (MS, MCh) is a highly respected Consultant Urologist with extensive expertise in diagnosing and treating a wide range of urological conditions. With advanced qualifications and a deep commitment to patient care...",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Urology",
-    href    : "/doctors/doctor-details",
-  },  {
-    imgUrl: "/images/doctors/BiswajeetDutta.png",
-    department: "Urology",
-    name: "Dr. Biswajit Dutta, MS, MCh",
-    designation: "Consultant Urologist",
-    description:
-      "Dr. Biswajeet Dutta is a distinguished Consultant in Urology, specializing in the diagnosis and treatment of conditions affecting the urinary tract and male reproductive system. With a wealth of...",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Urology",
-    href: "/doctors/doctor-details",
-  },
+  // {
+  //   imgUrl     : "/images/doctors/SurajitPaul.png",
+  //   department : "Urology",
+  //   name       : "Dr. Surajit Paul, MS, MCh",
+  //   designation: "Consultant Urologist",
+  //   description: 
+  //     "Dr. Suraji Paul (MS, MCh) is a highly respected Consultant Urologist with extensive expertise in diagnosing and treating a wide range of urological conditions. With advanced qualifications and a deep commitment to patient care...",
+  //   social: [
+  //     { icon: "fa6-brands:facebook-f", href: "/about" },
+  //     { icon: "fa6-brands:linkedin-in", href: "/about" },
+  //     { icon: "fa6-brands:twitter", href: "/about" },
+  //   ],
+  //   category: "Urology",
+  //   href    : "/doctors/doctor-details",
+  // },
+  //  {
+  //   imgUrl: "/images/doctors/BiswajeetDutta.png",
+  //   department: "Urology",
+  //   name: "Dr. Biswajit Dutta, MS, MCh",
+  //   designation: "Consultant Urologist",
+  //   description:
+  //     "Dr. Biswajeet Dutta is a distinguished Consultant in Urology, specializing in the diagnosis and treatment of conditions affecting the urinary tract and male reproductive system. With a wealth of...",
+  //   social: [
+  //     { icon: "fa6-brands:facebook-f", href: "/about" },
+  //     { icon: "fa6-brands:linkedin-in", href: "/about" },
+  //     { icon: "fa6-brands:twitter", href: "/about" },
+  //   ],
+  //   category: "Urology",
+  //   href: "/doctors/doctor-details",
+  // },
   {
     imgUrl: "/images/doctors/ParthaPratim.png",
     department: "Otorhinolaryngology (ENT)",

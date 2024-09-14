@@ -40,20 +40,20 @@ const featureData = [
 
 const doctorData = [
     {
-        imgUrl: '/images/doctors/PunamSarkar.png',
-        name: 'Dr. Punam Sarkar, MS',
-        designation: 'Consultant Gynaecologist',
+        imgUrl: '/images/doctors/ParthaPratim.png',
+        name: 'Dr. Partha Pratim Saha, MS',
+        designation: 'Consultant Otorhinolaryngologist',
         description: "",
         social: [],
-        availableUrl: '04 PM - 06 PM ',
+        availableUrl: '09 AM - 10:30 AM & 02 PM - 04 PM ',
 
         btnText: 'Booking',
         btnUrl: '/appointments',
     },
     {
-        imgUrl: '/images/doctors/RanjanPal.png',
-        name: 'Dr.Ranjan Pal, MD',
-        designation: 'Consultant Gynaecologist',
+        imgUrl: '/images/doctors/SandeepGhosh.png',
+        name: 'Dr.Sandeep Ghosh, MD',
+        designation: 'Consultant Otorhinolaryngologist',
         description: "",
         social: [],
         availableUrl: 'Appointment Only',
@@ -66,16 +66,16 @@ const doctorData = [
 
 ];
 
-export default function Gynaecology() {
+export default function Ent() {
     pageTitle('Department Details');
     return (
         <>
             <BreadcrumbStyle2 />
             <Section topMd={135} topLg={100} topXl={100}>
                 <AboutSectionStyle2
-                    title="Obstetrics and Gynaecology"
-                    subTitle="The journey of motherhood and women's reproductive health is a profound and life-altering experience. Paramount Hospital stands as a beacon of excellence in Obstetrics and Gynaecology, offering comprehensive care to women at every stage of their reproductive lives. With a commitment to compassion, state-of-the-art technology, and a team of highly skilled obstetricians and gynaecologists, Paramount Hospital has emerged as a trusted institution for women seeking top-tier care in these crucial healthcare areas. Light Shape Obstetrics & Gynaecology "
-                    imgUrl="/images/departments/gynae.png"
+                    title    = "Otorhinolaryngology (ENT)"
+                    subTitle = "The world of Otorhinolaryngology, often referred to as ENT (Ear, Nose, and Throat) medicine, encompasses a vast range of conditions that affect some of the most essential senses and functions of the human body. Paramount Hospital proudly stands at the forefront of excellence in Otorhinolaryngology, offering comprehensive care for patients dealing with ear, nose, and throat disorders. With a commitment to precision, state-of-the-art technology, and a team of highly skilled ENT specialists, Paramount Hospital has become a beacon of hope for individuals seeking top-tier care in this specialized field.  "
+                    imgUrl   = "/images/departments/ent.png"
                 />
             </Section>
 
@@ -92,18 +92,19 @@ export default function Gynaecology() {
                 <div className="row cs_dept_blog" >
                     <div className="col-lg-8">
                         <div className="cs_blog_details">
-                            <h1>State-of-the-Art Obstetrics and Gynaecology Facilities <br />                                                                               </h1>
-                            Paramount Hospital&apos;s  Obstetrics and Gynaecology department is dedicated to the unique needs of women, from adolescence to pregnancy, childbirth, and menopause. These moments in a woman&apos;s life are deeply significant, and the hospital is committed to providing unwavering support and the highest standard of care.
+                         
+                            Paramount hospital&apos;s ENT department is dedicated to addressing the unique needs of patients experiencing a wide spectrum of ear, nose, and throat issues. These conditions can range from common ear infections to complex head and neck cancers, and the hospital is committed to providing top-quality care throughout the journey to recovery.
+                            <br /> <br />
                             <h2>State-of-the-Art Facilities at Paramount Hospital</h2>
                             <p>
-                                The hospital&apos;s Obstetrics and Gynaecology department is distinguished by its state-of-the-art facilities. Equipped with advanced diagnostic tools, cutting-edge surgical equipment, and innovative techniques, the hospital ensures that women receive the latest advancements in obstetric and gynaecological care. From prenatal care to minimally invasive surgeries, the hospital is well-prepared to provide world-class treatment.                            </p>
-                            <h2>Highly Skilled Obstetricians and Gynaecologists</h2>
+                            The hospital&apos;s ENT department is distinguished by its state-of-the-art facilities. Equipped with advanced diagnostic tools, cutting-edge surgical equipment, and innovative techniques, Paramount Hospital ensures that patients have access to the latest advancements in ENT care. From hearing tests to sinus surgeries, the hospital is well-prepared to deliver world-class treatment.                  </p>
+                            <h2> Highly Skilled ENT Specialists</h2>
                             <p>
-                                The success of Paramount hospital&apos;s Obstetrics and Gynaecology department hinges on its team of highly skilled obstetricians and gynaecologists. These medical professionals are experts in their field and bring a deep understanding of the unique challenges and sensitivities of woman&apos;s healthcare. Their expertise spans a wide range of services, and they are committed to providing compassionate and effective care.
+                                The success of Paramount hospital&apos;s  ENT department relies on its team of highly skilled ENT specialists. These professionals are not only experts in their field but also have a deep understanding of the intricate structures and functions of the ear, nose, and throat. Their expertise spans a wide range of services, and they are dedicated to providing compassionate and effective care.
                             </p>
-                            <h2> Obstetrics and Maternity Care</h2>
+                            <h2> Allergy and Immunotherapy</h2>
                             <p>
-                                Paramount Hospital provides expert obstetric care, from prenatal visits to childbirth and postpartum support. The hospital&apos;s maternity services aim to ensure a safe and memorable childbirth experience. Skilled obstetricians and dedicated labor and delivery suites create an environment where expecting mothers and their families feel cared for and secure
+                            The hospital provides comprehensive allergy testing and immunotherapy options for patients dealing with allergic rhinitis and related conditions. Managing allergies is crucial for overall ENT health, and Paramount Hospital offers tailored treatment plans.
                             </p>
                             <blockquote
                                 style={{
@@ -115,10 +116,10 @@ export default function Gynaecology() {
                                 </p>
                             </blockquote>
                             <h2>
-                                Gynaecological Wellness Programs
+                            Comprehensive Swallowing Disorder Care
                             </h2>
-                            <p>
-                                Paramount Hospital offers wellness programs tailored to the unique needs of women. These programs encompass preventive care, screenings, and educational seminars to promote woman&apos;s health and well-being. By empowering women with knowledge about their bodies and health, the hospital plays a crucial role in disease prevention and early detection.
+                            <p>Paramount hospital&apos;s ENT specialists excel in the diagnosis and management of swallowing disorders (dysphagia), ensuring that patients receive the appropriate care to improve their quality of life and prevent complications.
+
                             </p>
 
                         </div>

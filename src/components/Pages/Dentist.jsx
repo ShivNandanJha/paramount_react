@@ -40,42 +40,29 @@ const featureData = [
 
 const doctorData = [
     {
-        imgUrl: '/images/doctors/PunamSarkar.png',
-        name: 'Dr. Punam Sarkar, MS',
-        designation: 'Consultant Gynaecologist',
+        imgUrl: '/images/doctors/MukeshChhetri.png',
+        name: 'Dr. Mukesh Chhetri, BDS',
+        designation: 'Consultant Oral & Maxillofacial Surgeon & Dentist',
         description: "",
         social: [],
-        availableUrl: '04 PM - 06 PM ',
+        availableUrl: '09 AM - 08 PM ',
 
         btnText: 'Booking',
         btnUrl: '/appointments',
     },
-    {
-        imgUrl: '/images/doctors/RanjanPal.png',
-        name: 'Dr.Ranjan Pal, MD',
-        designation: 'Consultant Gynaecologist',
-        description: "",
-        social: [],
-        availableUrl: 'Appointment Only',
-
-        btnText: 'Booking',
-        btnUrl: '/appointments',
-
-    },
-
 
 ];
 
-export default function Gynaecology() {
+export default function Dentist() {
     pageTitle('Department Details');
     return (
         <>
             <BreadcrumbStyle2 />
             <Section topMd={135} topLg={100} topXl={100}>
                 <AboutSectionStyle2
-                    title="Obstetrics and Gynaecology"
-                    subTitle="The journey of motherhood and women's reproductive health is a profound and life-altering experience. Paramount Hospital stands as a beacon of excellence in Obstetrics and Gynaecology, offering comprehensive care to women at every stage of their reproductive lives. With a commitment to compassion, state-of-the-art technology, and a team of highly skilled obstetricians and gynaecologists, Paramount Hospital has emerged as a trusted institution for women seeking top-tier care in these crucial healthcare areas. Light Shape Obstetrics & Gynaecology "
-                    imgUrl="/images/departments/gynae.png"
+                    title="Oral & Maxillofacial Surgery & Dentistry"
+                    subTitle="Oral and Maxillofacial Surgery is a specialized branch of medicine that deals with the diagnosis and surgical treatment of conditions affecting the mouth, jaw, and face. Paramount Hospital stands as a beacon of excellence in Oral and Maxillofacial Surgery, offering hope and transformation to patients seeking to regain their oral health, facial aesthetics, and overall well-being. With a commitment to precision, state-of-the-art technology, and a team of highly skilled surgeons, Paramount Hospital is a trusted institution for individuals facing complex oral and maxillofacial conditions.  "
+                    imgUrl="/images/departments/dentist.png"
                 />
             </Section>
 
@@ -92,18 +79,21 @@ export default function Gynaecology() {
                 <div className="row cs_dept_blog" >
                     <div className="col-lg-8">
                         <div className="cs_blog_details">
-                            <h1>State-of-the-Art Obstetrics and Gynaecology Facilities <br />                                                                               </h1>
-                            Paramount Hospital&apos;s  Obstetrics and Gynaecology department is dedicated to the unique needs of women, from adolescence to pregnancy, childbirth, and menopause. These moments in a woman&apos;s life are deeply significant, and the hospital is committed to providing unwavering support and the highest standard of care.
+                            <h1>
+                                The Core of Paramount hospital&apos;s Oral and Maxillofacial Surgery Department
+                            </h1>
+                            Paramount hospital&apos;s Oral and Maxillofacial Surgery department is dedicated to addressing the unique and often complex needs of patients facing conditions that impact their oral and facial regions. These conditions can vary from dental issues and facial trauma to more severe conditions like oral cancer, and the hospital is committed to providing compassionate care at every stage of the treatment journey.
+                            <br /> <br />
                             <h2>State-of-the-Art Facilities at Paramount Hospital</h2>
                             <p>
-                                The hospital&apos;s Obstetrics and Gynaecology department is distinguished by its state-of-the-art facilities. Equipped with advanced diagnostic tools, cutting-edge surgical equipment, and innovative techniques, the hospital ensures that women receive the latest advancements in obstetric and gynaecological care. From prenatal care to minimally invasive surgeries, the hospital is well-prepared to provide world-class treatment.                            </p>
-                            <h2>Highly Skilled Obstetricians and Gynaecologists</h2>
+                            The hospital&apos;s Oral and Maxillofacial Surgery department is known for its state-of-the-art facilities. Equipped with advanced diagnostic tools, cutting-edge surgical equipment, and innovative techniques, Paramount Hospital ensures that patients have access to the latest advancements in oral and maxillofacial care. From dental implant procedures to jaw reconstruction surgeries, the hospital offers world-class treatment.</p>
+                            <h2> Highly Skilled Surgeons and Dentist</h2>
                             <p>
-                                The success of Paramount hospital&apos;s Obstetrics and Gynaecology department hinges on its team of highly skilled obstetricians and gynaecologists. These medical professionals are experts in their field and bring a deep understanding of the unique challenges and sensitivities of woman&apos;s healthcare. Their expertise spans a wide range of services, and they are committed to providing compassionate and effective care.
+                            The success of Paramount hospital&apos;s Oral and Maxillofacial Surgery department hinges on its team of highly skilled oral and maxillofacial surgeons. These specialists are not only experts in their field but also possess a deep understanding of the sensitive nature of oral and facial conditions. Their expertise spans a wide range of services, and their commitment to patient care is unwavering.
                             </p>
-                            <h2> Obstetrics and Maternity Care</h2>
+                            <h2> Patient-Centric Care</h2>
                             <p>
-                                Paramount Hospital provides expert obstetric care, from prenatal visits to childbirth and postpartum support. The hospital&apos;s maternity services aim to ensure a safe and memorable childbirth experience. Skilled obstetricians and dedicated labor and delivery suites create an environment where expecting mothers and their families feel cared for and secure
+                            Paramount Hospital places a strong emphasis on patient-centric care in the field of Oral and Maxillofacial Surgery. The hospital understands that oral and facial conditions can significantly impact a patient's quality of life and self-esteem. It strives to create a supportive and compassionate environment where patients actively participate in their care plans, and their individual concerns and goals are the top priority.
                             </p>
                             <blockquote
                                 style={{
@@ -115,10 +105,10 @@ export default function Gynaecology() {
                                 </p>
                             </blockquote>
                             <h2>
-                                Gynaecological Wellness Programs
+                            Advanced Imaging and Diagnostics
                             </h2>
-                            <p>
-                                Paramount Hospital offers wellness programs tailored to the unique needs of women. These programs encompass preventive care, screenings, and educational seminars to promote woman&apos;s health and well-being. By empowering women with knowledge about their bodies and health, the hospital plays a crucial role in disease prevention and early detection.
+                            <p>Paramount Dental Center is equipped with advanced imaging technologies such as digital X-rays, intraoral cameras, and 3D imaging, which enable precise diagnosis and treatment planning. These technologies are particularly valuable in endodontics for identifying root canal complexities.
+
                             </p>
 
                         </div>

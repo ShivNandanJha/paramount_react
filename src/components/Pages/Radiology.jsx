@@ -1,4 +1,4 @@
-
+import DepartmentSectionStyle4 from "../Section/DepartmentSection/DepartmentSectionStyle4";
 import BannerSectionStyle7 from '../Section/BannerSection/BannerSectionStyle7';
 import Section from '../Section';
 import AppointmentSection from '../Section/AppointmentSection';
@@ -9,6 +9,55 @@ import TeamSectionStyle3 from '../Section/TeamSection/TeamSectionStyle3';
 import { pageTitle } from '../../helpers/PageTitle';
 import img from '../../assets/neurosurgery.jpg'
 
+
+const departmentData = [
+    {
+        title: "Gastrointestinal & Hepatology",
+        iconUrl: "/images/home_2/Stomach.png",
+        href: "/departments/department-details",
+    },
+    {
+        title: "Neurosurgery & Neurology",
+        iconUrl: "/images/home_2/Brain.png",
+        href: "/departments/department-details",
+    },
+    {
+        title: "Orthopaedic & Joint Replacement Surgery",
+        iconUrl: "/images/home_2/Knee.png",
+        href: "/departments/department-details",
+    },
+    {
+        title: "Cardiology",
+        iconUrl: "/images/home_2/Heart.png",
+        href: "/departments/department-details",
+    },
+    {
+        title: "Spine Surgery",
+        iconUrl: "/images/home_2/Spine.png",
+        href: "/departments/department-details",
+    },
+    {
+        title: "Nephrology",
+        iconUrl: "/images/home_2/Kidney.png",
+        href: "/departments/department-details",
+    },
+    {
+        title: "Obstetrics & Gynaecology",
+        iconUrl: "/images/home_2/gynae.png",
+        href: "/departments/department-details",
+    },
+    {
+        title: "Pulmonology",
+        iconUrl: "/images/home_2/Lungs.png",
+        href: "/departments/department-details",
+    },
+    {
+        title: "Urology",
+        iconUrl: "/images/home_2/Bladder.png",
+        href: "/departments/department-details",
+    },
+
+];
 const featureData = [
     {
         title: 'Obstetrics and Gynaecology',
@@ -40,42 +89,29 @@ const featureData = [
 
 const doctorData = [
     {
-        imgUrl: '/images/doctors/PunamSarkar.png',
-        name: 'Dr. Punam Sarkar, MS',
-        designation: 'Consultant Gynaecologist',
+        imgUrl: '/images/doctors/MukeshChhetri.png',
+        name: 'Dr. Mukesh Chhetri, BDS',
+        designation: 'Consultant Oral & Maxillofacial Surgeon & Dentist',
         description: "",
         social: [],
-        availableUrl: '04 PM - 06 PM ',
+        availableUrl: '09 AM - 08 PM ',
 
         btnText: 'Booking',
         btnUrl: '/appointments',
     },
-    {
-        imgUrl: '/images/doctors/RanjanPal.png',
-        name: 'Dr.Ranjan Pal, MD',
-        designation: 'Consultant Gynaecologist',
-        description: "",
-        social: [],
-        availableUrl: 'Appointment Only',
-
-        btnText: 'Booking',
-        btnUrl: '/appointments',
-
-    },
-
 
 ];
 
-export default function Gynaecology() {
+export default function Radiology() {
     pageTitle('Department Details');
     return (
         <>
             <BreadcrumbStyle2 />
             <Section topMd={135} topLg={100} topXl={100}>
                 <AboutSectionStyle2
-                    title="Obstetrics and Gynaecology"
-                    subTitle="The journey of motherhood and women's reproductive health is a profound and life-altering experience. Paramount Hospital stands as a beacon of excellence in Obstetrics and Gynaecology, offering comprehensive care to women at every stage of their reproductive lives. With a commitment to compassion, state-of-the-art technology, and a team of highly skilled obstetricians and gynaecologists, Paramount Hospital has emerged as a trusted institution for women seeking top-tier care in these crucial healthcare areas. Light Shape Obstetrics & Gynaecology "
-                    imgUrl="/images/departments/gynae.png"
+                    title="Radiology"
+                    subTitle="In the realm of modern medicine, diagnostic imaging plays a pivotal role in the accurate detection, assessment, and treatment of various medical conditions. Paramount Radiology Center stands as a beacon of excellence in diagnostic imaging, offering a wide spectrum of state-of-the-art imaging services to facilitate precise diagnoses and guide patient care. With a commitment to cutting-edge technology, highly skilled radiologists, and a patient-centered approach, Paramount Radiology Center has become a trusted institution for individuals and healthcare providers seeking top-tier diagnostic imaging services. "
+                    imgUrl="/images/departments/radiology.jpg"
                 />
             </Section>
 
@@ -92,18 +128,21 @@ export default function Gynaecology() {
                 <div className="row cs_dept_blog" >
                     <div className="col-lg-8">
                         <div className="cs_blog_details">
-                            <h1>State-of-the-Art Obstetrics and Gynaecology Facilities <br />                                                                               </h1>
-                            Paramount Hospital&apos;s  Obstetrics and Gynaecology department is dedicated to the unique needs of women, from adolescence to pregnancy, childbirth, and menopause. These moments in a woman&apos;s life are deeply significant, and the hospital is committed to providing unwavering support and the highest standard of care.
+                            <h1>
+                                The Core of Paramount hospital&apos;s Radiology Center
+                            </h1>
+                            Paramount Radiology Center is dedicated to addressing the unique and critical needs of patients and healthcare providers by delivering accurate, timely, and comprehensive diagnostic imaging services. The center serves as a crucial link in the diagnostic process, providing healthcare professionals with the insights they need to make informed decisions about patient care.
+                            <br /> <br />
                             <h2>State-of-the-Art Facilities at Paramount Hospital</h2>
                             <p>
-                                The hospital&apos;s Obstetrics and Gynaecology department is distinguished by its state-of-the-art facilities. Equipped with advanced diagnostic tools, cutting-edge surgical equipment, and innovative techniques, the hospital ensures that women receive the latest advancements in obstetric and gynaecological care. From prenatal care to minimally invasive surgeries, the hospital is well-prepared to provide world-class treatment.                            </p>
-                            <h2>Highly Skilled Obstetricians and Gynaecologists</h2>
+                                The center&apos;s facilities are equipped with advanced diagnostic tools, cutting-edge imaging equipment, and innovative techniques to ensure that patients receive the latest advancements in diagnostic imaging. From X-rays and CT scans to MRI and ultrasound, Paramount Radiology Center&apos;s commitment to technological innovation is evident in every aspect of its services.</p>
+                            <h2> Highly Skilled Radiologists</h2>
                             <p>
-                                The success of Paramount hospital&apos;s Obstetrics and Gynaecology department hinges on its team of highly skilled obstetricians and gynaecologists. These medical professionals are experts in their field and bring a deep understanding of the unique challenges and sensitivities of woman&apos;s healthcare. Their expertise spans a wide range of services, and they are committed to providing compassionate and effective care.
+                                The success of Paramount Radiology Center rests on its team of highly skilled radiologists and imaging specialists. These professionals are not only experts in their field but also have a deep understanding of the importance of accurate and timely diagnoses. Their expertise spans a wide range of diagnostic modalities, and they are dedicated to providing precise and compassionate care.
                             </p>
-                            <h2> Obstetrics and Maternity Care</h2>
+                            <h2> Patient-Centric Care</h2>
                             <p>
-                                Paramount Hospital provides expert obstetric care, from prenatal visits to childbirth and postpartum support. The hospital&apos;s maternity services aim to ensure a safe and memorable childbirth experience. Skilled obstetricians and dedicated labor and delivery suites create an environment where expecting mothers and their families feel cared for and secure
+                                Paramount Radiology Center places a strong emphasis on patient-centric care in the field of diagnostic imaging. The center understands that undergoing diagnostic procedures can be an anxiety-inducing experience for many patients. It strives to create a supportive and compassionate environment where patients are actively involved in their diagnostic process, and their individual concerns and comfort are the top priority.
                             </p>
                             <blockquote
                                 style={{
@@ -115,10 +154,10 @@ export default function Gynaecology() {
                                 </p>
                             </blockquote>
                             <h2>
-                                Gynaecological Wellness Programs
+                                Cardiovascular Imaging
                             </h2>
-                            <p>
-                                Paramount Hospital offers wellness programs tailored to the unique needs of women. These programs encompass preventive care, screenings, and educational seminars to promote woman&apos;s health and well-being. By empowering women with knowledge about their bodies and health, the hospital plays a crucial role in disease prevention and early detection.
+                            <p>The center offers advanced cardiovascular imaging services, such as cardiac CT and MRI, to diagnose and monitor heart conditions, ensuring a comprehensive approach to healthcare.
+
                             </p>
 
                         </div>
@@ -129,6 +168,23 @@ export default function Gynaecology() {
 
             <Section topMd={200} topLg={150} topXl={100}>
                 <TeamSectionStyle3 sectionTitle="Related Doctor" data={doctorData} />
+            </Section>
+
+
+
+            <Section
+                bottomMd={125}
+                bottomLg={125}
+                bottomXl={85}
+                style={{
+                    backgroundColor: "white"
+                }}
+            >
+                <DepartmentSectionStyle4
+                    sectionTitle="For Your Health"
+                    sectionTitleUp="More Services"
+                    data={departmentData}
+                />
             </Section>
 
             {/* Start Appointment Section */}

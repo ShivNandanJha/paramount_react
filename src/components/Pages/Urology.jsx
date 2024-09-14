@@ -50,34 +50,7 @@ const doctorData = [
         btnText: 'Booking',
         btnUrl: '/appointments',
     },
-    {
-        imgUrl: '/images/doctors/SurajitPaul.png',
-        name: 'Dr.Surajit Paul, MS, MCh',
-        designation: 'Consultant Urologist',
-        description: "",
-        social: [],
-        availableUrl: '09 AM - 12 PM & 03 PM - 05 PM',
-
-        btnText: 'Booking',
-        btnUrl : '/appointments',
-        
-
-       
-    },
-    {
-        imgUrl: '/images/doctors/BiswajeetDutta.png',
-        name: 'Dr.Biswajit Dutta, MS, MCh',
-        designation: 'Consultant Urologist',
-        description: "",
-        social: [],
-        availableUrl: '01:30 PM - 02:30 PM',
-
-        btnText: 'Booking',
-        btnUrl : '/appointments',
-        
-
-       
-    },
+  
 
 ];
 

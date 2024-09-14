@@ -72,7 +72,7 @@ const doctorData = [
     },
 
     {
-        imgUrl: '/images/doctors/JJameezul.png',
+        imgUrl: '/images/doctors/JameezulIrfan.png',
         name: 'Dr. J Jameezul Irfan, MS',
         designation: 'Consultant Paeditrics & Neonatal Surgeon',
         description: "",
@@ -165,7 +165,7 @@ export default function Paeditrics_Surgery() {
             {/* End Appointment Section */}
             <Section className="cs_footer_margin_0">
                 <BannerSectionStyle7
-                    imgUrl="/images/departments/banner_img_3.png"
+                    imgUrl="/images/departments/banner_img3.JPG"
                     bgUrl="/images/departments/banner_bg_3.svg"
                     title="Don’t Let Your Health <br />Take a Backseat!"
                     subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
