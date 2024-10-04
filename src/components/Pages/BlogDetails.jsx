@@ -185,6 +185,8 @@ export default function BlogDetails() {
                 <li>
                   <h3>1. Professional Treatment</h3>
                   If you are dealing with an anxiety disorder, seeking
+
+
                   professional help is crucial. Mental health professionals can
                   provide a diagnosis and suggest appropriate treatment options.
                   These typically include:
@@ -228,17 +230,17 @@ export default function BlogDetails() {
               </ul>
               <h2>Conclusion</h2>
               <p>
-                Anxiety disorders can be daunting, but with the right
+              Anxiety disorders can be daunting, but with the right
                 combination of professional help and personal coping strategies,
-                they can be managed effectively. It's essential to remember that
-                help is available and that you're not alone in your struggle.{' '}
+                they can be managed effectively. It&#39;s essential to remember that
+                help is available and that you&#39;re not alone in your struggle.{' '}
                 <br />
                 <br />
-                Remember, it's crucial to reach out to a mental health
-                professional if you're experiencing symptoms of an anxiety
+                Remember, it&#39;s crucial to reach out to a mental health
+                professional if you&#39;re experiencing symptoms of an anxiety
                 disorder. What works best will depend on the individual and the
-                type of anxiety disorder, and it's essential to get a
-                professional's guidance for effective management.
+                type of anxiety disorder, and it&#39;s essential to get a
+                professional&#39;s guidance for effective management.
               </p>
             </div>
             <Spacing md="85" />

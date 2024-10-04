@@ -28,6 +28,8 @@ import Gynaecology from "./components/Pages/Gynaecology";
 import Ent from "./components/Pages/Ent";
 import Dentist from "./components/Pages/Dentist";
 import Radiology from "./components/Pages/Radiology";
+import Accident_and_Emergency from "./components/Pages/accident_emergency";
+import InternalMedicine from "./components/Pages/accident_emergency";
 
 function App() {
   const { pathname } = useLocation();
@@ -63,7 +65,9 @@ function App() {
           <Route path = "/departments/obstetrics-gynecology" element                = {<Gynaecology />} />
           <Route path = "/departments/otorhinolaryngology" element                  = {<Ent />} />
           <Route path = "/departments/oral-maxillofacial-surgery" element           = {<Dentist />} />
-          <Route path = "/departments/radiology" element                            = {<Radiology />} />
+          <Route path="/departments/radiology" element={<Radiology />} />
+          <Route path="/departments/accident-emergency-care" element={<Accident_and_Emergency />} />
+          <Route path = "/departments/internal-medicine" element                            = {<InternalMedicine/>} />
           <Route path = "gallery" element                                           = {<Gallery />} />
           <Route path = "timetable" element                                         = {<Timetable />} />
           <Route path = "contact" element                                           = {<Contact />} />
