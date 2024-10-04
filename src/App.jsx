@@ -45,33 +45,53 @@ function App() {
           <Route index element={<HomeStyle2 />} />
           <Route path="about" element={<About />} />
           <Route path="doctors" element={<Doctors />} />
-          <Route path="doctors/:doctorId" element={<DoctorDetails />} />
+          {/* <Route path="doctors/:doctorId" element={<DoctorDetails />} />
           <Route path="blog" element={<Blog />} />
-          <Route path="blog/:blogId" element={<BlogDetails />} />
+          <Route path="blog/:blogId" element={<BlogDetails />} /> */}
           <Route path="appointments" element={<Appointments />} />
           <Route path="departments" element={<Departments />} />
           <Route
             path="departments/:departmentId"
             element={<DepartmentDetails />}
           />
-          <Route path = "departments/neurology" element                             = {<Neurology />} />
-          <Route path = "departments/neurosurgery" element                          = {<Neurosurgery />} />
-          <Route path = "departments/Laparoscopic&GeneralSurgery" element           = {<Laparoscopic />} />
-          <Route path = "departments/orthopaedic-joint-replacement-surgery" element = {<Orthopaedic />} />
-          <Route path = "departments/spine-surgery" element                         = {<Spine />} />
-          <Route path = "departments/cardiology" element                            = {<Cardiology />} />
-          <Route path = "departments/paediatrics-neonatal-surgery" element          = {<Paeditrics_Surgery />} />
-          <Route path = "/departments/urology" element                              = {<Urology />} />
-          <Route path = "/departments/obstetrics-gynecology" element                = {<Gynaecology />} />
-          <Route path = "/departments/otorhinolaryngology" element                  = {<Ent />} />
-          <Route path = "/departments/oral-maxillofacial-surgery" element           = {<Dentist />} />
+          <Route path="departments/neurology" element={<Neurology />} />
+          <Route path="departments/neurosurgery" element={<Neurosurgery />} />
+          <Route
+            path="departments/Laparoscopic&GeneralSurgery"
+            element={<Laparoscopic />}
+          />
+          <Route
+            path="departments/orthopaedic-joint-replacement-surgery"
+            element={<Orthopaedic />}
+          />
+          <Route path="departments/spine-surgery" element={<Spine />} />
+          <Route path="departments/cardiology" element={<Cardiology />} />
+          <Route
+            path="departments/paediatrics-neonatal-surgery"
+            element={<Paeditrics_Surgery />}
+          />
+          <Route path="/departments/urology" element={<Urology />} />
+          <Route
+            path="/departments/obstetrics-gynecology"
+            element={<Gynaecology />}
+          />
+          <Route path="/departments/otorhinolaryngology" element={<Ent />} />
+          <Route
+            path="/departments/oral-maxillofacial-surgery"
+            element={<Dentist />}
+          />
           <Route path="/departments/radiology" element={<Radiology />} />
-          <Route path="/departments/accident-emergency-care" element={<Accident_and_Emergency />} />
-          <Route path = "/departments/internal-medicine" element                            = {<InternalMedicine/>} />
-          <Route path = "gallery" element                                           = {<Gallery />} />
-          <Route path = "timetable" element                                         = {<Timetable />} />
-          <Route path = "contact" element                                           = {<Contact />} />
-
+          <Route
+            path="/departments/accident-emergency-care"
+            element={<Accident_and_Emergency />}
+          />
+          <Route
+            path="/departments/internal-medicine"
+            element={<InternalMedicine />}
+          />
+          <Route path="gallery" element={<Gallery />} />
+          <Route path="timetable" element={<Timetable />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
         <Route path="*" element={<ErrorPage />} />
       </Routes>{" "}
