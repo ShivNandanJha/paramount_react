@@ -1,11 +1,11 @@
-import React from "react";
+
 import BannerSectionStyle3 from "../Section/BannerSection/BannerSectionStyle3";
 import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 import Section from "../Section";
 import DepartmentSectionStyle2 from "../Section/DepartmentSection/DepartmentSectionStyle2";
 import FeaturesSectionStyle2 from "../Section/FeaturesSection/FeaturesSectionStyle2";
 import FunFactSection from "../Section/FunFactSection";
-import TeamSection from "../Section/TeamSection";
+
 import GallerySection from "../Section/GallerySection";
 import AwardSectionStyle2 from "../Section/AwardSection/AwardSectionStyle2";
 import { pageTitle } from "../../helpers/PageTitle";
@@ -81,54 +81,15 @@ const funFactData = [
   { number: "10+", title: "Healthcare providers on staff" },
 ];
 
-const teamData = [
-  {
-    imgUrl: "images/about/doctor_1.png",
-    name: "Dr. James Lee, MD",
-    designation: "Head of Cardiologist",
-    description:
-      "With expertise in managing complex heart conditions and performing advanced cardiac procedures",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-  },
-  {
-    imgUrl: "images/about/doctor_2.png",
-    name: "Dr. John Smith, MD",
-    designation: "Emergency Medicine Physician",
-    description:
-      "With expertise in treating acute illnesses and injuries in medicine physician",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-  },
-  {
-    imgUrl: "images/about/doctor_3.png",
-    name: "Dr. Susan Bones, MD",
-    designation: "Board-certified Pediatrician",
-    description:
-      "With experience in managing complex medical conditions in children",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-  },
-];
 
 const galleryData = [
   {
     imgUrl: "/images/about/image.jpg",
   },
   { imgUrl: "/images/about/image2.jpg" },
-  { imgUrl: "/images/about/image3.JPG" },
   { imgUrl: "/images/about/image5.jpg" },
   { imgUrl: "/images/about/image4.png" },
-  { imgUrl: "/images/about/image6.JPG" },
+
   { imgUrl: "/images/about/image8.JPG" },
   { imgUrl: "/images/about/image7.jpg" },
 ];

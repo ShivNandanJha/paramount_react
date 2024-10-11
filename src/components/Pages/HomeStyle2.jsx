@@ -1,4 +1,3 @@
-
 import HeroStyle2 from "../Hero/HeroStyle2";
 import Section from "../Section";
 import AboutSectionStyle3 from "../Section/AboutSection/AboutSectionStyle3";
@@ -15,49 +14,48 @@ const departmentData = [
   {
     title: "Gastrointestinal & Hepatology",
     iconUrl: "/images/home_2/Stomach.png",
-    href: "/departments/department-details",
+    href: "/departments/gastrointestinal-hepatology",
   },
   {
     title: "Neurosurgery & Neurology",
     iconUrl: "/images/home_2/Brain.png",
-    href: "/departments/department-details",
+    href: "/departments/neurology",
   },
   {
     title: "Orthopaedic & Joint Replacement Surgery",
     iconUrl: "/images/home_2/Knee.png",
-    href: "/departments/department-details",
+    href: "/departments/orthopaedic-joint-replacement-surgery",
   },
   {
     title: "Cardiology",
     iconUrl: "/images/home_2/Heart.png",
-    href: "/departments/department-details",
+    href:"/departments/cardiology",
   },
   {
     title: "Spine Surgery",
     iconUrl: "/images/home_2/Spine.png",
-    href: "/departments/department-details",
+    href: "/departments/spine-surgery",
   },
   {
     title: "Nephrology",
     iconUrl: "/images/home_2/Kidney.png",
-    href: "/departments/department-details",
+    href: "/departments/nephrology",
   },
   {
     title: "Obstetrics & Gynaecology",
     iconUrl: "/images/home_2/gynae.png",
-    href: "/departments/department-details",
+    href: "/departments/obstetrics-gynecology",
   },
   {
     title: "Pulmonology",
     iconUrl: "/images/home_2/Lungs.png",
-    href: "/departments/department-details",
+    href: "/departments/pulmonology",
   },
   {
     title: "Urology",
     iconUrl: "/images/home_2/Bladder.png",
-    href: "/departments/department-details",
+    href: "/departments/urology",
   },
-  
 ];
 const testimonialData = [
   {
@@ -180,7 +178,7 @@ export default function HomeStyle2() {
         style={{
           position: "relative", // Ensure that child elements are positioned relative to this parent
           width: "100%",
-          height: "100vh",
+          height: "120vh",
           overflow: "hidden",
           display: "flex",
           alignItems: "center",
@@ -196,15 +194,31 @@ export default function HomeStyle2() {
           loop
           muted
           style={{
-            position: "fixed", // Fix the video in place
+            position: "fixed",
             top: 0,
             left: 0,
-            width: "100%", // Make the video cover the full width
-            height: "100%", // Make the video cover the full height
-            objectFit: "cover", // Ensure the video covers the area without distortion
-            zIndex: -1, // Place the video behind other content
+            width: "100vw", // Full viewport width
+            height: "100vh", // Full viewport height
+            objectFit: "cover", // Cover the container
+            zIndex: -1, // Ensure the video is behind other content
           }}
         />
+
+        <style>{`
+    @media (max-width: 768px) {
+      video {
+        object-fit: contain; // Prevent cropping by containing the video inside the viewport
+      }
+    }
+
+    @media (max-width: 480px) {
+      video {
+        object-fit: contain;
+        height: auto; // Allow the video height to adjust automatically to prevent cropping
+        width: 100%;  // Full width of the screen
+      }
+    }
+  `}</style>
       </div>
 
       {/* HeroStyle2 Section overlapping the video */}
@@ -230,9 +244,12 @@ export default function HomeStyle2() {
         bottomMd={190}
         bottomLg={145}
         bottomXl={105}
-        style={{ backgroundImage: `url(/images/home_2/testimonial_bg.svg)` }}
+        style={{
+          backgroundColor: "white",
+          backgroundSize: "100vw",
+        }}
       >
-        <AboutSectionStyle3 
+        <AboutSectionStyle3
           titleUp="ABOUT US"
           title="Paramount Hospital is a team of experienced medical professionals"
           subTitle="Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms."
@@ -244,10 +261,10 @@ export default function HomeStyle2() {
         bottomLg={125}
         bottomXl={85}
         style={{
-     backgroundColor: "white"
+          backgroundColor: "white",
         }}
       >
-        <DepartmentSectionStyle4 
+        <DepartmentSectionStyle4
           sectionTitle="For Your Health"
           sectionTitleUp="OUR DEPARTMENTS"
           data={departmentData}
@@ -335,11 +352,13 @@ export default function HomeStyle2() {
           backgroundSize: "6rem 4rem",
         }}
       >
-        <FaqSectionStyle2    style={{
-          position       : 'absolute',
-        
-          backgroundImage: 'radial-gradient(circle 800px at 100% 200px, #d5c5ff, transparent)',
-        }}
+        <FaqSectionStyle2
+          style={{
+            position: "absolute",
+
+            backgroundImage:
+              "radial-gradient(circle 800px at 100% 200px, #d5c5ff, transparent)",
+          }}
           data={faqData}
           sectionTitle="Usually Asked"
           sectionTitleUp="What People"
@@ -353,7 +372,7 @@ export default function HomeStyle2() {
       >
         <AppointmentSectionStyle2
           bgUrl="/images/home_2/appointment_bg.svg"
-          imgUrl="/images/home_2/about.png"
+          imgUrl="/images/home_2/why_choose_us.jpg"
           sectionTitle="Appointment"
           sectionTitleUp="BOOK AN"
         />

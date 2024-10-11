@@ -1,4 +1,4 @@
-import React from "react";
+
 import BannerSectionStyle5 from "../Section/BannerSection/BannerSectionStyle3";
 import Section from "../Section";
 import DepartmentSectionStyle3 from "../Section/DepartmentSection/DepartmentSectionStyle3";
@@ -197,7 +197,7 @@ export default function Departments() {
     <>
       <BannerSectionStyle5
         bgUrl="/images/departments/banner_bg.jpg"
-        
+
         title="Get to Know <br>Paramount Hospital Departments"
         subTitle="At Paramount Hospital, we offer a wide range of medical and healthcare services that are designed to meet your individual needs and help you achieve optimal health."
       />

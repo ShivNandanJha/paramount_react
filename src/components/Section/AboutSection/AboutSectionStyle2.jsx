@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export default function AboutSectionStyle2({ title, subTitle, imgUrl }) {
   return (

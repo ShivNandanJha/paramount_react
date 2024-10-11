@@ -1,4 +1,4 @@
-import React from 'react';
+
 import SectionHeading from '../../SectionHeading';
 import Spacing from '../../Spacing';
 
@@ -11,8 +11,8 @@ export default function AboutSectionStyle3({
   return (
     <div className="cs_about cs_style_2 cs_shape_wrap">
       <div className="cs_shape_3">
-        <svg
-          width={738}
+      <svg
+          width={700}
           height={1021}
           viewBox="0 0 738 1021"
           fill="none"
@@ -44,7 +44,7 @@ export default function AboutSectionStyle3({
           <div className="col-xl-6">
             <SectionHeading titleUp={titleUp} title={title} />
             <Spacing md="85" xl="40" lg="30" />
-            <p className="m-0">{subTitle}</p>
+            <p className="m-0" style={{fontSize:"25px",}}>{subTitle}</p>
           </div>
           <div className="col-xl-6">
             <div className="cs_about_img">

@@ -4,11 +4,11 @@ import Layout from "./components/Layout";
 import HomeStyle2 from "./components/Pages/HomeStyle2";
 import About from "./components/Pages/About";
 import Doctors from "./components/Pages/Doctors";
-import Blog from "./components/Pages/Blog";
+
 import Appointments from "./components/Pages/Appointments";
 import Departments from "./components/Pages/Departments";
 import DepartmentDetails from "./components/Pages/DepartmentDetails";
-import BlogDetails from "./components/Pages/BlogDetails";
+
 import DoctorDetails from "./components/Pages/DoctorDetails";
 import Gallery from "./components/Pages/Gallery";
 import Timetable from "./components/Pages/Timetable";

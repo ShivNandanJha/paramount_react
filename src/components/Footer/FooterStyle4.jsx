@@ -25,9 +25,9 @@ const menuDataThree = [
 
 export default function FooterStyle4() {
   return (
-    <footer className="cs_footer cs_style_2 cs_type_1 cs_primary_bg cs_primary_color" style={{ backgroundImage: `url(/images/home_2/testimonial_bg.svg)` }}>
+    <footer className="cs_footer cs_style_2 cs_type_1 cs_primary_bg cs_primary_color" style={{ backgroundColor:"white", backgroundSize:"100vw"  }}>
       <div className="container">
-   
+
         <div className="cs_footer_in">
           <div className="cs_footer_col">
             <div className="cs_footer_item">

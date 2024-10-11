@@ -44,7 +44,7 @@ const Appointment = () => {
       const telegramBotURL =
         "https://api.telegram.org/bot6886100657:AAGqnx43OWjOIecx3ltgnidi4pgko2V58uk/sendMessage";
       const message = `
-        New Appointment Request: 
+        New Appointment Request:
             Name               : ${formData.name}
             Email              : ${formData.email}
             Phone              : ${formData.phone}
@@ -53,7 +53,7 @@ const Appointment = () => {
             Specialization: ${formData.specialization}
             Doctor        : ${formData.doctor}
             Reason for Visit     : ${formData.reasonForVisit}
-               
+
       `;
 
       // Sending data to Telegram bot
@@ -73,7 +73,6 @@ const Appointment = () => {
         specialization: "",
         doctor: "",
         reasonForVisit: "",
-   
       });
     } catch (error) {
       console.error("Error sending message to Telegram:", error);
@@ -89,12 +88,12 @@ const Appointment = () => {
         <div className="col-lg-6">
           <label className="cs_input_label cs_heading_color">Name</label>
           <input
-            type        = "text"
-            name        = "name"
-            placeholder = "David John"
-            value       = {formData.name}
-            onChange    = {handleChange}
-            className   = "cs_form_field"
+            type="text"
+            name="name"
+            placeholder="David John"
+            value={formData.name}
+            onChange={handleChange}
+            className="cs_form_field"
             required
           />
           <div className="cs_height_42 cs_height_xl_25" />
@@ -109,7 +108,8 @@ const Appointment = () => {
             placeholder="(123) 456 - 789"
             value={formData.phone}
             onChange={handleChange}
-            className="cs_form_field"    required
+            className="cs_form_field"
+            required
           />
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
@@ -121,7 +121,8 @@ const Appointment = () => {
             placeholder="Email"
             value={formData.email}
             onChange={handleChange}
-            className="cs_form_field"     required
+            className="cs_form_field"
+            required
           />
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
@@ -145,7 +146,8 @@ const Appointment = () => {
               minDate={new Date()}
               isClearable
               placeholderText="dd/mm/yyyy"
-              className="cs_form_field"    required
+              className="cs_form_field"
+              required
             />
             <i>
               <Icon icon="fa6-solid:calendar-days" />
@@ -164,7 +166,8 @@ const Appointment = () => {
               placeholder="10:00AM"
               value={formData.time}
               onChange={handleChange}
-              className="cs_form_field cs_timepicker"     required
+              className="cs_form_field cs_timepicker"
+              required
             />
             <i>
               <Icon icon="fa6-regular:clock" />
@@ -180,12 +183,61 @@ const Appointment = () => {
             name="specialization"
             value={formData.specialization}
             onChange={handleSpecializationChange}
-            className="cs_form_field"     required
+            className="cs_form_field"
+            required
           >
             <option value="">Choose specialization</option>
-            <option value="cardiology">Cardiology</option>
+            <option value="accident-emergency-care">
+              Accident and Emergency Care
+            </option>
+            <option value="laparoscopic-general-surgery">
+              Laparoscopic & General Surgery
+            </option>
+            <option value="neurosurgery">Neurosurgery</option>
+            <option value="orthopaedic-joint-replacement-surgery">
+              Orthopaedic & Joint Replacement Surgery
+            </option>
+            <option value="spine-surgery">Spine Surgery</option>
+            <option value="cardiothoracic-vascular-surgery">
+              Cardiothoracic & Vascular Surgery
+            </option>
+            <option value="paediatrics-neonatal-surgery">
+              Paediatrics & Neonatal Surgery
+            </option>
+            <option value="plastic-reconstructive-surgery">
+              Plastic & Reconstructive Surgery
+            </option>
+            <option value="urology">Urology</option>
+            <option value="obstetrics-gynaecology">
+              Obstetrics & Gynaecology
+            </option>
+            <option value="otorhinolaryngology-ent">
+              Otorhinolaryngology (ENT)
+            </option>
+            <option value="oral-maxillofacial-surgery-dentistry">
+              Oral & Maxillofacial Surgery & Dentistry
+            </option>
+            <option value="radiology">Radiology</option>
+            <option value="internal-medicine">Internal Medicine</option>
             <option value="neurology">Neurology</option>
-            <option value="pediatrics">Pediatrics</option>
+            <option value="endocrinology">Endocrinology</option>
+            <option value="cardiology">Cardiology</option>
+            <option value="gastroenterology">Gastroenterology</option>
+            <option value="pulmonology">Pulmonology</option>
+            <option value="nephrology">Nephrology</option>
+            <option value="paediatrics-neonatology">
+              Paediatrics & Neonatology
+            </option>
+            <option value="neuropsychiatry">Neuropsychiatry</option>
+            <option value="ophthalmology">Ophthalmology</option>
+            <option value="anaesthesiology-intensive-care">
+              Anaesthesiology & Intensive Care
+            </option>
+            <option value="pain-medicine">Pain Medicine</option>
+            <option value="pathology-microbiology">
+              Pathology & Microbiology
+            </option>
+
             {/* Add more options as needed */}
           </select>
           <div className="cs_height_42 cs_height_xl_25" />
@@ -197,23 +249,251 @@ const Appointment = () => {
               name="doctor"
               value={formData.doctor}
               onChange={handleChange}
-              className="cs_form_field"     required
+              className="cs_form_field"
+              required
             >
               <option value="">Choose doctor</option>
-              {formData.specialization === "cardiology" && (
+
+              {formData.specialization === "laparoscopic-general-surgery" && (
                 <>
-                  <option value="drSmith">Dr. Smith</option>
-                  <option value="drJones">Dr. Jones</option>
+                  <option value="drVivekSarkar">Dr. Vivek Sarkar, MS</option>
+                  <option value="drKalyanMandal">Dr. Kalyan Mandal, MS</option>
+                  <option value="drJameeezulIrfan">
+                    Dr. J. Jameeezul Irfan, MS
+                  </option>
+                  <option value="drPenzinBhutia">
+                    Dr. Penzin D. Bhutia, MS
+                  </option>
                 </>
               )}
+
+              {formData.specialization === "neurosurgery" && (
+                <>
+                  <option value="drSajalBiswas">
+                    Dr. Sajal Biswas, MS, MCh
+                  </option>
+                </>
+              )}
+
+              {formData.specialization ===
+                "orthopaedic-joint-replacement-surgery" && (
+                <>
+                  <option value="drAmalBasak">
+                    Dr. Amal Basak, D.Ortho, MS
+                  </option>
+                  <option value="drSoutrikMukherjee">
+                    Dr. Soutrik Mukherjee, MS
+                  </option>
+                </>
+              )}
+
+              {formData.specialization === "spine-surgery" && (
+                <>
+                  <option value="drSajalBiswas">
+                    Dr. Sajal Biswas, MS, MCh
+                  </option>
+                  <option value="drAmalBasak">
+                    Dr. Amal Basak, D.Ortho, MS
+                  </option>
+                  <option value="drSoutrikMukherjee">
+                    Dr. Soutrik Mukherjee, MS
+                  </option>
+                </>
+              )}
+
+              {formData.specialization === "gastrointestinal-surgery" && (
+                <>
+                  <option value="drBarunKumarSingh">
+                    Dr. Barun Kumar Singh, MS, DNB
+                  </option>
+                </>
+              )}
+
+              {formData.specialization ===
+                "cardiothoracic-vascular-surgery" && (
+                <>
+                  <option value="drAnjanKarDas">
+                    Dr. Anjan Kar Das, MS, MCh
+                  </option>
+                </>
+              )}
+
+              {formData.specialization === "paediatrics-neonatal-surgery" && (
+                <>
+                  <option value="drVivekSarkar">Dr. Vivek Sarkar, MS</option>
+                  <option value="drRajarshiKumar">
+                    Dr. Rajarshi Kumar, MS, MCh
+                  </option>
+                  <option value="drAlokeSinhaBabu">
+                    Dr. Aloke Sinha Babu, MS, MCh
+                  </option>
+                  <option value="drJameeezulIrfan">
+                    Dr. J. Jameeezul Irfan, MS
+                  </option>
+                </>
+              )}
+
+              {formData.specialization ===
+                "plastic-cosmetic-reconstructive-surgery" && (
+                <>
+                  <option value="drManojKumarSingh">
+                    Dr. Manoj Kumar Singh, MS, MCh
+                  </option>
+                  <option value="drSoumyaGayen">
+                    Dr. Soumya Gayen, MS, MCh
+                  </option>
+                  <option value="drPenzinBhutia">
+                    Dr. Penzin D. Bhutia, MS
+                  </option>
+                </>
+              )}
+
+              {formData.specialization === "urology" && (
+                <>
+                  <option value="drKundaanKumar">
+                    Dr. Kundaan Kumar, MS, MCh
+                  </option>
+                  <option value="drSurajitPaul">
+                    Dr. Surajit Paul, MS, MCh
+                  </option>
+                  <option value="drBiswajitDutta">
+                    Dr. Biswajit Dutta, MS
+                  </option>
+                </>
+              )}
+
+              {formData.specialization === "obstetrics-gynaecology" && (
+                <>
+                  <option value="drPunamSarkar">Dr. Punam Sarkar, MS</option>
+                  <option value="drRanjanPal">Dr. Ranjan Pal, MD</option>
+                  <option value="drNeelamSingla">Dr. Neelam Singla, MD</option>
+                </>
+              )}
+
+              {formData.specialization === "otorhinolaryngology-ent" && (
+                <>
+                  <option value="drParthaPratimSaha">
+                    Dr. Partha Pratim Saha, MS
+                  </option>
+                  <option value="drSandeepGhosh">Dr. Sandeep Ghosh, MS</option>
+                </>
+              )}
+
+              {formData.specialization ===
+                "oral-maxillofacial-surgery-dentistry" && (
+                <>
+                  <option value="drMukeshChatterjee">
+                    Dr. Mukesh Chatterjee, BDS
+                  </option>
+                </>
+              )}
+
+              {formData.specialization === "internal-medicine" && (
+                <>
+                  <option value="drMKDas">Dr. M.K. Das, MD</option>
+                  <option value="drRSaha">Dr. R. Saha, MD</option>
+                  <option value="drSoumyaGhosh">Dr. Soumya Ghosh, MD</option>
+                </>
+              )}
+
               {formData.specialization === "neurology" && (
                 <>
-                  <option value="drTaylor">Dr. Taylor</option>
-                  <option value="drBrown">Dr. Brown</option>
+                  <option value="drNRHaldar">Dr. N.R. Haldar, MD, DM</option>
                 </>
               )}
-              {/* Add more options based on specialization */}
+
+              {formData.specialization === "endocrinology" && (
+                <>
+                  <option value="drMKDas">Dr. M.K. Das, MD</option>
+                </>
+              )}
+
+              {formData.specialization === "cardiology" && (
+                <>
+                  <option value="drArabindaSaha">
+                    Dr. Arabinda Saha, MD, DM, DNB
+                  </option>
+                  <option value="drIndranilSen">
+                    Dr. Indranil Sen, MD, DM
+                  </option>
+                  <option value="drDeepakTomar">
+                    Dr. Deepak Tomar, MD, DM
+                  </option>
+                </>
+              )}
+
+              {formData.specialization === "gastroenterology-hepatology" && (
+                <>
+                  <option value="drPrabhatRanjan">
+                    Dr. Prabhat Ranjan, MD
+                  </option>
+                </>
+              )}
+
+              {formData.specialization === "pulmonology" && (
+                <>
+                  <option value="drSoumyaGhosh">Dr. Soumya Ghosh, MD</option>
+                </>
+              )}
+
+              {formData.specialization === "nephrology" && (
+                <>
+                  <option value="drVikrantDeshmukh">
+                    Dr. Vikrant Deshmukh, MD, DM
+                  </option>
+                </>
+              )}
+
+              {formData.specialization === "paediatrics-neonatology" && (
+                <>
+                  <option value="drRajivAgarwal">Dr. Rajiv Agarwal, MD</option>
+                </>
+              )}
+
+              {formData.specialization === "neuropsychiatry" && (
+                <>
+                  <option value="drSantanuDe">Dr. Santanu De, MD</option>
+                </>
+              )}
+
+              {formData.specialization === "ophthalmology" && (
+                <>
+                  <option value="drAshishKumarBichpuria">
+                    Dr. Ashish Kumar Bichpuria, MS
+                  </option>
+                  <option value="drNilanjanaHaldar">
+                    Dr. Nilanjana Haldar, MS
+                  </option>
+                </>
+              )}
+
+              {formData.specialization === "radiology" && (
+                <>
+                  <option value="drChandanKumar">Dr. Chandan Kumar, MD</option>
+                </>
+              )}
+
+              {formData.specialization === "anaesthesiology-intensive-care" && (
+                <>
+                  <option value="drSKKhutia">Dr. S.K. Khutia, MD, FIPM</option>
+                  <option value="drChatterjee">Dr. Chatterjee, MD</option>
+                </>
+              )}
+
+              {formData.specialization === "pain-medicine" && (
+                <>
+                  <option value="drSKKhutia">Dr. S.K. Khutia, MD, FIPM</option>
+                </>
+              )}
+
+              {formData.specialization === "pathology-microbiology" && (
+                <>
+                  <option value="drPBera">Dr. P. Bera, MD</option>
+                  <option value="drSantanuHazra">Dr. Santanu Hazra, MD</option>
+                </>
+              )}
             </select>
+
             <div className="cs_height_42 cs_height_xl_25" />
           </div>
         )}
@@ -267,7 +547,7 @@ const Appointment = () => {
           </div>
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
-      
+
         <div className="col-lg-12">
           <label className="cs_input_label cs_heading_color">Address</label>
           <textarea
