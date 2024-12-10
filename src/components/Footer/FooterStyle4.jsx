@@ -8,7 +8,6 @@ const menuDataOne = [
   { title: 'About Us', href: '/about' },
   { title: 'Departments', href: '/departments' },
   { title: 'Doctors', href: '/doctors' },
-  { title: 'Timetable', href: '/timetable' },
   { title: 'Appointment', href: '/appointments' },
 ];
 
@@ -16,7 +15,6 @@ const menuDataTwo = [
   { title: 'Testimonials', href: '/' },
   { title: 'Blog', href: '/blog' },
   { title: 'Contact Us', href: '/' },
-  { title: 'FAQs', href: '/' },
 ];
 const menuDataThree = [
   { title: 'Privacy Policy', href: '/' },

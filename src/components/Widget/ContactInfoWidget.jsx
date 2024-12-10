@@ -1,11 +1,11 @@
 import { Icon } from '@iconify/react';
-import React from 'react';
+
 
 export default function ContactInfoWidget() {
   return (
     <ul className="cs_contact_widget">
       <li>
-        <i className="cs_accent_bg">
+        <i className="cs_accent_bg" >
           <Icon icon="ep:location" />
         </i>
         Mangal Pandey Road, Khalpara, Siliguri, West Bengal - 734005

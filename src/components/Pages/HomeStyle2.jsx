@@ -1,5 +1,7 @@
 import HeroStyle2 from "../Hero/HeroStyle2";
 import Section from "../Section";
+import DepartmentSectionStyle2 from "../Section/DepartmentSection/DepartmentSectionStyle2";
+import FeaturesSectionStyle2 from "../Section/FeaturesSection/FeaturesSectionStyle2";
 import AboutSectionStyle3 from "../Section/AboutSection/AboutSectionStyle3";
 import DepartmentSectionStyle4 from "../Section/DepartmentSection/DepartmentSectionStyle4";
 import TestimonialSectionStyle2 from "../Section/TestimonialSection/TestimonialSectionStyle2";
@@ -10,6 +12,44 @@ import FaqSectionStyle2 from "../Section/FaqSection/FaqSectionStyle2";
 import AppointmentSectionStyle2 from "../Section/AppointmentSection/AppointmentSectionStyle2";
 import video from "./herobanner.mp4";
 import { pageTitle } from "../../helpers/PageTitle";
+
+const departmentData1 = [
+  {
+    title: "Diagnostic testing",
+    subTitle:
+      "Blood tests, imaging studies, and other tests to diagnose health conditions",
+    iconUrl: "/images/icons/calendar_white.svg",
+    href: "/departments/department-details",
+  },
+  {
+    title: "Rehabilitation services",
+    subTitle:
+      "Physical therapy, occupational therapy, and other services to help patients recover from injuries",
+    iconUrl: "/images/icons/calendar_white.svg",
+    href: "/departments/department-details",
+  },
+  {
+    title: "Preventive care",
+    subTitle:
+      "Annual checkups, immunizations, and health screenings care preventive",
+    iconUrl: "/images/icons/calendar_white.svg",
+    href: "/departments/department-details",
+  },
+  {
+    title: "Treatment for acute and chronic conditions",
+    subTitle:
+      "Medication management, disease management, and other treatments to improve health outcomes",
+    iconUrl: "/images/icons/calendar_white.svg",
+    href: "/departments/department-details",
+  },
+  {
+    title: "Mental health services",
+    subTitle:
+      "Counseling, therapy, and other services to help patients manage mental health conditions",
+    iconUrl: "/images/icons/calendar_white.svg",
+    href: "/departments/department-details",
+  },
+];
 const departmentData = [
   {
     title: "Gastrointestinal & Hepatology",
@@ -168,7 +208,32 @@ const faqData = [
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
   },
 ];
-
+const featureListData = [
+  {
+    title: "Experienced Medical Professionals",
+    subTitle:
+      "Our team includes experienced doctors, nurses, <br />and other healthcare professionals who are <br />dedicated to providing the best possible care to <br />our patients.",
+    iconUrl: "images/icons/professional.svg",
+  },
+  {
+    title: "Comprehensive <br />Services",
+    subTitle:
+      "We offer a wide range of healthcare services, <br />from preventive care to specialized treatment <br />for complex conditions.",
+    iconUrl: "images/icons/comprehensive.svg",
+  },
+  {
+    title: "Patient-centered <br />Approach",
+    subTitle:
+      "We believe in treating each patient as an <br />individual, and we take the time to understand <br />your unique health needs and concerns.",
+    iconUrl: "images/icons/patient.svg",
+  },
+  {
+    title: "State-of-the-art <br />Facilities",
+    subTitle:
+      "Our healthcare center is equipped with the <br />latest technology and equipment to provide our <br />patients with the most advanced care possible.",
+    iconUrl: "images/icons/facilities.svg",
+  },
+];
 export default function HomeStyle2() {
   pageTitle("Homepage");
   return (
@@ -256,6 +321,17 @@ export default function HomeStyle2() {
           imgUrl="/images/home_2/about.png"
         />
       </Section>
+
+      <Section topMd={175} topLg={125} topXl={85} bottomMd={100} bottomLg={110} style={{
+          backgroundColor: "white",
+          backgroundSize: "100vw",
+        }}>
+        <FeaturesSectionStyle2
+          sectionTitle="Why Choose Us"
+          imgUrl="images/about/why_choose_us.jpg"
+          data={featureListData}
+        />
+      </Section>
       <Section
         bottomMd={125}
         bottomLg={125}
@@ -263,7 +339,13 @@ export default function HomeStyle2() {
         style={{
           backgroundColor: "white",
         }}
-      >
+      ><Section topMd={200} topLg={150} topXl={110}>
+      <DepartmentSectionStyle2
+        sectionTitle="Our Best Services"
+        sectionTitleUp="SERVICES"
+        data={departmentData1}
+      />
+    </Section>
         <DepartmentSectionStyle4
           sectionTitle="For Your Health"
           sectionTitleUp="OUR DEPARTMENTS"

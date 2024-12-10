@@ -9,7 +9,7 @@ import Appointments from "./components/Pages/Appointments";
 import Departments from "./components/Pages/Departments";
 import DepartmentDetails from "./components/Pages/DepartmentDetails";
 
-import DoctorDetails from "./components/Pages/DoctorDetails";
+// import DoctorDetails from "./components/Pages/DoctorDetails";
 import Gallery from "./components/Pages/Gallery";
 import Timetable from "./components/Pages/Timetable";
 import Contact from "./components/Pages/Contact";
