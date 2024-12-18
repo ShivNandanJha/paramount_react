@@ -291,7 +291,7 @@ export default function HomeStyle2() {
       <HeroStyle2
         title="Compassionate care, exceptional results."
         subTitle="Our team of experienced doctors and healthcare professionals are committed to providing quality care and personalized attention to our patients."
-        bgUrl="/images/home_2/banner_bg.jpg"
+        bgUrl="/images/home_2/bg.png"
         videoBtnText="See how we work"
         videoUrl="/public/images/home_2/herobanner.mp4"
         btnText="Paramount Hospital"
