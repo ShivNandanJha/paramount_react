@@ -520,7 +520,7 @@ const teamData = [
   //   department : "Urology",
   //   name       : "Dr. Surajit Paul, MS, MCh",
   //   designation: "Consultant Urologist",
-  //   description: 
+  //   description:
   //     "Dr. Suraji Paul (MS, MCh) is a highly respected Consultant Urologist with extensive expertise in diagnosing and treating a wide range of urological conditions. With advanced qualifications and a deep commitment to patient care...",
   //   social: [
   //     { icon: "fa6-brands:facebook-f", href: "/about" },
@@ -598,8 +598,7 @@ export default function Doctors() {
   return (
     <>
       <BannerSectionStyle5
-        bgUrl="/images/doctors/banner_bg.jpg"
-
+        bgUrl="/images/doctors/Testi-bg.png"
         title="Introduce You to <br />Our Experts"
         subTitle="The list of certified doctors with years of <br />professional experiences"
       />

@@ -354,7 +354,7 @@ export default function HomeStyle2() {
       </Section>
       <Section
         className="cs_bg_filed"
-        style={{ backgroundImage: `url(/images/home_2/testimonial_bg.svg)` }}
+        style={{ backgroundImage: `url(/images/home_2/Testi-bg.png)` }}
         topMd={190}
         topLg={145}
         topXl={105}
@@ -453,10 +453,9 @@ export default function HomeStyle2() {
         }}
       >
         <AppointmentSectionStyle2
-          bgUrl="/images/home_2/appointment_bg.svg"
-          imgUrl="/images/home_2/why_choose_us.jpg"
-          sectionTitle="Appointment"
-          sectionTitleUp="BOOK AN"
+          bgUrl="/images/home_2/Testi-bg.png"
+          sectionTitle="Book an Appointment"
+
         />
       </Section>
       {/* <Section

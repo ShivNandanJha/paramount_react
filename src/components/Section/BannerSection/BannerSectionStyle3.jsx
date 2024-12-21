@@ -1,4 +1,4 @@
-import React from 'react';
+
 import parse from 'html-react-parser';
 import Button from '../../Button';
 import Spacing from '../../Spacing';
@@ -25,25 +25,14 @@ export default function BannerSectionStyle3({
     >
       <div className="cs_banner_img">
 
-        {videoUrl ? (
-          <video
-            src={videoUrl}
-            autoPlay
-            muted
-            playsInline
-            loop
-            style={containerStyle}
-          >
-            Your browser does not support the video tag.
-          </video>
-        ) : (
-          <img src={imgUrl} alt="Banner" className="cs_main_banner_img" />
-        )}
+
+          <img src={imgUrl}  className="cs_main_banner_img" />
+
       </div>
       <div className="container">
         <div className="cs_banner_text">
-          <h1 className="cs_banner_title cs_white_color cs_fs_72">{parse(title)}</h1>
-          <h2 className="cs_banner_subtitle cs_fs_20 mb-0 cs_white_color">
+          <h1 className="cs_banner_title  cs_fs_72">{parse(title)}</h1>
+          <h2 className="cs_banner_subtitle cs_fs_20 mb-0 ">
             {parse(subTitle)}
           </h2>
           {btnText && (

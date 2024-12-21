@@ -1,4 +1,4 @@
-import React from 'react';
+
 import parse from 'html-react-parser';
 
 export default function BannerSectionStyle5({
@@ -13,7 +13,7 @@ export default function BannerSectionStyle5({
       style={{ backgroundImage: `url(${bgUrl})` }}
     >
       <div className="cs_banner_img">
-        <img src={imgUrl} alt="Banner" />
+        <img src={imgUrl}  />
       </div>
       <div className="container">
         <div className="cs_banner_text">

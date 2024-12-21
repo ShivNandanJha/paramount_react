@@ -10,7 +10,7 @@ export default function Appointments() {
     <>
       <BannerSectionStyle3
         bgUrl="/images/appointments/banner_bg.svg"
-        imgUrl="/images/appointments/care.webp"
+   
         title="Don’t Let Your Health Take a Backseat!"
         subTitle="Fill out the appointment form below to schedule a consultation with one of our healthcare professionals."
       />

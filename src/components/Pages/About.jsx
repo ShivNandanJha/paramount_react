@@ -117,9 +117,9 @@ export default function About() {
   return (
     <>
       <BannerSectionStyle3
-        bgUrl="/images/about/banner_bg.jpg"
-        videoUrl="/images/about/paramount.mp4"
-        imgUrl="/images/about/banner_img.png"
+        bgUrl="/images/about/banner_bg.png"
+
+      
         title="Welcome to <br />Paramount Hospital"
         subTitle="Best Multi-Super Speciality Hospitals in Siliguri"
       />

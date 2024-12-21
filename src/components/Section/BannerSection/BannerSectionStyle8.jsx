@@ -15,7 +15,7 @@ export default function BannerSectionStyle8({
           style={{ backgroundImage: `url(${bgUrl})` }}
         >
           <div className="cs_banner_img">
-            <img src={imgUrl} alt="Banner" />
+            <img src={imgUrl} />
           </div>
           <div className="cs_banner_in">
             <h2 className="cs_banner_title cs_fs_72 cs_white_color">
