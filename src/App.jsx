@@ -1,35 +1,42 @@
 import { Route, Routes, useLocation } from "react-router-dom";
+import { lazy, Suspense, useEffect } from "react";
 import Layout from "./components/Layout";
-
-import HomeStyle2 from "./components/Pages/HomeStyle2";
-import About from "./components/Pages/About";
-import Doctors from "./components/Pages/Doctors";
-
-import Appointments from "./components/Pages/Appointments";
-import Departments from "./components/Pages/Departments";
-import DepartmentDetails from "./components/Pages/DepartmentDetails";
-
-// import DoctorDetails from "./components/Pages/DoctorDetails";
-import Gallery from "./components/Pages/Gallery";
-import Timetable from "./components/Pages/Timetable";
-import Contact from "./components/Pages/Contact";
-import { useEffect } from "react";
-import ErrorPage from "./components/Pages/ErrorPage";
-import Neurology from "./components/Pages/neurology";
-import Laparoscopic from "./components/Pages/Laparoscopic";
-import Neurosurgery from "./components/Pages/Neurosurgery";
-import Orthopaedic from "./components/Pages/Orthopaedic";
-import Spine from "./components/Pages/Spine";
-import Cardiology from "./components/Pages/Cardiology";
-import Paeditrics_Surgery from "./components/Pages/PaediatricsNeonatalSurgery";
 import MetaTagsComponent from "./components/MetaTagsComponent";
-import Urology from "./components/Pages/Urology";
-import Gynaecology from "./components/Pages/Gynaecology";
-import Ent from "./components/Pages/Ent";
-import Dentist from "./components/Pages/Dentist";
-import Radiology from "./components/Pages/Radiology";
-import Accident_and_Emergency from "./components/Pages/accident_emergency";
-import InternalMedicine from "./components/Pages/accident_emergency";
+import ErrorPage from "./components/Pages/ErrorPage";
+
+// Lazy load components
+const HomeStyle2 = lazy(() => import("./components/Pages/HomeStyle2"));
+const About = lazy(() => import("./components/Pages/About"));
+const Doctors = lazy(() => import("./components/Pages/Doctors"));
+const Appointments = lazy(() => import("./components/Pages/Appointments"));
+const Departments = lazy(() => import("./components/Pages/Departments"));
+const DepartmentDetails = lazy(() => import("./components/Pages/DepartmentDetails"));
+const Gallery = lazy(() => import("./components/Pages/Gallery"));
+const Timetable = lazy(() => import("./components/Pages/Timetable"));
+const Contact = lazy(() => import("./components/Pages/Contact"));
+const Neurology = lazy(() => import("./components/Pages/neurology"));
+const Laparoscopic = lazy(() => import("./components/Pages/Laparoscopic"));
+const Neurosurgery = lazy(() => import("./components/Pages/Neurosurgery"));
+const Orthopaedic = lazy(() => import("./components/Pages/Orthopaedic"));
+const Spine = lazy(() => import("./components/Pages/Spine"));
+const Cardiology = lazy(() => import("./components/Pages/Cardiology"));
+const Paeditrics_Surgery = lazy(() => import("./components/Pages/PaediatricsNeonatalSurgery"));
+const Urology = lazy(() => import("./components/Pages/Urology"));
+const Gynaecology = lazy(() => import("./components/Pages/Gynaecology"));
+const Ent = lazy(() => import("./components/Pages/Ent"));
+const Dentist = lazy(() => import("./components/Pages/Dentist"));
+const Radiology = lazy(() => import("./components/Pages/Radiology"));
+const Accident_and_Emergency = lazy(() => import("./components/Pages/accident_emergency"));
+const InternalMedicine = lazy(() => import("./components/Pages/InternalMedicine"));
+
+// Skeleton loader component
+function SkeletonLoader() {
+  return (
+    <div style={{ padding: "20px", textAlign: "center" }}>
+      <p>Loading...</p>
+    </div>
+  );
+}
 
 function App() {
   const { pathname } = useLocation();
@@ -37,64 +44,40 @@ function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
   return (
     <>
       <MetaTagsComponent />
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomeStyle2 />} />
-          <Route path="about" element={<About />} />
-          <Route path="doctors" element={<Doctors />} />
-          {/* <Route path="doctors/:doctorId" element={<DoctorDetails />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="blog/:blogId" element={<BlogDetails />} /> */}
-          <Route path="appointments" element={<Appointments />} />
-          <Route path="departments" element={<Departments />} />
-          <Route
-            path="departments/:departmentId"
-            element={<DepartmentDetails />}
-          />
-          <Route path="departments/neurology" element={<Neurology />} />
-          <Route path="departments/neurosurgery" element={<Neurosurgery />} />
-          <Route
-            path="departments/Laparoscopic&GeneralSurgery"
-            element={<Laparoscopic />}
-          />
-          <Route
-            path="departments/orthopaedic-joint-replacement-surgery"
-            element={<Orthopaedic />}
-          />
-          <Route path="departments/spine-surgery" element={<Spine />} />
-          <Route path="departments/cardiology" element={<Cardiology />} />
-          <Route
-            path="departments/paediatrics-neonatal-surgery"
-            element={<Paeditrics_Surgery />}
-          />
-          <Route path="/departments/urology" element={<Urology />} />
-          <Route
-            path="/departments/obstetrics-gynecology"
-            element={<Gynaecology />}
-          />
-          <Route path="/departments/otorhinolaryngology" element={<Ent />} />
-          <Route
-            path="/departments/oral-maxillofacial-surgery"
-            element={<Dentist />}
-          />
-          <Route path="/departments/radiology" element={<Radiology />} />
-          <Route
-            path="/departments/accident-emergency-care"
-            element={<Accident_and_Emergency />}
-          />
-          <Route
-            path="/departments/internal-medicine"
-            element={<InternalMedicine />}
-          />
-          <Route path="gallery" element={<Gallery />} />
-          <Route path="timetable" element={<Timetable />} />
-          <Route path="contact" element={<Contact />} />
-        </Route>
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>{" "}
+      <Suspense fallback={<SkeletonLoader />}>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<HomeStyle2 />} />
+            <Route path="about" element={<About />} />
+            <Route path="doctors" element={<Doctors />} />
+            <Route path="appointments" element={<Appointments />} />
+            <Route path="departments" element={<Departments />} />
+            <Route path="departments/:departmentId" element={<DepartmentDetails />} />
+            <Route path="departments/neurology" element={<Neurology />} />
+            <Route path="departments/neurosurgery" element={<Neurosurgery />} />
+            <Route path="departments/Laparoscopic&GeneralSurgery" element={<Laparoscopic />} />
+            <Route path="departments/orthopaedic-joint-replacement-surgery" element={<Orthopaedic />} />
+            <Route path="departments/spine-surgery" element={<Spine />} />
+            <Route path="departments/cardiology" element={<Cardiology />} />
+            <Route path="departments/paediatrics-neonatal-surgery" element={<Paeditrics_Surgery />} />
+            <Route path="/departments/urology" element={<Urology />} />
+            <Route path="/departments/obstetrics-gynecology" element={<Gynaecology />} />
+            <Route path="/departments/otorhinolaryngology" element={<Ent />} />
+            <Route path="/departments/oral-maxillofacial-surgery" element={<Dentist />} />
+            <Route path="/departments/radiology" element={<Radiology />} />
+            <Route path="/departments/accident-emergency-care" element={<Accident_and_Emergency />} />
+            <Route path="/departments/internal-medicine" element={<InternalMedicine />} />
+            <Route path="gallery" element={<Gallery />} />
+            <Route path="timetable" element={<Timetable />} />
+            <Route path="contact" element={<Contact />} />
+          </Route>
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </Suspense>
     </>
   );
 }

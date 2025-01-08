@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import DropDown from "./DropDown";
+
 import SocialWidget from "../Widget/SocialWidget";
 import Newsletter from "../Widget/Newsletter";
 import IconBoxStyle11 from "../IconBox/IconBoxStyle11";
@@ -76,8 +76,9 @@ export default function Header({ logoSrc, LgLogoSrc, variant }) {
                     src={LgLogoSrc}
                     alt="Large Logo"
                     style={logoStyleLarge}
+                    loading="lazy"
                   />
-                  <img src={logoSrc} alt="Small Logo" style={logoStyleSmall} />
+                  <img src={logoSrc} alt="Small Logo"  loading="lazy"  style={logoStyleSmall} />
                 </Link>
                 <nav className="cs_nav">
                   <ul
