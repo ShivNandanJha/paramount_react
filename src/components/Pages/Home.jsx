@@ -47,28 +47,28 @@ const testimonialData = [
   {
     text: 'I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
     ratingNumber: '5',
-    avatarImgUrl: '/images/home_1/avatar_2.png',
+    avatarImgUrl: '/images/home_1/avatar_2.webp',
     avatarName: 'PAULO HUBERT',
     avatarDesignation: 'New York, USA',
   },
   {
     text: 'I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
     ratingNumber: '4.5',
-    avatarImgUrl: '/images/home_1/avatar_2.png',
+    avatarImgUrl: '/images/home_1/avatar_2.webp',
     avatarName: 'PAULO HUBERT',
     avatarDesignation: 'New York, USA',
   },
   {
     text: 'I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
     ratingNumber: '5',
-    avatarImgUrl: '/images/home_1/avatar_2.png',
+    avatarImgUrl: '/images/home_1/avatar_2.webp',
     avatarName: 'PAULO HUBERT',
     avatarDesignation: 'New York, USA',
   },
   {
     text: 'I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”',
     ratingNumber: '4.5',
-    avatarImgUrl: '/images/home_1/avatar_2.png',
+    avatarImgUrl: '/images/home_1/avatar_2.webp',
     avatarName: 'PAULO HUBERT',
     avatarDesignation: 'New York, USA',
   },
@@ -156,31 +156,31 @@ const faqData = [
 ];
 const brandData = [
   {
-    imgUrl: '/images/brand_1.png',
+    imgUrl: '/images/brand_1.webp',
     imgAlt: 'Brand',
   },
   {
-    imgUrl: '/images/brand_2.png',
+    imgUrl: '/images/brand_2.webp',
     imgAlt: 'Brand',
   },
   {
-    imgUrl: '/images/brand_3.png',
+    imgUrl: '/images/brand_3.webp',
     imgAlt: 'Brand',
   },
   {
-    imgUrl: '/images/brand_4.png',
+    imgUrl: '/images/brand_4.webp',
     imgAlt: 'Brand',
   },
   {
-    imgUrl: '/images/brand_5.png',
+    imgUrl: '/images/brand_5.webp',
     imgAlt: 'Brand',
   },
   {
-    imgUrl: '/images/brand_6.png',
+    imgUrl: '/images/brand_6.webp',
     imgAlt: 'Brand',
   },
   {
-    imgUrl: '/images/brand_7.png',
+    imgUrl: '/images/brand_7.webp',
     imgAlt: 'Brand',
   },
 ];
@@ -194,7 +194,7 @@ export default function HomeStyle2() {
         committed to providing quality care and personalized attention to
         our patients."
         bgUrl="/images/home_2/hero_bg.jpeg"
-        imgUrl="/images/home_2/patents.png"
+        imgUrl="/images/home_2/patents.webp"
         videoBtnText="See how we work"
         videoUrl="https://www.youtube.com/embed/VcaAVWtP48A"
         btnText="Pro Health"
@@ -289,7 +289,7 @@ export default function HomeStyle2() {
       <Section>
         <AppointmentSectionStyle2
           bgUrl="/images/home_2/appointment_bg.svg"
-          imgUrl="/images/home_2/appointment_img.png"
+          imgUrl="/images/home_2/appointment_img.webp"
           sectionTitle="Appointment"
           sectionTitleUp="BOOK AN"
         />

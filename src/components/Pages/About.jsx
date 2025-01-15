@@ -1,4 +1,3 @@
-
 import BannerSectionStyle3 from "../Section/BannerSection/BannerSectionStyle3";
 import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 import Section from "../Section";
@@ -81,17 +80,18 @@ const funFactData = [
   { number: "10+", title: "Healthcare providers on staff" },
 ];
 
-
 const galleryData = [
   {
     imgUrl: "/images/about/image.jpg",
   },
   { imgUrl: "/images/about/image2.jpg" },
   { imgUrl: "/images/about/image5.jpg" },
-  { imgUrl: "/images/about/image4.png" },
 
   { imgUrl: "/images/about/image8.JPG" },
   { imgUrl: "/images/about/image7.jpg" },
+  { imgUrl: "/images/about/imagea.webp" },
+  { imgUrl: "/images/about/imageb.webp" },
+  { imgUrl: "/images/about/imagec.webp" },
 ];
 const awardData = [
   {
@@ -117,9 +117,7 @@ export default function About() {
   return (
     <>
       <BannerSectionStyle3
-        bgUrl="/images/about/banner_bg.png"
-
-      
+        bgUrl="/images/about/banner_bg.webp"
         title="Welcome to <br />Paramount Hospital"
         subTitle="Best Multi-Super Speciality Hospitals in Siliguri"
       />
@@ -133,7 +131,7 @@ export default function About() {
       <Section topMd={175} topLg={125} topXl={85} bottomMd={100} bottomLg={110}>
         <FeaturesSectionStyle2
           sectionTitle="Why Choose Us"
-          imgUrl="images/about/why_choose_us.jpg"
+          imgUrl="images/about/why_choose_us.webp"
           data={featureListData}
         />
       </Section>

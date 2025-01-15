@@ -25,7 +25,7 @@ export default function BannerSectionStyle4({
           {parser(title)}
         </h2>
         <p className = "cs_banner_subtitle cs_primary cs_fs_20 m-0">
-          {parser(subTitle)}
+          <a href="/appointments">{parser(subTitle)}</a>
         </p>
          </div>
 

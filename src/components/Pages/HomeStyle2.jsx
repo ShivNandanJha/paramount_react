@@ -53,47 +53,47 @@ const departmentData1 = [
 const departmentData = [
   {
     title: "Gastrointestinal & Hepatology",
-    iconUrl: "/images/home_2/Stomach.png",
+    iconUrl: "/images/home_2/Stomach.webp",
     href: "/departments/gastrointestinal-hepatology",
   },
   {
     title: "Neurosurgery & Neurology",
-    iconUrl: "/images/home_2/Brain.png",
+    iconUrl: "/images/home_2/Brain.webp",
     href: "/departments/neurology",
   },
   {
     title: "Orthopaedic & Joint Replacement Surgery",
-    iconUrl: "/images/home_2/Knee.png",
+    iconUrl: "/images/home_2/Knee.webp",
     href: "/departments/orthopaedic-joint-replacement-surgery",
   },
   {
     title: "Cardiology",
-    iconUrl: "/images/home_2/Heart.png",
-    href:"/departments/cardiology",
+    iconUrl: "/images/home_2/Heart.webp",
+    href: "/departments/cardiology",
   },
   {
     title: "Spine Surgery",
-    iconUrl: "/images/home_2/Spine.png",
+    iconUrl: "/images/home_2/Spine.webp",
     href: "/departments/spine-surgery",
   },
   {
     title: "Nephrology",
-    iconUrl: "/images/home_2/Kidney.png",
+    iconUrl: "/images/home_2/Kidney.webp",
     href: "/departments/nephrology",
   },
   {
     title: "Obstetrics & Gynaecology",
-    iconUrl: "/images/home_2/gynae.png",
+    iconUrl: "/images/home_2/gynae.webp",
     href: "/departments/obstetrics-gynecology",
   },
   {
     title: "Pulmonology",
-    iconUrl: "/images/home_2/Lungs.png",
+    iconUrl: "/images/home_2/Lungs.webp",
     href: "/departments/pulmonology",
   },
   {
     title: "Urology",
-    iconUrl: "/images/home_2/Bladder.png",
+    iconUrl: "/images/home_2/Bladder.webp",
     href: "/departments/urology",
   },
 ];
@@ -101,28 +101,28 @@ const testimonialData = [
   {
     text: "I recently had to bring my child to Paramount Hospital for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”",
     ratingNumber: "5",
-    avatarImgUrl: "/images/home_1/avatar_2.png",
+    avatarImgUrl: "/images/home_1/avatar_2.webp",
     avatarName: "PAULO HUBERT",
     avatarDesignation: "New York, USA",
   },
   {
     text: "I recently had to bring my child to Paramount Hospital for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”",
     ratingNumber: "4.5",
-    avatarImgUrl: "/images/home_1/avatar_2.png",
+    avatarImgUrl: "/images/home_1/avatar_2.webp",
     avatarName: "PAULO HUBERT",
     avatarDesignation: "New York, USA",
   },
   {
     text: "I recently had to bring my child to Paramount Hospital for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”",
     ratingNumber: "5",
-    avatarImgUrl: "/images/home_1/avatar_2.png",
+    avatarImgUrl: "/images/home_1/avatar_2.webp",
     avatarName: "PAULO HUBERT",
     avatarDesignation: "New York, USA",
   },
   {
     text: "I recently had to bring my child to Paramount Hospital for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”",
     ratingNumber: "4.5",
-    avatarImgUrl: "/images/home_1/avatar_2.png",
+    avatarImgUrl: "/images/home_1/avatar_2.webp",
     avatarName: "PAULO HUBERT",
     avatarDesignation: "New York, USA",
   },
@@ -167,17 +167,17 @@ const workingProcessData = [
 const blogData = [
   {
     title: "The Benefits of Mindfulness Meditation for Stress and Anxiety",
-    thumbUrl: "images/blog/rcu.webp",
+    thumbUrl: "images/blog/blog1.webp",
     date: "May 1, 2023",
   },
   {
     title: "Healthy Eating on a Budget: Tips and Strategies",
-    thumbUrl: "images/blog/hdu.webp",
+    thumbUrl: "images/blog/blog2.webp",
     date: "May 4, 2023",
   },
   {
     title: "The Importance of Regular Cancer Screenings and Early Detection",
-    thumbUrl: "images/blog/testimonial5.webp",
+    thumbUrl: "images/blog/blog3.webp",
     date: "May 1, 2023",
   },
 ];
@@ -291,7 +291,7 @@ export default function HomeStyle2() {
       <HeroStyle2
         title="Compassionate care, exceptional results."
         subTitle="Our team of experienced doctors and healthcare professionals are committed to providing quality care and personalized attention to our patients."
-        bgUrl="/images/home_2/bg.png"
+        bgUrl="/images/home_2/bg.webp"
         videoBtnText="See how we work"
         videoUrl="/public/images/home_2/herobanner.mp4"
         btnText="Paramount Hospital"
@@ -318,17 +318,24 @@ export default function HomeStyle2() {
           titleUp="ABOUT US"
           title="Paramount Hospital is a team of experienced medical professionals"
           subTitle="Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms."
-          imgUrl="/images/home_2/about.png"
+          imgUrl="/images/home_2/about.webp"
         />
       </Section>
 
-      <Section topMd={175} topLg={125} topXl={85} bottomMd={100} bottomLg={110} style={{
+      <Section
+        topMd={175}
+        topLg={125}
+        topXl={85}
+        bottomMd={100}
+        bottomLg={110}
+        style={{
           backgroundColor: "white",
           backgroundSize: "100vw",
-        }}>
+        }}
+      >
         <FeaturesSectionStyle2
           sectionTitle="Why Choose Us"
-          imgUrl="images/about/why_choose_us.jpg"
+          imgUrl="images/about/why_choose_us.webp"
           data={featureListData}
         />
       </Section>
@@ -339,13 +346,14 @@ export default function HomeStyle2() {
         style={{
           backgroundColor: "white",
         }}
-      ><Section topMd={200} topLg={150} topXl={110}>
-      <DepartmentSectionStyle2
-        sectionTitle="Our Best Services"
-        sectionTitleUp="SERVICES"
-        data={departmentData1}
-      />
-    </Section>
+      >
+        <Section topMd={200} topLg={150} topXl={110}>
+          <DepartmentSectionStyle2
+            sectionTitle="Our Best Services"
+            sectionTitleUp="SERVICES"
+            data={departmentData1}
+          />
+        </Section>
         <DepartmentSectionStyle4
           sectionTitle="For Your Health"
           sectionTitleUp="OUR DEPARTMENTS"
@@ -354,7 +362,7 @@ export default function HomeStyle2() {
       </Section>
       <Section
         className="cs_bg_filed"
-        style={{ backgroundImage: `url(/images/home_2/Testi-bg.png)` }}
+        style={{ backgroundImage: `url(/images/home_2/Testi-bg.webp)` }}
         topMd={190}
         topLg={145}
         topXl={105}
@@ -453,9 +461,8 @@ export default function HomeStyle2() {
         }}
       >
         <AppointmentSectionStyle2
-          bgUrl="/images/home_2/Testi-bg.png"
+          bgUrl="/images/home_2/Testi-bg.webp"
           sectionTitle="Book an Appointment"
-
         />
       </Section>
       {/* <Section

@@ -196,7 +196,7 @@ export default function Departments() {
   return (
     <>
       <BannerSectionStyle5
-        bgUrl="/images/departments/banner_bg.jpg"
+        bgUrl="/images/departments/banner_bg.webp"
 
         title="Get to Know <br>Paramount Hospital Departments"
         subTitle="At Paramount Hospital, we offer a wide range of medical and healthcare services that are designed to meet your individual needs and help you achieve optimal health."

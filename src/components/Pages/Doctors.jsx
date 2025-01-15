@@ -5,7 +5,7 @@ import Section from "../Section";
 import { pageTitle } from "../../helpers/PageTitle";
 const teamData = [
   {
-    imgUrl: "/images/doctors/AmalBasak.png",
+    imgUrl: "/images/doctors/AmalBasak.webp",
     department: "Orthopaedic & Joint Replacement Surgery",
     name: "Dr. Amal Basak, D.Ortho, MS",
     designation: "Senior Consultant Orthopaedic & Joint Replacement Surgeon",
@@ -20,7 +20,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SoutrikMukherjee.png",
+    imgUrl: "/images/doctors/SoutrikMukherjee.webp",
     department: "Orthopaedic & Joint Replacement Surgery",
     name: "Dr. Soutrik Mujherjee, MS",
     designation: "Consultant Orthopaedic & Joint Replacement Surgeon",
@@ -35,7 +35,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/AmalBasak.png",
+    imgUrl: "/images/doctors/AmalBasak.webp",
     department: "Spine Surgery",
     name: "Dr. Amal Basak, D.Ortho, MS",
     designation: "Senior Consultant Spine Surgeon",
@@ -50,7 +50,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SajalBiswas.png",
+    imgUrl: "/images/doctors/SajalBiswas.webp",
     department: "Neurosurgery",
     name: "Dr.Sajal Biswas, MS. MCh.",
     designation: "Senior Consultant Neurosurgeon",
@@ -65,7 +65,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SajalBiswas.png",
+    imgUrl: "/images/doctors/SajalBiswas.webp",
     department: "Spine Surgery",
     name: "Dr.Sajal Biswas, MS. MCh.",
     designation: "Senior Consultant Spine Surgeon",
@@ -80,7 +80,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SoutrikMukherjee.png",
+    imgUrl: "/images/doctors/SoutrikMukherjee.webp",
     department: "Spine Surgery",
     name: "Dr. Soutrik Mujherjee, MS",
     designation: "Consultant Spine Surgeon",
@@ -95,7 +95,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/VivekSarkar.png",
+    imgUrl: "/images/doctors/VivekSarkar.webp",
     department: "Laparoscopic & General Surgery",
     name: "Dr. Vivek Sarkar, MS",
     designation: "Senior Consultant Laparoscopic and General surgeon",
@@ -110,7 +110,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/JameezulIrfan.png",
+    imgUrl: "/images/doctors/JameezulIrfan.webp",
     department: "Laparoscopic & General Surgery",
     name: "Dr. J Jameezul Irfan, MS",
     designation: "Consultant Laparoscopic and General surgeon",
@@ -125,7 +125,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/ArabindaSaha.png",
+    imgUrl: "/images/doctors/ArabindaSaha.webp",
     department: "Cardiology",
     name: "Dr. Arabinda Saha, MD, DM",
     designation: "Consultant Interventional Cardiologist",
@@ -140,7 +140,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/BarunKumar.png",
+    imgUrl: "/images/doctors/BarunKumar.webp",
     department: "Gastrointestinal Surgery",
     name: "Dr. Barun Kumar Singh, Ms, DrNB",
     designation: "Consultant Gastrointestinal Surgeon",
@@ -155,7 +155,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/AlokeSinha.png",
+    imgUrl: "/images/doctors/AlokeSinha.webp",
     department: "Paediatric & Neonatal Surgery",
     name: "Dr.Aloke Sinha Babu, MS, MCh",
     designation: "Consultant Paediatric & Neonatal Surgeon",
@@ -170,7 +170,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/JameezulIrfan.png",
+    imgUrl: "/images/doctors/JameezulIrfan.webp",
     department: "Paediatric & Neonatal Surgery",
     name: "Dr. J Jameezul Irfan, MS",
     designation: "Consultant Paediatric & Neonatal Surgeon",
@@ -186,7 +186,7 @@ const teamData = [
 
   },
   {
-    imgUrl: "/images/doctors/VivekSarkar.png",
+    imgUrl: "/images/doctors/VivekSarkar.webp",
     department: "Paediatric & Neonatal Surgery",
     name: "Dr. Vivek Sarkar, MS",
     designation: "Consultant Paediatric & Neonatal Surgeon",
@@ -201,7 +201,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/IndranilSen.png",
+    imgUrl: "/images/doctors/IndranilSen.webp",
     department: "Cardiology",
     name: "Dr. Indranil Sen, MD, DNB",
     designation: "Consultant Interventional Cardiologist",
@@ -216,7 +216,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/ManojKumar.png",
+    imgUrl: "/images/doctors/ManojKumar.webp",
     department: "Plastic Cosmetic & Reconstructive Surgery",
     name: "Dr. Manoj Kumar Singh, MS, MCh",
     designation: "Consultant Plastic Cosmetic & Reconstructive Surgeon",
@@ -231,7 +231,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/KundanKumar.png",
+    imgUrl: "/images/doctors/KundanKumar.webp",
     department: "Urology",
     name: "Dr. Kundaan Kumar, MS, MCh",
     designation: "Consultant Urologist",
@@ -246,7 +246,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/MKDas.png",
+    imgUrl: "/images/doctors/MKDas.webp",
     department: "Internal Medicine",
     name: "Dr.M K Das, MD",
     designation: "Consultant General Physician",
@@ -261,7 +261,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/NRHalder.png",
+    imgUrl: "/images/doctors/NRHalder.webp",
     department: "Neurology",
     name: "Dr. N R Halder, MD, DM",
     designation: "Consultant Neurologist",
@@ -276,7 +276,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/PenzimBhutiya.png",
+    imgUrl: "/images/doctors/PenzimBhutiya.webp",
     department: "Laparoscopic & General Surgery",
     name: "Dr. Penzim D Bhutiya, MS",
     designation: "Consultant Laparoscopic & General Surgeon",
@@ -291,7 +291,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/PBera.png",
+    imgUrl: "/images/doctors/PBera.webp",
     department: "Pathology & Microbiology",
     name: "Dr. P Bera, MD",
     designation: "Consultant Pathologist & Microbiologist",
@@ -306,7 +306,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/PrabhatRanjan.png",
+    imgUrl: "/images/doctors/PrabhatRanjan.webp",
     department: "Gastroenterology & Hepatology",
     name: "Dr. Prabhat Ranjan, MD, DM",
     designation: "Consultant Gastroenterologist & Hepatologist",
@@ -321,7 +321,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/RajivAgarwa.png",
+    imgUrl: "/images/doctors/RajivAgarwa.webp",
     department: "Paediatrics & Neonatology",
     name: "Dr. Rajiv Agarwal, MD",
     designation: "Consultant Paediatrics & Neonatologist ",
@@ -336,7 +336,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/PunamSarkar.png",
+    imgUrl: "/images/doctors/PunamSarkar.webp",
     department: "Obstetrics & Gynaecology",
     name: "Dr. Punam Sarkar, MS",
     designation: "Consultant  Obstetrics & Gynaecologist",
@@ -351,7 +351,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/RanjanPal.png",
+    imgUrl: "/images/doctors/RanjanPal.webp",
     department: "Obstetrics & Gynaecology",
     name: "Dr. Ranjan Pal, MD",
     designation: "Consultant  Obstetrics & Gynaecologist",
@@ -366,7 +366,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SandeepGhosh.png",
+    imgUrl: "/images/doctors/SandeepGhosh.webp",
     department: "Otorhinolaryngology (ENT)",
     name: "Dr. Sandeep Ghosh, MS",
     designation: "Consultant  Otorhinolaryngologist (ENT)",
@@ -381,7 +381,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SantanuHazra.png",
+    imgUrl: "/images/doctors/SantanuHazra.webp",
     department: "Pathology & Microbiology",
     name: "Dr. Santanu Hazra, MD",
     designation: "Pathologist & Microbiologist",
@@ -396,7 +396,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SoumyaGhosh.png",
+    imgUrl: "/images/doctors/SoumyaGhosh.webp",
     department: "Internal Medicine",
     name: "Dr. Soumya Ghosh, MD",
     designation: "Consultant General Physician",
@@ -411,7 +411,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/VikrantDeshmukh.png",
+    imgUrl: "/images/doctors/VikrantDeshmukh.webp",
     department: "Nephrology",
     name: "Dr. Vikrant Deshmukh, DNB",
     designation: "Consultant Nephrologist",
@@ -426,7 +426,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SChaterjee.png",
+    imgUrl: "/images/doctors/SChaterjee.webp",
     department: "Anaesthesiology & Intensive Care",
     name: "Dr. S Chatterjee, MD",
     designation: "Consultant in Anaesthesiology & Intensive Care",
@@ -441,7 +441,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/ShantanuDe.png",
+    imgUrl: "/images/doctors/ShantanuDe.webp",
     department: "Neuropsychiatry",
     name: "Dr.Shantanu De, MD",
     designation: "Consultant  Neuropsychiatrist",
@@ -456,7 +456,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SKKhutia.png",
+    imgUrl: "/images/doctors/SKKhutia.webp",
     department: "Pain Medicine",
     name: "Dr.S K Khutia, MD, FIPM",
     designation: "Consultant in Pain Medicine",
@@ -471,7 +471,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SoumyaGayen.png",
+    imgUrl: "/images/doctors/SoumyaGayen.webp",
     department: "Plastic Cosmetic & Reconstructive Surgery",
     name: "Dr. Soumya Gayen, MS, MCh",
     designation: "Consultant Plastic Cosmetic & Reconstructive Surgeon",
@@ -486,7 +486,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/PenzimBhutiya.png",
+    imgUrl: "/images/doctors/PenzimBhutiya.webp",
     department: "Plastic Cosmetic & Reconstructive Surgery",
     name: "Dr. Penzim D Bhutiya, MS",
     designation: "Consultant Plastic Cosmetic & Reconstructive Surgeon",
@@ -501,7 +501,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/SoumyaGhosh.png",
+    imgUrl: "/images/doctors/SoumyaGhosh.webp",
     department: "Pulmonology",
     name: "Dr. Soumya Ghosh, MD",
     designation: "Consultant Pulmonologist",
@@ -516,7 +516,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   // {
-  //   imgUrl     : "/images/doctors/SurajitPaul.png",
+  //   imgUrl     : "/images/doctors/SurajitPaul.webp",
   //   department : "Urology",
   //   name       : "Dr. Surajit Paul, MS, MCh",
   //   designation: "Consultant Urologist",
@@ -531,7 +531,7 @@ const teamData = [
   //   href    : "/doctors/doctor-details",
   // },
   //  {
-  //   imgUrl: "/images/doctors/BiswajeetDutta.png",
+  //   imgUrl: "/images/doctors/BiswajeetDutta.webp",
   //   department: "Urology",
   //   name: "Dr. Biswajit Dutta, MS, MCh",
   //   designation: "Consultant Urologist",
@@ -546,7 +546,7 @@ const teamData = [
   //   href: "/doctors/doctor-details",
   // },
   {
-    imgUrl: "/images/doctors/ParthaPratim.png",
+    imgUrl: "/images/doctors/ParthaPratim.webp",
     department: "Otorhinolaryngology (ENT)",
     name: "Dr. partha Pratim Saha, MS",
     designation: "Consultant Otorhinolaryngologist",
@@ -561,7 +561,7 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/RajarshiKumar.png",
+    imgUrl: "/images/doctors/RajarshiKumar.webp",
     department: "Paediatrics & Neonatal Surgery",
     name: "Dr. Rajarshi Kumar, MS,MCh",
     designation: "Consultant Paediatrics & Neonatal Surgeon",
@@ -577,7 +577,7 @@ const teamData = [
   },
 
   {
-    imgUrl: "/images/doctors/MukeshChhetri.png",
+    imgUrl: "/images/doctors/MukeshChhetri.webp",
     department: "Oral & Maxillofacial Surgery & Dentistry",
     name: "Dr.Mukesh Chhetri, BDS",
     designation: "Consultant Oral & Maxillofacial Surgeon & Dentist",
@@ -598,7 +598,7 @@ export default function Doctors() {
   return (
     <>
       <BannerSectionStyle5
-        bgUrl="/images/doctors/Testi-bg.png"
+        bgUrl="/images/doctors/Testi-bg.webp"
         title="Introduce You to <br />Our Experts"
         subTitle="The list of certified doctors with years of <br />professional experiences"
       />
@@ -610,7 +610,8 @@ export default function Doctors() {
           bgUrl="images/doctors/banner_img.JPG"
           title="Don’t Let Your Health <br />Take a Backseat!"
           subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
-        />
+        > </BannerSectionStyle4>
+
       </Section>
     </>
   );
