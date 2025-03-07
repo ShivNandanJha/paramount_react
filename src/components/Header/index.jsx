@@ -33,10 +33,10 @@ export default function Header({ logoSrc, LgLogoSrc, variant }) {
     marginTop: "5px",
   };
 
-  // Header styles
-  const headerStyle = {
-    backgroundColor: "white",
-  };
+  // // Header styles
+  // const headerStyle = {
+  //   backgroundColor: "white",
+  // };
 
   const [isSticky, setIsSticky] = useState(false);
   const [mobileToggle, setMobileToggle] = useState(false);

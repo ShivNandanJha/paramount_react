@@ -4,7 +4,6 @@ import Section from "../Section";
 import DepartmentSectionStyle2 from "../Section/DepartmentSection/DepartmentSectionStyle2";
 import FeaturesSectionStyle2 from "../Section/FeaturesSection/FeaturesSectionStyle2";
 import FunFactSection from "../Section/FunFactSection";
-
 import GallerySection from "../Section/GallerySection";
 import AwardSectionStyle2 from "../Section/AwardSection/AwardSectionStyle2";
 import { pageTitle } from "../../helpers/PageTitle";

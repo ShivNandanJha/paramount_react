@@ -1,12 +1,12 @@
-import BannerSectionStyle7 from "../Section/BannerSection/BannerSectionStyle7";
+import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 import Section from "../Section";
-import AppointmentSection from "../Section/AppointmentSection";
+import AppointmentSectionStyle2 from "../Section/AppointmentSection";
 import BreadcrumbStyle2 from "../Breadcrumb/BreadcrumbStyle2";
 import AboutSectionStyle2 from "../Section/AboutSection/AboutSectionStyle2";
 import FeaturesSectionStyle3 from "../Section/FeaturesSection/FeaturesSectionStyle5";
 import TeamSectionStyle3 from "../Section/TeamSection/TeamSectionStyle3";
 import { pageTitle } from "../../helpers/PageTitle";
-
+import img from "../../assets/neurosurgery.jpg";
 const featureData = [
   {
     title: "Vaccinations Department",
@@ -57,17 +57,7 @@ const doctorData = [
     btnText: "Booking",
     btnUrl: "/appointments",
   },
-  {
-    imgUrl: "/images/doctors/DeepakTomar.webp",
-    name: "Dr. Deepak Tomar, MD, DM",
-    designation: "Consultant Cardiologist",
-    description: "",
-    social: [],
-    availableUrl: "10 AM - 08 PM",
-
-    btnText: "Booking",
-    btnUrl: "/appointments",
-  },
+ 
 ];
 
 export default function Cardiology() {
@@ -90,6 +80,41 @@ export default function Cardiology() {
           data={featureData}
         />
       </Section>
+      <Section topMd     = {200} topLg = {150} topXl = {100}>
+      <div     className = "row cs_dept_blog">
+      <div     className = "col-lg-8">
+      <div     className = "cs_blog_details">
+              <h1>
+                Excellence in Cardiac Care at Paramount Hospital <br />{" "}
+              </h1>
+              <p>
+                The Cardiology department at Paramount Hospital is committed to providing specialized care for patients with heart diseases and related conditions. From managing high blood pressure to treating complex cardiovascular disorders, we employ state-of-the-art diagnostic and therapeutic techniques to ensure the best outcomes for our patients.
+              </p>
+              <h2>Advanced Diagnostic and Treatment Technologies</h2>
+              <p>
+                Paramount Hospital&apos;s Cardiology department is equipped with modern diagnostic tools such as echocardiograms, electrocardiograms (ECGs), stress tests, and cardiac catheterization labs. These cutting-edge technologies allow us to detect heart conditions at an early stage and provide precise, effective treatment plans.
+              </p>
+              <h2>Expert Cardiologists Providing Personalized Care</h2>
+              <p>
+                Our highly experienced cardiologists specialize in diagnosing and treating a wide range of heart conditions, including coronary artery disease, heart failure, arrhythmias, and valvular heart diseases. We adopt a patient-focused approach, ensuring that each treatment plan is tailored to the individual&apos;s unique health needs.
+              </p>
+              <h2>Preventive Cardiology for Long-Term Heart Health</h2>
+              <p>
+                At Paramount Hospital, we emphasize preventive cardiology to help patients reduce their risk of heart disease. Through lifestyle modification programs, dietary guidance, and risk assessment screenings, we aim to promote heart health and prevent cardiovascular complications before they arise.
+              </p>
+              <blockquote
+                style={{
+                  backgroundImage: `url(${img})`,
+                }}
+              >
+                <p>
+                  “At Paramount Hospital, we are dedicated to ensuring that every patient receives world-class cardiac care, improving both longevity and quality of life.”
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </Section>
       <Section topMd={200} topLg={150} topXl={100}>
         <TeamSectionStyle3 sectionTitle="Related Doctor" data={doctorData} />
       </Section>
@@ -103,20 +128,22 @@ export default function Cardiology() {
         bottomLg={145}
         bottomXl={110}
         id="appointment"
+        style={{
+          backgroundColor: "white",
+        }}
       >
-        <AppointmentSection
-          sectionTitle="Appointment"
-          sectionTitleUp="BOOK AN"
-          imgUrl="/images/departments/appointment.JPG"
+        <AppointmentSectionStyle2
+          bgUrl="/images/home_2/Testi-bg.webp"
+          sectionTitle="Book an Appointment"
         />
       </Section>
       {/* End Appointment Section */}
+
       <Section className="cs_footer_margin_0">
-        <BannerSectionStyle7
-          imgUrl="/images/departments/banner_img_3.webp"
-          bgUrl="/images/departments/banner_bg_3.svg"
-          title="Don’t Let Your Health <br />Take a Backseat!"
-          subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
+        <BannerSectionStyle4
+          bgUrl="/images/departments/banner_img.webp"
+          title="Take Charge of Your Hormonal Health!"
+          subTitle="Consult with our expert endocrinologists for personalized treatment and long-term well-being."
         />
       </Section>
     </>

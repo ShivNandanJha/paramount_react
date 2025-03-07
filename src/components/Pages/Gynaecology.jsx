@@ -1,6 +1,6 @@
 import BannerSectionStyle7 from "../Section/BannerSection/BannerSectionStyle7";
 import Section from "../Section";
-import AppointmentSection from "../Section/AppointmentSection";
+import AppointmentSectionStyle2 from "../Section/AppointmentSection";
 import BreadcrumbStyle2 from "../Breadcrumb/BreadcrumbStyle2";
 import AboutSectionStyle2 from "../Section/AboutSection/AboutSectionStyle2";
 import FeaturesSectionStyle3 from "../Section/FeaturesSection/FeaturesSectionStyle5";
@@ -154,27 +154,29 @@ export default function Gynaecology() {
 
       {/* Start Appointment Section */}
       <Section
-        topMd={190}
-        topLg={145}
-        topXl={105}
-        bottomMd={190}
-        bottomLg={145}
-        bottomXl={110}
-        id="appointment"
-      >
-        <AppointmentSection
-          sectionTitle="Appointment"
-          sectionTitleUp="BOOK AN"
-          imgUrl="/images/departments/appointment.JPG"
-        />
-      </Section>
+        topMd    = {190}
+        topLg    = {145}
+        topXl    = {105}
+        bottomMd = {190}
+        bottomLg = {145}
+        bottomXl = {110}
+        id       = "appointment"
+        style    = {{
+               backgroundColor: "white",
+             }}
+           >
+             <AppointmentSectionStyle2
+               bgUrl        = "/images/home_2/Testi-bg.webp"
+               sectionTitle = "Book an Appointment"
+             />
+           </Section>
       {/* End Appointment Section */}
-      <Section className="cs_footer_margin_0">
+      <Section className = "cs_footer_margin_0">
         <BannerSectionStyle7
-          imgUrl="/images/departments/banner_img_3.webp"
-          bgUrl="/images/departments/banner_bg_3.svg"
-          title="Don’t Let Your Health <br />Take a Backseat!"
-          subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
+          imgUrl   = "/images/departments/banner_img_3.webp"
+          bgUrl    = "/images/departments/banner_bg_3.svg"
+          title    = "Don’t Let Your Health <br />Take a Backseat!"
+          subTitle = "Schedule an appointment with one of our experienced <br />medical professionals today!"
         />
       </Section>
     </>

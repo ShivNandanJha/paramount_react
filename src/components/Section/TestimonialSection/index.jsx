@@ -1,18 +1,20 @@
 import React from 'react';
-import SectionHeading from '../../SectionHeading';
 import Spacing from '../../Spacing';
-import Testimonial from '../../Testimonial';
+import SectionHeading from '../../SectionHeading';
+import TestimonialCarousel from '../../Slider/TestimonialCarousel';
 
-export default function TestimonialSection({ sectionTitle, sectionTitleDown }) {
+export default function TestimonialSectionStyle2({
+  sectionTitle,
+  sectionTitleUp,
+  data,
+}) {
   return (
     <div className="container">
-      <SectionHeading
-        title={sectionTitle}
-        titleDown={sectionTitleDown}
-        center
-      />
-      <Spacing md="72" lg="50" />
-      <Testimonial />
+      <div className="position-relative">
+        <SectionHeading title={sectionTitle} titleUp={sectionTitleUp} />
+        <Spacing md="72" lg="50" />
+        <TestimonialCarousel data={data} />
+      </div>
     </div>
   );
 }

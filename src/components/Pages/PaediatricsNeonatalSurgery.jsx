@@ -1,6 +1,6 @@
-import BannerSectionStyle7 from "../Section/BannerSection/BannerSectionStyle7";
+import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 import Section from "../Section";
-import AppointmentSection from "../Section/AppointmentSection";
+import AppointmentSectionStyle2 from "../Section/AppointmentSection";
 import BreadcrumbStyle2 from "../Breadcrumb/BreadcrumbStyle2";
 import AboutSectionStyle2 from "../Section/AboutSection/AboutSectionStyle2";
 import FeaturesSectionStyle3 from "../Section/FeaturesSection/FeaturesSectionStyle5";
@@ -47,28 +47,7 @@ const doctorData = [
     btnText: "Booking",
     btnUrl: "/appointments",
   },
-  {
-    imgUrl: "/images/doctors/AlokeSinha.webp",
-    name: "Dr. Aloke Sinha Babu, MS, Mch",
-    designation: "Consultant Paeditrics & Neonatal Surgeon",
-    description: "",
-    social: [],
-    availableUrl: " 08 AM - 10 AM & 3 PM - 05 PM",
 
-    btnText: "Booking",
-    btnUrl: "/appointments",
-  },
-  {
-    imgUrl: "/images/doctors/RajarshiKumar.webp",
-    name: "Dr. Rajarshi Kumar , MS, MCh",
-    designation: "Consultant Paeditrics & Neonatal Surgeon",
-    description: "",
-    social: [],
-    availableUrl: "09 AM - 11 AM & 04 PM - 07 PM",
-
-    btnText: "Booking",
-    btnUrl: "/appointments",
-  },
 
   {
     imgUrl: "/images/doctors/JameezulIrfan.webp",
@@ -90,9 +69,9 @@ export default function Paeditrics_Surgery() {
       <BreadcrumbStyle2 />
       <Section topMd={135} topLg={100} topXl={100}>
         <AboutSectionStyle2
-          title="Paediatrics & Neonatal Surgery"
-          subTitle="Paramount Hospital's pediatric department is driven by a profound understanding that children are not just small adults. Pediatric surgery, especially neonatal surgery, requires a special set of skills and an environment tailored to the unique needs of young patients. At Paramount Hospital, children and neonates receive the care, attention, and specialized treatment they deserve. "
-          imgUrl="/images/departments/paediatrics.jpg"
+          title    = "Paediatrics & Neonatal Surgery"
+          subTitle = "Paramount Hospital's pediatric department is driven by a profound understanding that children are not just small adults. Pediatric surgery, especially neonatal surgery, requires a special set of skills and an environment tailored to the unique needs of young patients. At Paramount Hospital, children and neonates receive the care, attention, and specialized treatment they deserve. "
+          imgUrl   = "/images/departments/paediatrics.webp"
         />
       </Section>
 
@@ -159,31 +138,33 @@ export default function Paeditrics_Surgery() {
         <TeamSectionStyle3 sectionTitle="Related Doctor" data={doctorData} />
       </Section>
 
-      {/* Start Appointment Section */}
-      <Section
-        topMd={190}
-        topLg={145}
-        topXl={105}
-        bottomMd={190}
-        bottomLg={145}
-        bottomXl={110}
-        id="appointment"
-      >
-        <AppointmentSection
-          sectionTitle="Appointment"
-          sectionTitleUp="BOOK AN"
-          imgUrl="/images/departments/appointment.JPG"
-        />
-      </Section>
-      {/* End Appointment Section */}
-      <Section className="cs_footer_margin_0">
-        <BannerSectionStyle7
-          imgUrl="/images/departments/banner_img3.JPG"
-          bgUrl="/images/departments/banner_bg_3.svg"
-          title="Don’t Let Your Health <br />Take a Backseat!"
-          subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
-        />
-      </Section>
+         {/* Start Appointment Section */}
+            <Section
+              topMd    = {190}
+              topLg    = {145}
+              topXl    = {105}
+              bottomMd = {190}
+              bottomLg = {145}
+              bottomXl = {110}
+              id       = "appointment"
+              style    = {{
+                backgroundColor: "white",
+              }}
+            >
+              <AppointmentSectionStyle2
+                bgUrl        = "/images/home_2/Testi-bg.webp"
+                sectionTitle = "Book an Appointment"
+              />
+            </Section>
+            {/* End Appointment Section */}
+
+            <Section className = "cs_footer_margin_0">
+              <BannerSectionStyle4
+                bgUrl    = "/images/departments/banner_img.webp"
+                title    = "Breathe Easy with Expert Pulmonary Care!"
+                subTitle = "Schedule an appointment with our pulmonologists for personalized respiratory treatment."
+              />
+            </Section>
     </>
   );
 }

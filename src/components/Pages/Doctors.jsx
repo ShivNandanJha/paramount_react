@@ -155,21 +155,6 @@ const teamData = [
     href: "/doctors/doctor-details",
   },
   {
-    imgUrl: "/images/doctors/AlokeSinha.webp",
-    department: "Paediatric & Neonatal Surgery",
-    name: "Dr.Aloke Sinha Babu, MS, MCh",
-    designation: "Consultant Paediatric & Neonatal Surgeon",
-    description:
-      "Pediatric and neonatal surgery focuses on surgical care for infants, children, and newborns. It addresses congenital anomalies, traumas, and other conditions, aiming to improve health and development in young patients.",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Paediatric & Neonatal Surgery",
-    href: "/doctors/doctor-details",
-  },
-  {
     imgUrl: "/images/doctors/JameezulIrfan.webp",
     department: "Paediatric & Neonatal Surgery",
     name: "Dr. J Jameezul Irfan, MS",
@@ -215,21 +200,7 @@ const teamData = [
     category: "Cardiology",
     href: "/doctors/doctor-details",
   },
-  {
-    imgUrl: "/images/doctors/ManojKumar.webp",
-    department: "Plastic Cosmetic & Reconstructive Surgery",
-    name: "Dr. Manoj Kumar Singh, MS, MCh",
-    designation: "Consultant Plastic Cosmetic & Reconstructive Surgeon",
-    description:
-      "Dr. Manoj Kumar Singh possesses extensive expertise and experience in the intricate art of restoring form and function to the human body....",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Plastic Cosmetic & Reconstructive Surgery",
-    href: "/doctors/doctor-details",
-  },
+
   {
     imgUrl: "/images/doctors/KundanKumar.webp",
     department: "Urology",
@@ -275,21 +246,7 @@ const teamData = [
     category: "Neurology",
     href: "/doctors/doctor-details",
   },
-  {
-    imgUrl: "/images/doctors/PenzimBhutiya.webp",
-    department: "Laparoscopic & General Surgery",
-    name: "Dr. Penzim D Bhutiya, MS",
-    designation: "Consultant Laparoscopic & General Surgeon",
-    description:
-      "Dr. Penzim D. Bhutia (MS) is a distinguished Consultant Orthopaedic and Joint Replacement Surgeon with extensive expertise in the field of orthopaedics. With a commitment to excellence ...",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Laparoscopic & General Surgery",
-    href: "/doctors/doctor-details",
-  },
+
   {
     imgUrl: "/images/doctors/PBera.webp",
     department: "Pathology & Microbiology",
@@ -335,21 +292,7 @@ const teamData = [
     category: "Paediatrics & Neonatology",
     href: "/doctors/doctor-details",
   },
-  {
-    imgUrl: "/images/doctors/PunamSarkar.webp",
-    department: "Obstetrics & Gynaecology",
-    name: "Dr. Punam Sarkar, MS",
-    designation: "Consultant  Obstetrics & Gynaecologist",
-    description:
-      "Dr. Punam Sarkar is a highly skilled Consultant in Obstetrics and Gynecology, offering comprehensive care for women across all stages of life. With her extensive expertise in managing..",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Obstetrics & Gynaecology",
-    href: "/doctors/doctor-details",
-  },
+
   {
     imgUrl: "/images/doctors/RanjanPal.webp",
     department: "Obstetrics & Gynaecology",
@@ -365,36 +308,7 @@ const teamData = [
     category: "Obstetrics & Gynaecology",
     href: "/doctors/doctor-details",
   },
-  {
-    imgUrl: "/images/doctors/SandeepGhosh.webp",
-    department: "Otorhinolaryngology (ENT)",
-    name: "Dr. Sandeep Ghosh, MS",
-    designation: "Consultant  Otorhinolaryngologist (ENT)",
-    description:
-      "Dr. Sandeep Ghosh, holding an MS degree, is a highly skilled consultant in Otorhinolaryngology (ENT). With a profound understanding of the intricate structures of the ear, nose, and throat, Dr. Ghosh is committed to providing top-notch medical care. ",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Otorhinolaryngology (ENT)",
-    href: "/doctors/doctor-details",
-  },
-  {
-    imgUrl: "/images/doctors/SantanuHazra.webp",
-    department: "Pathology & Microbiology",
-    name: "Dr. Santanu Hazra, MD",
-    designation: "Pathologist & Microbiologist",
-    description:
-      "Dr. Santanu Hazra is an accomplished medical professional with an MD degree. He specializes in the fields of Pathology and Microbiology, bringing a wealth of knowledge and expertise to his practice. Dr. Hazra plays a crucial role in diagnosing and understanding various diseases ... ",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Pathology & Microbiology",
-    href: "/doctors/doctor-details",
-  },
+
   {
     imgUrl: "/images/doctors/SoumyaGhosh.webp",
     department: "Internal Medicine",
@@ -440,66 +354,7 @@ const teamData = [
     category: "Anaesthesiology & Intensive Care",
     href: "/doctors/doctor-details",
   },
-  {
-    imgUrl: "/images/doctors/ShantanuDe.webp",
-    department: "Neuropsychiatry",
-    name: "Dr.Shantanu De, MD",
-    designation: "Consultant  Neuropsychiatrist",
-    description:
-      "Dr. Chen is a skilled psychiatrist with expertise in the treatment of mood disorders and psychotic disorders. She is board-certified in psychiatry and has a special interest in the management.",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Neuropsychiatry",
-    href: "/doctors/doctor-details",
-  },
-  {
-    imgUrl: "/images/doctors/SKKhutia.webp",
-    department: "Pain Medicine",
-    name: "Dr.S K Khutia, MD, FIPM",
-    designation: "Consultant in Pain Medicine",
-    description:
-      "Dr. S.K. Khutia, MD, FIPM, is a medical professional with expertise in the field of Pain Medicine. Pain Medicine is a medical specialty that focuses on the diagnosis, treatment, and management of chronic... ",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Pain Medicine",
-    href: "/doctors/doctor-details",
-  },
-  {
-    imgUrl: "/images/doctors/SoumyaGayen.webp",
-    department: "Plastic Cosmetic & Reconstructive Surgery",
-    name: "Dr. Soumya Gayen, MS, MCh",
-    designation: "Consultant Plastic Cosmetic & Reconstructive Surgeon",
-    description:
-      "Dr. Soumya Gayen (MS, MCh) is a distinguished Consultant Plastic, Cosmetic, and Reconstructive Surgeon...",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Plastic Cosmetic & Reconstructive Surgery",
-    href: "/doctors/doctor-details",
-  },
-  {
-    imgUrl: "/images/doctors/PenzimBhutiya.webp",
-    department: "Plastic Cosmetic & Reconstructive Surgery",
-    name: "Dr. Penzim D Bhutiya, MS",
-    designation: "Consultant Plastic Cosmetic & Reconstructive Surgeon",
-    description:
-      "Dr. Penzim D. Bhutia is a renowned Consultant Plastic, Cosmetic, and Reconstructive Surgeon, specializing in a wide range of procedures designed to enhance both aesthetic appearance ...",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Plastic Cosmetic & Reconstructive Surgery",
-    href: "/doctors/doctor-details",
-  },
+
   {
     imgUrl: "/images/doctors/SoumyaGhosh.webp",
     department: "Pulmonology",
@@ -515,36 +370,6 @@ const teamData = [
     category: "Pulmonology",
     href: "/doctors/doctor-details",
   },
-  // {
-  //   imgUrl     : "/images/doctors/SurajitPaul.webp",
-  //   department : "Urology",
-  //   name       : "Dr. Surajit Paul, MS, MCh",
-  //   designation: "Consultant Urologist",
-  //   description:
-  //     "Dr. Suraji Paul (MS, MCh) is a highly respected Consultant Urologist with extensive expertise in diagnosing and treating a wide range of urological conditions. With advanced qualifications and a deep commitment to patient care...",
-  //   social: [
-  //     { icon: "fa6-brands:facebook-f", href: "/about" },
-  //     { icon: "fa6-brands:linkedin-in", href: "/about" },
-  //     { icon: "fa6-brands:twitter", href: "/about" },
-  //   ],
-  //   category: "Urology",
-  //   href    : "/doctors/doctor-details",
-  // },
-  //  {
-  //   imgUrl: "/images/doctors/BiswajeetDutta.webp",
-  //   department: "Urology",
-  //   name: "Dr. Biswajit Dutta, MS, MCh",
-  //   designation: "Consultant Urologist",
-  //   description:
-  //     "Dr. Biswajeet Dutta is a distinguished Consultant in Urology, specializing in the diagnosis and treatment of conditions affecting the urinary tract and male reproductive system. With a wealth of...",
-  //   social: [
-  //     { icon: "fa6-brands:facebook-f", href: "/about" },
-  //     { icon: "fa6-brands:linkedin-in", href: "/about" },
-  //     { icon: "fa6-brands:twitter", href: "/about" },
-  //   ],
-  //   category: "Urology",
-  //   href: "/doctors/doctor-details",
-  // },
   {
     imgUrl: "/images/doctors/ParthaPratim.webp",
     department: "Otorhinolaryngology (ENT)",
@@ -558,21 +383,6 @@ const teamData = [
       { icon: "fa6-brands:twitter", href: "/about" },
     ],
     category: "Otorhinolaryngology (ENT)",
-    href: "/doctors/doctor-details",
-  },
-  {
-    imgUrl: "/images/doctors/RajarshiKumar.webp",
-    department: "Paediatrics & Neonatal Surgery",
-    name: "Dr. Rajarshi Kumar, MS,MCh",
-    designation: "Consultant Paediatrics & Neonatal Surgeon",
-    description:
-      "Dr. Rajarshi Kumar is a distinguished Consultant in Pediatric and Neonatal Surgery, specializing in the surgical management of infants, children, and newborns. With extensive training and...",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
-    category: "Paediatric & Neonatal Surgery",
     href: "/doctors/doctor-details",
   },
 
@@ -607,7 +417,7 @@ export default function Doctors() {
       </Section>
       <Section className="cs_footer_margin_0">
         <BannerSectionStyle4
-          bgUrl="images/doctors/banner_img.JPG"
+          bgUrl="/images/departments/banner_img.webp"
           title="Don’t Let Your Health <br />Take a Backseat!"
           subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
         > </BannerSectionStyle4>

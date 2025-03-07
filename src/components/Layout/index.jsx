@@ -1,6 +1,6 @@
 
 import { Outlet } from 'react-router-dom';
-import FooterStyle4 from '../Footer/FooterStyle4';
+import FooterStyle4 from '../Footer/index';
 import Header from '../Header';
 import ScrollToTop from '../ScrollToTop';
 

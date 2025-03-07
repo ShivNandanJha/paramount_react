@@ -1,10 +1,9 @@
 import DepartmentSectionStyle4 from "../Section/DepartmentSection/DepartmentSectionStyle4";
-import BannerSectionStyle7 from "../Section/BannerSection/BannerSectionStyle7";
+import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 import Section from "../Section";
-import AppointmentSection from "../Section/AppointmentSection";
+import AppointmentSectionStyle2 from "../Section/AppointmentSection";
 import BreadcrumbStyle2 from "../Breadcrumb/BreadcrumbStyle2";
 import AboutSectionStyle2 from "../Section/AboutSection/AboutSectionStyle2";
-import FeaturesSectionStyle3 from "../Section/FeaturesSection/FeaturesSectionStyle5";
 import TeamSectionStyle3 from "../Section/TeamSection/TeamSectionStyle3";
 import { pageTitle } from "../../helpers/PageTitle";
 import img from "../../assets/neurosurgery.jpg";
@@ -56,32 +55,6 @@ const departmentData = [
     href: "/departments/department-details",
   },
 ];
-const featureData = [
-  {
-    title: "Obstetrics and Gynaecology",
-    subTitle:
-      "Our Obstetrics and Gynaecology department offers comprehensive care for women’s health, including prenatal care, childbirth, and management of gynecological conditions. Our expert team provides personalized care to support women through all stages of life.",
-    iconUrl: "/images/departments/icon_9.svg",
-  },
-  {
-    title: "Prenatal and Maternity Care",
-    subTitle:
-      "We provide expert prenatal and maternity care, ensuring the health and well-being of both mother and baby throughout pregnancy and delivery. Our services include routine check-ups, labor and delivery support, and postpartum care.",
-    iconUrl: "/images/departments/icon_10.svg",
-  },
-  {
-    title: "Gynecological Surgery",
-    subTitle:
-      "Our department offers a range of gynecological surgeries for conditions such as fibroids, endometriosis, and ovarian cysts. We use minimally invasive techniques whenever possible to reduce recovery times and improve patient outcomes.",
-    iconUrl: "/images/departments/icon_11.svg",
-  },
-  {
-    title: "Menopause Management",
-    subTitle:
-      "We provide specialized care for women experiencing menopause, including hormone replacement therapy and lifestyle counseling. Our goal is to manage symptoms effectively and support overall health during this transition.",
-    iconUrl: "/images/departments/icon_12.svg",
-  },
-];
 
 const doctorData = [
   {
@@ -110,13 +83,13 @@ export default function Radiology() {
         />
       </Section>
 
-      <Section topMd={170} topLg={145} topXl={90}>
+      {/* <Section topMd={170} topLg={145} topXl={90}>
         <FeaturesSectionStyle3
           sectionTitle="Treatments"
           sectionTitleUp="MORE TYPE OF"
           data={featureData}
         />
-      </Section>
+      </Section> */}
 
       <Section topMd={200} topLg={150} topXl={100}>
         <div className="row cs_dept_blog">
@@ -210,21 +183,24 @@ export default function Radiology() {
         bottomLg={145}
         bottomXl={110}
         id="appointment"
+        style={{
+          backgroundColor: "white",
+        }}
       >
-        <AppointmentSection
-          sectionTitle="Appointment"
-          sectionTitleUp="BOOK AN"
-          imgUrl="/images/departments/appointment.JPG"
+        <AppointmentSectionStyle2
+          bgUrl="/images/home_2/Testi-bg.webp"
+          sectionTitle="Book an Appointment"
         />
       </Section>
       {/* End Appointment Section */}
       <Section className="cs_footer_margin_0">
-        <BannerSectionStyle7
-          imgUrl="/images/departments/banner_img_3.webp"
-          bgUrl="/images/departments/banner_bg_3.svg"
+        <BannerSectionStyle4
+          bgUrl="/images/departments/banner_img.webp"
           title="Don’t Let Your Health <br />Take a Backseat!"
           subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
-        />
+        >
+          {" "}
+        </BannerSectionStyle4>
       </Section>
     </>
   );

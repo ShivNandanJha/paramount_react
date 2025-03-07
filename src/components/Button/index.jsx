@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 
 export default function Button({ btnUrl, btnText, variant }) {
@@ -12,15 +12,3 @@ export default function Button({ btnUrl, btnText, variant }) {
     </Link>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-

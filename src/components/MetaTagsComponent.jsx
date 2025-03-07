@@ -3,8 +3,8 @@ import { Helmet } from 'react-helmet';
 
 const MetaTagsComponent = () => (
   <Helmet>
-    {/* <link rel = "canonical" href = "https://www.paramounthospital.in" /> */}
-    <link rel="canonical" href="https://paramountreact.vercel.app/" />
+    <link rel = "canonical" href = "https://www.paramounthospital.in" />
+
   </Helmet>
 );
 

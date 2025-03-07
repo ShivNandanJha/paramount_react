@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-import TestimonialStyle2 from '../Testimonial/TestimonialStyle2';
+import TestimonialStyle2 from '../Testimonial';
 
 export default function TestimonialCarousel({ data }) {
   /** Slider Settings **/

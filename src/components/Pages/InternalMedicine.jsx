@@ -1,49 +1,30 @@
-import BannerSectionStyle7 from "../Section/BannerSection/BannerSectionStyle7";
+import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 import Section from "../Section";
-import AppointmentSection from "../Section/AppointmentSection";
+import AppointmentSectionStyle2 from "../Section/AppointmentSection";
 import BreadcrumbStyle2 from "../Breadcrumb/BreadcrumbStyle2";
 import AboutSectionStyle2 from "../Section/AboutSection/AboutSectionStyle2";
-import FeaturesSectionStyle3 from "../Section/FeaturesSection/FeaturesSectionStyle5";
 import TeamSectionStyle3 from "../Section/TeamSection/TeamSectionStyle3";
 import { pageTitle } from "../../helpers/PageTitle";
 import img from "../../assets/neurosurgery.jpg";
 
-const featureData = [
-  {
-    title: "Urology",
-    subTitle:
-      "Our Urology department specializes in the diagnosis and treatment of conditions related to the urinary tract and male reproductive system. From managing kidney stones to addressing prostate issues, our skilled urologists use advanced techniques to provide comprehensive care.",
-    iconUrl: "/images/departments/icon_9.svg",
-  },
-  {
-    title: "Kidney Stone Treatment",
-    subTitle:
-      "We offer a range of treatments for kidney stones, including non-invasive methods like shock wave lithotripsy and minimally invasive procedures. Our goal is to relieve pain and prevent recurrence while ensuring optimal kidney function.",
-    iconUrl: "/images/departments/icon_10.svg",
-  },
-  {
-    title: "Prostate Health",
-    subTitle:
-      "Our team provides expert care for prostate conditions, including benign prostatic hyperplasia (BPH) and prostate cancer. We offer both medical and surgical treatments tailored to each patient’s needs, focusing on improving quality of life and managing symptoms effectively.",
-    iconUrl: "/images/departments/icon_11.svg",
-  },
-  {
-    title: "Bladder Disorders",
-    subTitle:
-      "We specialize in diagnosing and treating various bladder disorders, including urinary incontinence and interstitial cystitis. Our approach combines medical management, behavioral therapy, and, when necessary, surgical options to address and manage bladder health issues.",
-    iconUrl: "/images/departments/icon_12.svg",
-  },
-];
-
 const doctorData = [
   {
-    imgUrl: "/images/doctors/KundanKumar.webp",
-    name: "Dr. Kundan Kumar, MS, MCh",
-    designation: "Consultant Urologist",
+    imgUrl: "/images/doctors/MKDas.webp",
+    name: "Dr. M K Das, MD",
+    designation: "Consultant General Physician",
     description: "",
     social: [],
-    availableUrl: "09 AM - 08 PM ",
-
+    availableUrl: "09 AM - 02 PM",
+    btnText: "Booking",
+    btnUrl: "/appointments",
+  },
+  {
+    imgUrl: "/images/doctors/SoumyaGhosh.webp",
+    name: "Dr. Soumya Ghosh, MD",
+    designation: "Consultant General Physician",
+    description: "",
+    social: [],
+    availableUrl: "09 AM - 04 PM & 06 PM - 08 PM",
     btnText: "Booking",
     btnUrl: "/appointments",
   },
@@ -56,17 +37,9 @@ export default function InternalMedicine() {
       <BreadcrumbStyle2 />
       <Section topMd={135} topLg={100} topXl={100}>
         <AboutSectionStyle2
-          title="Accident-Emergency-Care"
-          subTitle="Paramount Hospital, our Department of Accident and Emergency Care is your unwavering ally in the face of medical emergencies, ranging from critical life-threatening crises to everyday mishaps like cuts and fractures. We believe that every emergency deserves the same level of care and attention, and our dedicated team is committed to providing just that. "
-          imgUrl="/images/departments/intensive_care_unit.jpg"
-        />
-      </Section>
-
-      <Section topMd={170} topLg={145} topXl={90}>
-        <FeaturesSectionStyle3
-          sectionTitle="Treatments"
-          sectionTitleUp="MORE TYPE OF"
-          data={featureData}
+          title="Internal Medicine "
+          subTitle="Internal Medicine is the branch of medicine that deals with the prevention, diagnosis, and treatment of adult diseases. Paramount Hospital&apos;s Internal Medicine department provides comprehensive care for a variety of acute and chronic conditions, ensuring patients receive holistic and personalized treatment."
+          imgUrl="/images/departments/internal_medicine.webp"
         />
       </Section>
 
@@ -75,37 +48,22 @@ export default function InternalMedicine() {
           <div className="col-lg-8">
             <div className="cs_blog_details">
               <h1>
-                Comprehensive 24/7 Care <br />{" "}
+                Excellence in Internal Medicine Care <br />{" "}
               </h1>
-              Paramount Hospital&#39;s Accident and Emergency Department
-              operates around the clock, 24 hours a day, 7 days a week. Whether
-              it&#39;s a distressed infant, an adventurous teenager, or an adult
-              in need of immediate medical attention, our team is prepared to
-              handle all kinds of medical emergencies promptly and efficiently.
-              <br /> <br />
-              <h2>Unmatched Expertise </h2>
               <p>
-                Our highly skilled and compassionate medical professionals are
-                well-versed in addressing a wide spectrum of emergencies. From
-                life-threatening situations like heart attacks and strokes to
-                more routine injuries, our team approaches every case with the
-                same level of expertise and dedication.
+                Paramount Hospital&apos;s Internal Medicine department is committed to delivering high-quality, evidence-based care to patients suffering from a wide range of medical conditions. The department specializes in treating complex illnesses that affect multiple organ systems, ensuring comprehensive and coordinated care.
               </p>
-              <h2>Care for All Ages </h2>
+              <h2>Advanced Diagnostic and Treatment Facilities</h2>
               <p>
-                Paramount Hospital takes pride in offering specialized care for
-                patients of all ages, from infants to children, adolescents, and
-                adults. We understand that the needs of each age group can vary
-                significantly, and our healthcare providers are trained to
-                deliver age-appropriate care with the utmost compassion
+                The Internal Medicine department at Paramount Hospital is equipped with state-of-the-art diagnostic tools and laboratories. From advanced imaging techniques to in-depth pathology tests, our specialists use the latest technology to accurately diagnose and manage various medical conditions.
               </p>
-              <h2> Emergency Care at Its Best </h2>
+              <h2>Expert Physicians</h2>
               <p>
-                Our Accident and Emergency Department is equipped with
-                state-of-the-art facilities, advanced medical technology, and a
-                patient-centered approach. We provide rapid assessment and
-                triage to prioritize cases based on their severity, ensuring
-                that critical cases receive immediate attention.
+                Our team of experienced physicians specializes in diagnosing and treating a wide range of conditions, from infectious diseases to chronic illnesses like diabetes, hypertension, and heart disease. The doctors focus on personalized treatment plans that promote long-term well-being.
+              </p>
+              <h2>Holistic Patient-Centered Approach</h2>
+              <p>
+                Paramount Hospital&apos;s Internal Medicine department believes in a holistic approach to patient care. Our experts emphasize preventive measures, lifestyle modifications, and patient education to help individuals take control of their health and well-being.
               </p>
               <blockquote
                 style={{
@@ -113,20 +71,9 @@ export default function InternalMedicine() {
                 }}
               >
                 <p>
-                  “Paramount Hospital stands out with a stellar medical team,
-                  renowned for extraordinary skills and impactful contributions,
-                  shaping the forefront of healthcare excellence in Siliguri. ”
+                  “At Paramount Hospital, we are dedicated to providing patient-centric internal medicine services, ensuring every individual receives the best possible care tailored to their needs.”
                 </p>
               </blockquote>
-              <h2>Patient-Centric Urology Care</h2>
-              <p>
-                Paramount Hospital places a strong emphasis on patient-centric
-                care within its urology department. The hospital recognizes the
-                sensitive nature of urological conditions and strives to provide
-                a supportive, compassionate environment. Clear communication,
-                education, and patient involvement in treatment decisions are
-                integral to the care process.
-              </p>
             </div>
           </div>
         </div>
@@ -145,20 +92,22 @@ export default function InternalMedicine() {
         bottomLg={145}
         bottomXl={110}
         id="appointment"
+        style={{
+          backgroundColor: "white",
+        }}
       >
-        <AppointmentSection
-          sectionTitle="Appointment"
-          sectionTitleUp="BOOK AN"
-          imgUrl="/images/departments/appointment.JPG"
+        <AppointmentSectionStyle2
+          bgUrl="/images/home_2/Testi-bg.webp"
+          sectionTitle="Book an Appointment"
         />
       </Section>
       {/* End Appointment Section */}
+
       <Section className="cs_footer_margin_0">
-        <BannerSectionStyle7
-          imgUrl="/images/departments/banner_img_3.webp"
-          bgUrl="/images/departments/banner_bg_3.svg"
-          title="Don’t Let Your Health <br />Take a Backseat!"
-          subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
+        <BannerSectionStyle4
+          bgUrl="/images/departments/banner_img.webp"
+          title="Prioritize Your Health Today!"
+          subTitle="Schedule an appointment with our expert physicians for comprehensive medical care."
         />
       </Section>
     </>

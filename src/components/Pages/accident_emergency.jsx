@@ -1,6 +1,6 @@
-import BannerSectionStyle7 from "../Section/BannerSection/BannerSectionStyle7";
+import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 import Section from "../Section";
-import AppointmentSection from "../Section/AppointmentSection";
+import AppointmentSectionStyle2 from "../Section/AppointmentSection";
 import BreadcrumbStyle2 from "../Breadcrumb/BreadcrumbStyle2";
 import AboutSectionStyle2 from "../Section/AboutSection/AboutSectionStyle2";
 import FeaturesSectionStyle3 from "../Section/FeaturesSection/FeaturesSectionStyle5";
@@ -84,7 +84,10 @@ export default function Accident_and_Emergency() {
                 or an adult in need of immediate medical attention, our team is
                 prepared to handle all kinds of medical emergencies promptly and
                 efficiently. Learn more about our{" "}
-                <a href="/departments/accident-emergency-care">Critical Care Unit</a>.
+                <a href="/departments/accident-emergency-care">
+                  Critical Care Unit
+                </a>
+                .
               </p>
               <br /> <br />
               <h2>Unmatched Expertise </h2>
@@ -102,7 +105,10 @@ export default function Accident_and_Emergency() {
                 Paramount Hospital takes pride in offering specialized care for
                 patients of all ages, from infants to children, adolescents, and
                 adults. Learn about our{" "}
-                <a href="/departments/paediatrics-neonatal-surgery">Pediatric Services</a>.
+                <a href="/departments/paediatrics-neonatal-surgery">
+                  Pediatric Services
+                </a>
+                .
               </p>
               <h2> Emergency Care at Its Best </h2>
               <p>
@@ -151,21 +157,24 @@ export default function Accident_and_Emergency() {
         bottomLg={145}
         bottomXl={110}
         id="appointment"
+        style={{
+          backgroundColor: "white",
+        }}
       >
-        <AppointmentSection
-          sectionTitle="Appointment"
-          sectionTitleUp="BOOK AN"
-          imgUrl="/images/departments/appointment.JPG"
+        <AppointmentSectionStyle2
+          bgUrl="/images/home_2/Testi-bg.webp"
+          sectionTitle="Book an Appointment"
         />
       </Section>
       {/* End Appointment Section */}
       <Section className="cs_footer_margin_0">
-        <BannerSectionStyle7
-          imgUrl="/images/departments/banner_img_3.webp"
-          bgUrl="/images/departments/banner_bg_3.svg"
+        <BannerSectionStyle4
+          bgUrl="/images/departments/banner_img.webp"
           title="Don’t Let Your Health <br />Take a Backseat!"
           subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
-        />
+        >
+          {" "}
+        </BannerSectionStyle4>
       </Section>
     </>
   );

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import BannerSectionStyle5 from '../Section/BannerSection/BannerSectionStyle5';
 import ContactForm from '../ContactForm';
 import Section from '../Section';
@@ -6,7 +6,7 @@ import ContactInfoSection from '../Section/ContactInfoSection';
 import { pageTitle } from '../../helpers/PageTitle';
 
 export default function Contact() {
-  pageTitle('Contact');
+  pageTitle('Contact Us');
   return (
     <>
       <BannerSectionStyle5

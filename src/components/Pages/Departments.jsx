@@ -1,4 +1,3 @@
-
 import BannerSectionStyle5 from "../Section/BannerSection/BannerSectionStyle3";
 import Section from "../Section";
 import DepartmentSectionStyle3 from "../Section/DepartmentSection/DepartmentSectionStyle3";
@@ -197,7 +196,6 @@ export default function Departments() {
     <>
       <BannerSectionStyle5
         bgUrl="/images/departments/banner_bg.webp"
-
         title="Get to Know <br>Paramount Hospital Departments"
         subTitle="At Paramount Hospital, we offer a wide range of medical and healthcare services that are designed to meet your individual needs and help you achieve optimal health."
       />
@@ -206,7 +204,7 @@ export default function Departments() {
       </Section>
       <Section className="cs_footer_margin_0">
         <BannerSectionStyle4
-          bgUrl="/images/departments/banner_img3.JPG"
+           bgUrl="/images/departments/banner_img.webp"
           title="Don’t Let Your Health Take a Backseat!"
           subTitle="Schedule an appointment with one of our <br />experienced medical professionals today!"
         />

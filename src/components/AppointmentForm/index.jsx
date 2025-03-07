@@ -42,7 +42,7 @@ const Appointment = () => {
     try {
       // Example URL for sending data to Telegram bot (replace with your own bot endpoint)
       const telegramBotURL =
-        "https://api.telegram.org/bot6886100657:AAGqnx43OWjOIecx3ltgnidi4pgko2V58uk/sendMessage";
+        "https://api.telegram.org/bot7397190437:AAEXm9oS461pM5PNI6mm4HVLRB8_XvHcGzw/sendMessage";
       const message = `
         New Appointment Request:
             Name               : ${formData.name}
@@ -58,7 +58,7 @@ const Appointment = () => {
 
       // Sending data to Telegram bot
       await axios.post(telegramBotURL, {
-        chat_id: "6432775968", // Replace with your chat ID
+        chat_id: "-1002197183807", // Replace with your chat ID
         text: message,
       });
       toast.success("Your appointment request has been booked successfully!");

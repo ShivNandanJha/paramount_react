@@ -1,67 +1,58 @@
-import React from 'react';
-import parse from 'html-react-parser';
-import VideoModal from '../VideoModal';
-import { Link } from 'react-router-dom';
 
-export default function Hero({
+import { Link } from "react-router-dom";
+import VideoModal from "../VideoModal";
+
+export default function HeroStyle2({
   title,
   subTitle,
   bgUrl,
-  imgUrl,
   videoBtnText,
   videoUrl,
-  infoList,
+  funfactList,
   btnText,
   btnUrl,
 }) {
   return (
-    <section className="cs_hero cs_style_1">
-      <div
-        className="cs_hero_wrap cs_bg_filed"
-        style={{ backgroundImage: `url(${bgUrl})` }}
-      >
-        <div className="container">
-          <div className="cs_hero_text">
-            <h1 className="cs_hero_title cs_fs_94">{parse(title)}</h1>
-            <p className="cs_hero_subtitle cs_fs_20 cs_heading_color">
-              {parse(subTitle)}
-            </p>
+    <section
+      className = "cs_hero cs_style_2 "
+      style     = {{ backgroundImage: `url(${bgUrl})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}
+    >
+      <div className="container">
+        <div className="cs_hero_text">
+          <h1 className="cs_hero_title cs_white_color cs_fs_84">{title}</h1>
+          <div className="cs_hero_text_in">
+            <div className="cs_hero_btn cs_white_color">
+              <Link to={btnUrl} className="cs_text_btn">
+                {btnText}
+              </Link>
+            </div>
+            <p className="cs_hero_subtitle cs_white_color">{subTitle}</p>
+          </div>
+        </div>
+        {/* <img src={imgUrl} alt="Hero" className="cs_hero_patents" /> */}
+      </div>
+      <div className="container">
+        <div className="cs_hero_bottom">
+          <div className="cs_hero_bottom_left">
             <div className="cs_hero_btn_wrap">
               <VideoModal
                 videoUrl={videoUrl}
                 videoBtnText={videoBtnText}
-                variant="cs_heading_color"
+                variant="cs_white_color"
               />
             </div>
           </div>
-          <img src={imgUrl} alt="Hero" className="cs_hero_img" />
-          <div className="cs_hero_info_wrap cs_shadow_1 cs_white_bg cs_radius_15">
-            {infoList.map((item, index) => (
-              <div className="cs_hero_info_col" key={index}>
-                <div className="cs_hero_info d-flex align-items-center">
-                  <div className="cs_hero_info_icon cs_center rounded-circle cs_accent_bg">
-                    <img src={item.iconUrl} alt="Icon" />
+          <div className="cs_hero_bottom_right">
+            {funfactList?.length > 0 && (
+              <div className="cs_hero_funfact text-center">
+                {funfactList?.map((item, index) => (
+                  <div className="cs_hero_funfact_col" key={index}>
+                    <h3 className="cs_white_color cs_fs_72">{item.number}</h3>
+                    <p className="cs_white_color mb-0">{item.title}</p>
                   </div>
-                  <div className="cs_hero_info_right">
-                    <h3 className="cs_hero_info_title cs_semibold">
-                      {item.title}
-                    </h3>
-                    <p className="cs_hero_info_subtitle cs_fs_20">
-                      {item.subTitle}
-                    </p>
-                  </div>
-                </div>
+                ))}
               </div>
-            ))}
-            <div className="cs_hero_info_col">
-              <Link to={btnUrl} className="cs_btn cs_style_1">
-                <span>{btnText}</span>
-                <i>
-                  <img src="/images/icons/arrow_white.svg" alt="Icon" />
-                  <img src="/images/icons/arrow_white.svg" alt="Icon" />
-                </i>
-              </Link>
-            </div>
+            )}
           </div>
         </div>
       </div>

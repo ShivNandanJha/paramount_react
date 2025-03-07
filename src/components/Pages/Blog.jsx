@@ -1,4 +1,4 @@
-import React from 'react';
+
 import BannerSectionStyle9 from '../Section/BannerSection/BannerSectionStyle9';
 import Section from '../Section';
 import BlogSectionStyle2 from '../Section/BlogSection/BlogSectionStyle2';

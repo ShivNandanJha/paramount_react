@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import Section from '../Section';
 import Breadcrumb from '../Breadcrumb';
@@ -93,7 +93,7 @@ export default function BlogDetails() {
               <p>
                 Anxiety disorders are a type of mental health disorder
                 characterized by feelings of worry, anxiety, or fear that are
-                strong enough to interfere with one's daily activities. These
+                strong enough to interfere with one&apos;s daily activities. These
                 feelings may be brought on by certain situations, often relating
                 to stress or trauma, but can also occur without any apparent
                 reason. <br />
@@ -208,12 +208,12 @@ export default function BlogDetails() {
                   also help manage anxiety symptoms. <br />
                   <br />
                   <b>Maintaining a positive outlook:</b> While it may seem
-                  challenging, it's beneficial to focus on positive aspects of
+                  challenging, it&apos;s beneficial to focus on positive aspects of
                   your life. Gratitude exercises or maintaining a journal to
                   record positive experiences can assist in cultivating an
                   optimistic outlook. <br />
                   <br />
-                  <b>Avoiding avoidance:</b> It's common for people with anxiety
+                  <b>Avoiding avoidance:</b> It&apos;s common for people with anxiety
                   to avoid situations or objects that trigger their anxiety.
                   However, avoiding these triggers can reinforce the fear. Safe
                   exposure to these triggers under the guidance of a therapist
