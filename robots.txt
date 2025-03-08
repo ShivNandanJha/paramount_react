@@ -8,4 +8,4 @@ User-agent: Googlebot
 Allow: /
 
 # Sitemap for better search engine crawling
-Sitemap: https://www.paramounthospital.com/sitemap.xml
+Sitemap: https://www.paramounthospital.in/sitemap.xml
