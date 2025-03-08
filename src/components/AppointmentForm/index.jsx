@@ -18,6 +18,112 @@ const Appointment = () => {
     reasonForVisit: "",
   });
 
+
+  const specializations = {
+    "accident-emergency-care": [],
+    "laparoscopic-general-surgery": [
+      { value: "Dr VivekSarkar", label: "Dr. Vivek Sarkar, MS" },
+      { value: "Dr JameeezulIrfan", label: "Dr. J. Jameezul Irfan, MS" },
+      { value: "Dr KalyanMandal", label: "Dr. Kalyan Mandal, MS" },
+    ],
+    neurosurgery: [
+      { value: "Dr SajalBiswas", label: "Dr. Sajal Biswas, MS, MCh" }
+    ],
+    "orthopaedic-joint-replacement-surgery": [
+      { value: "Dr AmalBasak", label: "Dr. Amal Basak, D.Ortho, MS" },
+      { value: "Dr SoutrikMukherjee", label: "Dr. Soutrik Mukherjee, MS" },
+      { value: "Dr AmlanJyotiRoy", label: "Dr. Amlan Jyoti Roy, MS" },
+    ],
+    "spine-surgery": [
+      { value: "Dr SajalBiswas", label: "Dr. Sajal Biswas, MS, MCh" },
+      { value: "Dr AmalBasak", label: "Dr. Amal Basak, D.Ortho, MS" },
+      { value: "Dr SoutrikMukherjee", label: "Dr. Soutrik Mukherjee, MS" },
+    ],
+    cardiology: [
+      { value: "Dr ArabindaSaha", label: "Dr. Arabinda Saha, MD, DM, DNB" },
+      { value: "Dr IndranilSen", label: "Dr. Indranil Sen, MD, DM" },
+      { value: "Dr DeepakTomar", label: "Dr. Deepak Tomar, MD, DM" },
+      { value: "Dr VivekAgarwal", label: "Dr. Vivek Agarwal, DNB, DM" },
+    ],
+    pulmonology: [
+      { value: "Dr SoumyaGhosh", label: "Dr. Soumya Ghosh, MD" }
+    ],
+    urology: [
+      { value: "Dr KundaanKumar", label: "Dr. Kundaan Kumar, MS, MCh" },
+      { value: "Dr SurajitPaul", label: "Dr. Surajit Paul, MS, MCh" },
+      { value: "Dr BiswajitDutta", label: "Dr. Biswajit Dutta, MS, MCh" },
+    ],
+    nephrology: [
+      { value: "Dr VikrantDeshmukh", label: "Dr. Vikrant Deshmukh, DNB" }
+    ],
+    "cardiothoracic-vascular-surgery": [
+      { value: "Dr AnjanDas", label: "Dr. Anjan Das, MS, MCh" }
+    ],
+    "gastrointestinal-surgery": [
+      { value: "Dr BarunKumarSingh", label: "Dr. Barun Kumar Singh, MS, DrNB" }
+    ],
+    "paediatrics-neonatal-surgery": [
+      { value: "Dr VivekSarkar", label: "Dr. Vivek Sarkar, MS" },
+      { value: "Dr RajarshiKumar", label: "Dr. Rajarshi Kumar, MS, MCh" },
+      { value: "Dr AlokeSinhaBabu", label: "Dr. Aloke Sinha Babu, MS, MCh" },
+      { value: "Dr JameezulIrfan", label: "Dr. J. Jameezul Irfan, MS" },
+    ],
+    "plastic-cosmetic-reconstructive-surgery": [
+      { value: "Dr SJayaLeima", label: "Dr. S. Jaya Leima, MS, MCh" },
+      { value: "Dr ManojKumarSingh", label: "Dr. Manoj Kumar Singh, MS, MCh" },
+      { value: "Dr SoumyaGayen", label: "Dr. Soumya Gayen, MS, MCh" },
+    ],
+    "oral-maxillofacial-surgery-dentistry": [
+      { value: "Dr MukeshChhetri", label: "Dr. Mukesh Chhetri, BDS" }
+    ],
+    "obstetrics-gynaecology": [
+      { value: "Dr TanyaSingla", label: "Dr. Tanya Singla, MS" },
+      { value: "Dr RanjanPal", label: "Dr. Ranjan Pal, MD" },
+      { value: "Dr PunamSarkar", label: "Dr. Punam Sarkar, MS" },
+      { value: "Dr NeelamSingla", label: "Dr. Neelam Singla, MD" },
+    ],
+    ophthalmology: [
+      { value: "Dr AshishKumarBichpuria", label: "Dr. Ashish Kumar Bichpuria, MS" },
+      { value: "Dr NilanjanaHaldar", label: "Dr. Nilanjana Haldar, MS" },
+    ],
+    anaesthesiology: [
+      { value: "Dr SKKhutia", label: "Dr. S.K Khutia, MD, FIPM" },
+      { value: "Dr SChatterjee", label: "Dr. S. Chatterjee, MD" },
+    ],
+    ent: [
+      { value: "Dr ParthaPratimSaha", label: "Dr. Partha Pratim Saha, MS" },
+      { value: "Dr SandeepGhosh", label: "Dr. Sandeep Ghosh, MS" },
+    ],
+    radiology: [
+      { value: "Dr ChandanKumar", label: "Dr. Chandan Kumar, MD" }
+    ],
+    "pain-medicine": [
+      { value: "Dr SKKhutia", label: "Dr. S.K Khutia, MD, FIPM" }
+    ],
+    neurology: [
+      { value: "Dr NRHaldar", label: "Dr. N.R. Haldar, MD, DM" }
+    ],
+    "internal-medicine-endocrinology": [
+      { value: "Dr MKDas", label: "Dr. M.K Das, MD" },
+      { value: "Dr RSaha", label: "Dr. R. Saha, MD" },
+      { value: "Dr SoumyaGhosh", label: "Dr. Soumya Ghosh, MD" },
+    ],
+    "gastroenterology-hepatology": [
+      { value: "Dr PrabhatRanjan", label: "Dr. Prabhat Ranjan, MD, DM" }
+    ],
+    "paediatrics-neonatology": [
+      { value: "Dr RajivAgarwal", label: "Dr. Rajiv Agarwal, MD" }
+    ],
+    neuropsychiatry: [
+      { value: "Dr SantanuDe", label: "Dr. Santanu De, MD" }
+    ],
+    pathology: [
+      { value: "Dr PBera", label: "Dr. P. Bera, MD" },
+      { value: "Dr SantanuHazra", label: "Dr. Santanu Hazra, MD" },
+      { value: "Dr NiladriHaldar", label: "Dr. Niladri Haldar, MD" }
+    ]
+  };
+
   const [selectedDate, setSelectedDate] = useState(null);
 
   const handleChange = (e) => {
@@ -176,327 +282,50 @@ const Appointment = () => {
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
         <div className="col-lg-6">
-          <label className="cs_input_label cs_heading_color">
-            Specialization
+        <label htmlFor="options" className="cs_input_label cs_heading_color">
+          Specialization
+        </label>
+        <select
+          name="specialization"
+          id="options"
+          value={formData.specialization}
+          onChange={handleSpecializationChange}
+          className="cs_form_field"
+          required
+        >
+          <option value="">Choose specialization</option>
+          {Object.keys(specializations).map((key) => (
+            <option key={key} value={key}>
+              {key.replace(/-/g, " ").toUpperCase()}
+            </option>
+          ))}
+        </select>
+        <div className="cs_height_42 cs_height_xl_25" />
+      </div>
+
+      {formData.specialization && specializations[formData.specialization].length > 0 && (
+        <div className="col-lg-6">
+          <label htmlFor="doctor" className="cs_input_label cs_heading_color">
+            Doctor
           </label>
           <select
-            name="specialization"
-            value={formData.specialization}
-            onChange={handleSpecializationChange}
+            name="doctor"
+            id="doctor"
+            value={formData.doctor}
+            onChange={handleChange}
             className="cs_form_field"
             required
           >
-            <option value="">Choose specialization</option>
-            <option value="accident-emergency-care">
-              Accident and Emergency Care
-            </option>
-            <option value="laparoscopic-general-surgery">
-              Laparoscopic & General Surgery
-            </option>
-            <option value="neurosurgery">Neurosurgery</option>
-            <option value="orthopaedic-joint-replacement-surgery">
-              Orthopaedic & Joint Replacement Surgery
-            </option>
-            <option value="spine-surgery">Spine Surgery</option>
-            <option value="cardiothoracic-vascular-surgery">
-              Cardiothoracic & Vascular Surgery
-            </option>
-            <option value="paediatrics-neonatal-surgery">
-              Paediatrics & Neonatal Surgery
-            </option>
-            <option value="plastic-reconstructive-surgery">
-              Plastic & Reconstructive Surgery
-            </option>
-            <option value="urology">Urology</option>
-            <option value="obstetrics-gynaecology">
-              Obstetrics & Gynaecology
-            </option>
-            <option value="otorhinolaryngology-ent">
-              Otorhinolaryngology (ENT)
-            </option>
-            <option value="oral-maxillofacial-surgery-dentistry">
-              Oral & Maxillofacial Surgery & Dentistry
-            </option>
-            <option value="radiology">Radiology</option>
-            <option value="internal-medicine">Internal Medicine</option>
-            <option value="neurology">Neurology</option>
-            <option value="endocrinology">Endocrinology</option>
-            <option value="cardiology">Cardiology</option>
-            <option value="gastroenterology">Gastroenterology</option>
-            <option value="pulmonology">Pulmonology</option>
-            <option value="nephrology">Nephrology</option>
-            <option value="paediatrics-neonatology">
-              Paediatrics & Neonatology
-            </option>
-            <option value="neuropsychiatry">Neuropsychiatry</option>
-            <option value="ophthalmology">Ophthalmology</option>
-            <option value="anaesthesiology-intensive-care">
-              Anaesthesiology & Intensive Care
-            </option>
-            <option value="pain-medicine">Pain Medicine</option>
-            <option value="pathology-microbiology">
-              Pathology & Microbiology
-            </option>
-
-            {/* Add more options as needed */}
+            <option value="">Choose doctor</option>
+            {specializations[formData.specialization].map((doc) => (
+              <option key={doc.value} value={doc.value}>
+                {doc.label}
+              </option>
+            ))}
           </select>
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
-        {formData.specialization && (
-          <div className="col-lg-6">
-            <label className="cs_input_label cs_heading_color">Doctor</label>
-            <select
-              name="doctor"
-              value={formData.doctor}
-              onChange={handleChange}
-              className="cs_form_field"
-              required
-            >
-              <option value="">Choose doctor</option>
-
-              {formData.specialization === "laparoscopic-general-surgery" && (
-                <>
-                  <option value="drVivekSarkar">Dr. Vivek Sarkar, MS</option>
-                  <option value="drKalyanMandal">Dr. Kalyan Mandal, MS</option>
-                  <option value="drJameeezulIrfan">
-                    Dr. J. Jameeezul Irfan, MS
-                  </option>
-                  <option value="drPenzinBhutia">
-                    Dr. Penzin D. Bhutia, MS
-                  </option>
-                </>
-              )}
-
-              {formData.specialization === "neurosurgery" && (
-                <>
-                  <option value="drSajalBiswas">
-                    Dr. Sajal Biswas, MS, MCh
-                  </option>
-                </>
-              )}
-
-              {formData.specialization ===
-                "orthopaedic-joint-replacement-surgery" && (
-                <>
-                  <option value="drAmalBasak">
-                    Dr. Amal Basak, D.Ortho, MS
-                  </option>
-                  <option value="drSoutrikMukherjee">
-                    Dr. Soutrik Mukherjee, MS
-                  </option>
-                </>
-              )}
-
-              {formData.specialization === "spine-surgery" && (
-                <>
-                  <option value="drSajalBiswas">
-                    Dr. Sajal Biswas, MS, MCh
-                  </option>
-                  <option value="drAmalBasak">
-                    Dr. Amal Basak, D.Ortho, MS
-                  </option>
-                  <option value="drSoutrikMukherjee">
-                    Dr. Soutrik Mukherjee, MS
-                  </option>
-                </>
-              )}
-
-              {formData.specialization === "gastrointestinal-surgery" && (
-                <>
-                  <option value="drBarunKumarSingh">
-                    Dr. Barun Kumar Singh, MS, DNB
-                  </option>
-                </>
-              )}
-
-              {formData.specialization ===
-                "cardiothoracic-vascular-surgery" && (
-                <>
-                  <option value="drAnjanKarDas">
-                    Dr. Anjan Kar Das, MS, MCh
-                  </option>
-                </>
-              )}
-
-              {formData.specialization === "paediatrics-neonatal-surgery" && (
-                <>
-                  <option value="drVivekSarkar">Dr. Vivek Sarkar, MS</option>
-                  <option value="drRajarshiKumar">
-                    Dr. Rajarshi Kumar, MS, MCh
-                  </option>
-                  <option value="drAlokeSinhaBabu">
-                    Dr. Aloke Sinha Babu, MS, MCh
-                  </option>
-                  <option value="drJameeezulIrfan">
-                    Dr. J. Jameeezul Irfan, MS
-                  </option>
-                </>
-              )}
-
-              {formData.specialization ===
-                "plastic-cosmetic-reconstructive-surgery" && (
-                <>
-                  <option value="drManojKumarSingh">
-                    Dr. Manoj Kumar Singh, MS, MCh
-                  </option>
-                  <option value="drSoumyaGayen">
-                    Dr. Soumya Gayen, MS, MCh
-                  </option>
-                  <option value="drPenzinBhutia">
-                    Dr. Penzin D. Bhutia, MS
-                  </option>
-                </>
-              )}
-
-              {formData.specialization === "urology" && (
-                <>
-                  <option value="drKundaanKumar">
-                    Dr. Kundaan Kumar, MS, MCh
-                  </option>
-                  <option value="drSurajitPaul">
-                    Dr. Surajit Paul, MS, MCh
-                  </option>
-                  <option value="drBiswajitDutta">
-                    Dr. Biswajit Dutta, MS
-                  </option>
-                </>
-              )}
-
-              {formData.specialization === "obstetrics-gynaecology" && (
-                <>
-                  <option value="drPunamSarkar">Dr. Punam Sarkar, MS</option>
-                  <option value="drRanjanPal">Dr. Ranjan Pal, MD</option>
-                  <option value="drNeelamSingla">Dr. Neelam Singla, MD</option>
-                </>
-              )}
-
-              {formData.specialization === "otorhinolaryngology-ent" && (
-                <>
-                  <option value="drParthaPratimSaha">
-                    Dr. Partha Pratim Saha, MS
-                  </option>
-                  <option value="drSandeepGhosh">Dr. Sandeep Ghosh, MS</option>
-                </>
-              )}
-
-              {formData.specialization ===
-                "oral-maxillofacial-surgery-dentistry" && (
-                <>
-                  <option value="drMukeshChatterjee">
-                    Dr. Mukesh Chatterjee, BDS
-                  </option>
-                </>
-              )}
-
-              {formData.specialization === "internal-medicine" && (
-                <>
-                  <option value="drMKDas">Dr. M.K. Das, MD</option>
-                  <option value="drRSaha">Dr. R. Saha, MD</option>
-                  <option value="drSoumyaGhosh">Dr. Soumya Ghosh, MD</option>
-                </>
-              )}
-
-              {formData.specialization === "neurology" && (
-                <>
-                  <option value="drNRHaldar">Dr. N.R. Haldar, MD, DM</option>
-                </>
-              )}
-
-              {formData.specialization === "endocrinology" && (
-                <>
-                  <option value="drMKDas">Dr. M.K. Das, MD</option>
-                </>
-              )}
-
-              {formData.specialization === "cardiology" && (
-                <>
-                  <option value="drArabindaSaha">
-                    Dr. Arabinda Saha, MD, DM, DNB
-                  </option>
-                  <option value="drIndranilSen">
-                    Dr. Indranil Sen, MD, DM
-                  </option>
-                  <option value="drDeepakTomar">
-                    Dr. Deepak Tomar, MD, DM
-                  </option>
-                </>
-              )}
-
-              {formData.specialization === "gastroenterology-hepatology" && (
-                <>
-                  <option value="drPrabhatRanjan">
-                    Dr. Prabhat Ranjan, MD
-                  </option>
-                </>
-              )}
-
-              {formData.specialization === "pulmonology" && (
-                <>
-                  <option value="drSoumyaGhosh">Dr. Soumya Ghosh, MD</option>
-                </>
-              )}
-
-              {formData.specialization === "nephrology" && (
-                <>
-                  <option value="drVikrantDeshmukh">
-                    Dr. Vikrant Deshmukh, MD, DM
-                  </option>
-                </>
-              )}
-
-              {formData.specialization === "paediatrics-neonatology" && (
-                <>
-                  <option value="drRajivAgarwal">Dr. Rajiv Agarwal, MD</option>
-                </>
-              )}
-
-              {formData.specialization === "neuropsychiatry" && (
-                <>
-                  <option value="drSantanuDe">Dr. Santanu De, MD</option>
-                </>
-              )}
-
-              {formData.specialization === "ophthalmology" && (
-                <>
-                  <option value="drAshishKumarBichpuria">
-                    Dr. Ashish Kumar Bichpuria, MS
-                  </option>
-                  <option value="drNilanjanaHaldar">
-                    Dr. Nilanjana Haldar, MS
-                  </option>
-                </>
-              )}
-
-              {formData.specialization === "radiology" && (
-                <>
-                  <option value="drChandanKumar">Dr. Chandan Kumar, MD</option>
-                </>
-              )}
-
-              {formData.specialization === "anaesthesiology-intensive-care" && (
-                <>
-                  <option value="drSKKhutia">Dr. S.K. Khutia, MD, FIPM</option>
-                  <option value="drChatterjee">Dr. Chatterjee, MD</option>
-                </>
-              )}
-
-              {formData.specialization === "pain-medicine" && (
-                <>
-                  <option value="drSKKhutia">Dr. S.K. Khutia, MD, FIPM</option>
-                </>
-              )}
-
-              {formData.specialization === "pathology-microbiology" && (
-                <>
-                  <option value="drPBera">Dr. P. Bera, MD</option>
-                  <option value="drSantanuHazra">Dr. Santanu Hazra, MD</option>
-                </>
-              )}
-            </select>
-
-            <div className="cs_height_42 cs_height_xl_25" />
-          </div>
-        )}
+      )}
         <div className="col-lg-12">
           <label className="cs_input_label cs_heading_color">
             Reason for Visit

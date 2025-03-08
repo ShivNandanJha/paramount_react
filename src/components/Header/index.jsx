@@ -76,9 +76,9 @@ export default function Header({ logoSrc, LgLogoSrc, variant }) {
                     src={LgLogoSrc}
                     alt="Paramount Hospital"
                     style={logoStyleLarge}
-                    loading="lazy"
+                    loading="eager"
                   />
-                  <img src={logoSrc} alt="Paramount Hospital"  loading="lazy"  style={logoStyleSmall} />
+                  <img src={logoSrc} alt="Paramount Hospital"  loading="eager"  style={logoStyleSmall} />
                 </Link>
                 <nav className="cs_nav">
                   <ul
