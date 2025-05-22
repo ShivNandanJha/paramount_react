@@ -102,7 +102,7 @@ export default function Header({ logoSrc, LgLogoSrc, variant }) {
                       <Link to="/departments">Departments</Link>
                     </li>
                     <li>
-                      <Link to="/doctors">Doctor</Link>
+                      <Link to = "/doctors">Doctor</Link>
                     </li>
                     <li>
                       <Link to="/appointment">Appointments</Link>
