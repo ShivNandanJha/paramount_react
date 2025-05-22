@@ -58,7 +58,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="doctors" element={<Doctors />} />
-            <Route path="appointments" element={<Appointments />} />
+            <Route path="appointment" element={<Appointments />} />
             <Route path="departments" element={<Departments />} />
             {/* <Route path="departments/:departmentId" element={<DepartmentDetails />} /> */}
             <Route path = "departments/neurology" element                             = {<Neurology />} />
