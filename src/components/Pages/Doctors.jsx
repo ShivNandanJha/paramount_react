@@ -388,7 +388,7 @@ const teamData = [
   {
     imgUrl: "/images/doctors/ParthaPratim.webp",
     department: "Otorhinolaryngology (ENT)",
-    name: "Dr. partha Pratim Saha, MS",
+    name: "Dr. Partha Pratim Saha, MS",
     designation: "Consultant Otorhinolaryngologist",
     description:
       "Dr. Partha Pratim Saha (MS) is a highly respected Consultant OtorhinolaryngologistWith a profound understanding of the intricate structures of the ear, nose, and throat, Dr. Ghosh is committed to providing top-notch medical care...",
