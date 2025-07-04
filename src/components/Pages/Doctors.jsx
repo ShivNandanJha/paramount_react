@@ -8,7 +8,7 @@ const teamData = [
     imgUrl: "/images/doctors/AmalBasak.webp",
     department: "Orthopaedic & Joint Replacement Surgery",
     name: "Dr. Amal Basak, D.Ortho, MS",
-    designation: "Senior Consultant Orthopaedic & Joint Replacement Surgeon",
+    designation: " Consultant Orthopaedic & Joint Replacement Surgeon",
     description:
       "Dr. Amal Basak is a specialist in Orthopaedic and Joint Replacement Surgery & Spine Surgery. He holds the degrees of D.Ortho and MS......",
     social: [
@@ -38,7 +38,7 @@ const teamData = [
     imgUrl: "/images/doctors/AmalBasak.webp",
     department: "Spine Surgery",
     name: "Dr. Amal Basak, D.Ortho, MS",
-    designation: "Senior Consultant Spine Surgeon",
+    designation: " Consultant Spine Surgeon",
     description:
       "Dr. Amal Basak is a specialist in Orthopaedic and Joint Replacement Surgery & Spine Surgery. He holds the degrees of D.Ortho and MS......",
     social: [
@@ -68,7 +68,7 @@ const teamData = [
     imgUrl: "/images/doctors/SajalBiswas.webp",
     department: "Neurosurgery",
     name: "Dr.Sajal Biswas, MS. MCh.",
-    designation: "Senior Consultant Neurosurgeon",
+    designation: " Consultant Neurosurgeon",
     description:
       "Neurosurgeons diagnose, assess and perform surgery on disorders affecting the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body",
     social: [
@@ -83,7 +83,7 @@ const teamData = [
     imgUrl: "/images/doctors/SajalBiswas.webp",
     department: "Spine Surgery",
     name: "Dr.Sajal Biswas, MS. MCh.",
-    designation: "Senior Consultant Spine Surgeon",
+    designation: " Consultant Spine Surgeon",
     description:
       "Neurosurgeons diagnose, assess and perform surgery on disorders affecting the central nervous system (brain and spinal cord) and the peripheral nervous system which can involve any area of the body",
     social: [
@@ -113,9 +113,9 @@ const teamData = [
     imgUrl: "/images/doctors/VivekSarkar.webp",
     department: "Laparoscopic & General Surgery",
     name: "Dr. Vivek Sarkar, MS",
-    designation: "Senior Consultant Laparoscopic and General surgeon",
+    designation: " Consultant Laparoscopic and General surgeon",
     description:
-      "Dr. Vivek Sarkar is a distinguished Senior Consultant in the field of Laparoscopic and General Surgery, holding a Master of Surgery (MS) degree. With a wealth of knowledge and experience...",
+      "Dr. Vivek Sarkar is a distinguished  Consultant in the field of Laparoscopic and General Surgery, holding a Master of Surgery (MS) degree. With a wealth of knowledge and experience...",
     social: [
       { icon: "fa6-brands:facebook-f", href: "/about" },
       { icon: "fa6-brands:linkedin-in", href: "/about" },
@@ -191,7 +191,7 @@ const teamData = [
     name: "Dr. Vivek Sarkar, MS",
     designation: "Consultant Paediatric & Neonatal Surgeon",
     description:
-      "Dr. Vivek Sarkar is a distinguished Senior Consultant in the field of Laparoscopic and General Surgery, holding a Master of Surgery (MS) degree. With a wealth of knowledge and experience...",
+      "Dr. Vivek Sarkar is a distinguished  Consultant in the field of Laparoscopic and General Surgery, holding a Master of Surgery (MS) degree. With a wealth of knowledge and experience...",
     social: [
       { icon: "fa6-brands:facebook-f", href: "/about" },
       { icon: "fa6-brands:linkedin-in", href: "/about" },
@@ -237,7 +237,7 @@ const teamData = [
     name: "Dr.M K Das, MD",
     designation: "Consultant General Physician",
     description:
-      "Dr. MK Das is a distinguished Senior Consultant General Physician with extensive experience and a strong commitment to providing comprehensive healthcare to his patients.",
+      "Dr. MK Das is a distinguished  Consultant General Physician with extensive experience and a strong commitment to providing comprehensive healthcare to his patients.",
     social: [
       { icon: "fa6-brands:facebook-f", href: "/about" },
       { icon: "fa6-brands:linkedin-in", href: "/about" },
@@ -252,7 +252,7 @@ const teamData = [
     name: "Dr. N R Halder, MD, DM",
     designation: "Consultant Neurologist",
     description:
-      "Dr. N.R. Haldar is a distinguished Senior Consultant Neurologist renowned for his expertise and dedication to the field of neurology. With an extensive educational background and specialized...",
+      "Dr. N.R. Haldar is a distinguished  Consultant Neurologist renowned for his expertise and dedication to the field of neurology. With an extensive educational background and specialized...",
     social: [
       { icon: "fa6-brands:facebook-f", href: "/about" },
       { icon: "fa6-brands:linkedin-in", href: "/about" },
@@ -314,7 +314,7 @@ const teamData = [
     name: "Dr. Ranjan Pal, MD",
     designation: "Consultant  Obstetrics & Gynaecologist",
     description:
-      "Dr. Ranjan Pal is a distinguished Senior Consultant Gynecologist with an impressive track record of providing compassionate and comprehensive healthcare to women of all ages. With a qualification of MD and..",
+      "Dr. Ranjan Pal is a distinguished  Consultant Gynecologist with an impressive track record of providing compassionate and comprehensive healthcare to women of all ages. With a qualification of MD and..",
     social: [
       { icon: "fa6-brands:facebook-f", href: "/about" },
       { icon: "fa6-brands:linkedin-in", href: "/about" },
