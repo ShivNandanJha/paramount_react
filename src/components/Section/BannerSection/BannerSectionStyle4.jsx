@@ -17,17 +17,7 @@ export default function BannerSectionStyle4({
           backgroundImage: `url(${bgUrl})`,
         }}
       >
-        <div style = {{
-            backgroundColor: " rgba(243, 239, 239, 0.678)",
-            padding: "10px"
-          }}>
-           <h2  className = "cs_banner_title cs_fs_72 m-0 cs_primary" >
-          {parser(title)}
-        </h2>
-        <p className = "cs_banner_subtitle cs_primary cs_fs_20 m-0">
-          <a href="/appointments">{parser(subTitle)}</a>
-        </p>
-         </div>
+
 
       </div>
     </div>

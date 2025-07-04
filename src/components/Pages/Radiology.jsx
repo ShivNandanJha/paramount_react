@@ -46,29 +46,17 @@ const departmentData = [
   },
   {
     title: "Pulmonology",
-    iconUrl: "/images/home_2/Lungs.png",
+    iconUrl: "/images/home_2/Lungs.webp",
     href: "/departments/department-details",
   },
   {
     title: "Urology",
-    iconUrl: "/images/home_2/Bladder.png",
+    iconUrl: "/images/home_2/Bladder.webp",
     href: "/departments/department-details",
   },
 ];
 
-const doctorData = [
-  {
-    imgUrl: "/images/doctors/MukeshChhetri.webp",
-    name: "Dr. Mukesh Chhetri, BDS",
-    designation: "Consultant Oral & Maxillofacial Surgeon & Dentist",
-    description: "",
-    social: [],
-    availableUrl: "09 AM - 08 PM ",
 
-    btnText: "Booking",
-    btnUrl: "/appointments",
-  },
-];
 
 export default function Radiology() {
   pageTitle("Department Details");
@@ -155,9 +143,9 @@ export default function Radiology() {
         </div>
       </Section>
 
-      <Section topMd={200} topLg={150} topXl={100}>
+      {/* <Section topMd={200} topLg={150} topXl={100}>
         <TeamSectionStyle3 sectionTitle="Related Doctor" data={doctorData} />
-      </Section>
+      </Section> */}
 
       <Section
         bottomMd={125}

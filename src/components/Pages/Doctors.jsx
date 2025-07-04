@@ -49,6 +49,21 @@ const teamData = [
     category: "Spine Surgery",
     href: "/doctors/doctor-details",
   },
+   {
+    imgUrl     : "/images/doctors/TanyaSingla.png",
+    department : "Obstetrics & Gynaecology",
+    name       : "Dr. Tanya Singla, MS",
+    designation: "Consultant Obstetrician & Gynaecologist",
+    description: "Dr. Tanya Singla is a highly skilled and experienced obstetrician and gynaecologist, dedicated to providing comprehensive care for women's health and reproductive issues.",
+    social: [
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
+     ],
+     category: "Obstetrics & Gynaecology",
+    href: "/doctors/doctor-details",
+
+  },
   {
     imgUrl: "/images/doctors/SajalBiswas.webp",
     department: "Neurosurgery",

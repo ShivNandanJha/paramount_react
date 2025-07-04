@@ -6,12 +6,12 @@ import AboutSectionStyle3 from "../Section/AboutSection/AboutSectionStyle3";
 import DepartmentSectionStyle4 from "../Section/DepartmentSection/DepartmentSectionStyle4";
 import TestimonialSectionStyle2 from "../Section/TestimonialSection";
 import WorkingProcess from "../Section/WorkingProcess";
-import BannerSectionStyle2 from "../Section/BannerSection/BannerSectionStyle2";
 import BlogSectionStyle3 from "../Section/BlogSection/BlogSectionStyle3";
 import FaqSectionStyle2 from "../Section/FaqSection";
 import AppointmentSectionStyle2 from "../Section/AppointmentSection";
 import video from "./herobanner.mp4";
 import { pageTitle } from "../../helpers/PageTitle";
+import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 
 const departmentData1 = [
   {
@@ -400,11 +400,9 @@ export default function HomeStyle2() {
           backgroundColor: "white",
         }}
       >
-        <BannerSectionStyle2
+        <BannerSectionStyle4
           bgUrl="/images/home_2/care.webp"
-          title="Don’t Let Your Health Take a Backseat!"
-          subTitle="Schedule an appointment with one of our <br />
-          experienced medical professionals today!"
+
         />
       </Section>
       <Section

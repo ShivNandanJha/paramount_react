@@ -3,51 +3,9 @@ import Section from "../Section";
 import AppointmentSectionStyle2 from "../Section/AppointmentSection";
 import BreadcrumbStyle2 from "../Breadcrumb/BreadcrumbStyle2";
 import AboutSectionStyle2 from "../Section/AboutSection/AboutSectionStyle2";
-import FeaturesSectionStyle3 from "../Section/FeaturesSection/FeaturesSectionStyle5";
-import TeamSectionStyle3 from "../Section/TeamSection/TeamSectionStyle3";
 import { pageTitle } from "../../helpers/PageTitle";
 import img from "../../assets/neurosurgery.jpg";
 
-const featureData = [
-  {
-    title: "Urology",
-    subTitle:
-      "Our Urology department specializes in the diagnosis and treatment of conditions related to the urinary tract and male reproductive system. From managing kidney stones to addressing prostate issues, our skilled urologists use advanced techniques to provide comprehensive care.",
-    iconUrl: "/images/departments/icon_9.svg",
-  },
-  {
-    title: "Kidney Stone Treatment",
-    subTitle:
-      "We offer a range of treatments for kidney stones, including non-invasive methods like shock wave lithotripsy and minimally invasive procedures. Our goal is to relieve pain and prevent recurrence while ensuring optimal kidney function.",
-    iconUrl: "/images/departments/icon_10.svg",
-  },
-  {
-    title: "Prostate Health",
-    subTitle:
-      "Our team provides expert care for prostate conditions, including benign prostatic hyperplasia (BPH) and prostate cancer. We offer both medical and surgical treatments tailored to each patient’s needs, focusing on improving quality of life and managing symptoms effectively.",
-    iconUrl: "/images/departments/icon_11.svg",
-  },
-  {
-    title: "Bladder Disorders",
-    subTitle:
-      "We specialize in diagnosing and treating various bladder disorders, including urinary incontinence and interstitial cystitis. Our approach combines medical management, behavioral therapy, and, when necessary, surgical options to address and manage bladder health issues.",
-    iconUrl: "/images/departments/icon_12.svg",
-  },
-];
-
-const doctorData = [
-  {
-    imgUrl: "/images/doctors/KundanKumar.webp",
-    name: "Dr. Kundan Kumar, MS, MCh",
-    designation: "Consultant Urologist",
-    description: "",
-    social: [],
-    availableUrl: "09 AM - 08 PM ",
-
-    btnText: "Booking",
-    btnUrl: "/appointments",
-  },
-];
 
 export default function Accident_and_Emergency() {
   pageTitle("Department Details");
@@ -58,17 +16,11 @@ export default function Accident_and_Emergency() {
         <AboutSectionStyle2
           title="Accident-Emergency-Care"
           subTitle="Paramount Hospital, our Department of Accident and Emergency Care is your unwavering ally in the face of medical emergencies, ranging from critical life-threatening crises to everyday mishaps like cuts and fractures. We believe that every emergency deserves the same level of care and attention, and our dedicated team is committed to providing just that. "
-          imgUrl="/images/departments/intensive_care_unit.jpg"
+          imgUrl="/images/departments/emergency.webp"
         />
       </Section>
 
-      <Section topMd={170} topLg={145} topXl={90}>
-        <FeaturesSectionStyle3
-          sectionTitle="Treatments"
-          sectionTitleUp="MORE TYPE OF"
-          data={featureData}
-        />
-      </Section>
+
 
       <Section topMd={200} topLg={150} topXl={100}>
         <div className="row cs_dept_blog">
@@ -144,9 +96,6 @@ export default function Accident_and_Emergency() {
         </div>
       </Section>
 
-      <Section topMd={200} topLg={150} topXl={100}>
-        <TeamSectionStyle3 sectionTitle="Related Doctor" data={doctorData} />
-      </Section>
 
       {/* Start Appointment Section */}
       <Section

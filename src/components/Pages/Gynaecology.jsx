@@ -37,12 +37,12 @@ const featureData = [
 
 const doctorData = [
   {
-    imgUrl: "/images/doctors/PunamSarkar.webp",
-    name: "Dr. Punam Sarkar, MS",
-    designation: "Consultant Gynaecologist",
+    imgUrl: "/images/doctors/TanyaSingla.png",
+    name: "Dr. Tanya Singla, MS",
+    designation: "Consultant Obstetrician & Gynaecologist",
     description: "",
     social: [],
-    availableUrl: "04 PM - 06 PM ",
+    availableUrl: "10 AM - 08 PM ",
 
     btnText: "Booking",
     btnUrl: "/appointments",

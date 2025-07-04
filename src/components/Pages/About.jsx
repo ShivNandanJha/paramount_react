@@ -171,7 +171,7 @@ export default function About() {
       </Section>
       <Section className="cs_footer_margin_0">
         <BannerSectionStyle4
-          bgUrl="images/about/banner.jpg"
+          bgUrl="images/about/banner.jpeg"
           title="Don’t Let Your Health <br />Take a Backseat!"
           subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
           center

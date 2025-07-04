@@ -24,7 +24,7 @@ const Appointment = () => {
     "laparoscopic-general-surgery": [
       { value: "Dr VivekSarkar", label: "Dr. Vivek Sarkar, MS" },
       { value: "Dr JameeezulIrfan", label: "Dr. J. Jameezul Irfan, MS" },
-      { value: "Dr KalyanMandal", label: "Dr. Kalyan Mandal, MS" },
+
     ],
     neurosurgery: [
       { value: "Dr SajalBiswas", label: "Dr. Sajal Biswas, MS, MCh" }
@@ -32,7 +32,7 @@ const Appointment = () => {
     "orthopaedic-joint-replacement-surgery": [
       { value: "Dr AmalBasak", label: "Dr. Amal Basak, D.Ortho, MS" },
       { value: "Dr SoutrikMukherjee", label: "Dr. Soutrik Mukherjee, MS" },
-      { value: "Dr AmlanJyotiRoy", label: "Dr. Amlan Jyoti Roy, MS" },
+
     ],
     "spine-surgery": [
       { value: "Dr SajalBiswas", label: "Dr. Sajal Biswas, MS, MCh" },
@@ -42,36 +42,29 @@ const Appointment = () => {
     cardiology: [
       { value: "Dr ArabindaSaha", label: "Dr. Arabinda Saha, MD, DM, DNB" },
       { value: "Dr IndranilSen", label: "Dr. Indranil Sen, MD, DM" },
-      { value: "Dr DeepakTomar", label: "Dr. Deepak Tomar, MD, DM" },
-      { value: "Dr VivekAgarwal", label: "Dr. Vivek Agarwal, DNB, DM" },
+
     ],
     pulmonology: [
       { value: "Dr SoumyaGhosh", label: "Dr. Soumya Ghosh, MD" }
     ],
     urology: [
       { value: "Dr KundaanKumar", label: "Dr. Kundaan Kumar, MS, MCh" },
-      { value: "Dr SurajitPaul", label: "Dr. Surajit Paul, MS, MCh" },
-      { value: "Dr BiswajitDutta", label: "Dr. Biswajit Dutta, MS, MCh" },
+
     ],
     nephrology: [
       { value: "Dr VikrantDeshmukh", label: "Dr. Vikrant Deshmukh, DNB" }
     ],
-    "cardiothoracic-vascular-surgery": [
-      { value: "Dr AnjanDas", label: "Dr. Anjan Das, MS, MCh" }
-    ],
+
     "gastrointestinal-surgery": [
       { value: "Dr BarunKumarSingh", label: "Dr. Barun Kumar Singh, MS, DrNB" }
     ],
     "paediatrics-neonatal-surgery": [
       { value: "Dr VivekSarkar", label: "Dr. Vivek Sarkar, MS" },
-      { value: "Dr RajarshiKumar", label: "Dr. Rajarshi Kumar, MS, MCh" },
-      { value: "Dr AlokeSinhaBabu", label: "Dr. Aloke Sinha Babu, MS, MCh" },
       { value: "Dr JameezulIrfan", label: "Dr. J. Jameezul Irfan, MS" },
     ],
     "plastic-cosmetic-reconstructive-surgery": [
       { value: "Dr SJayaLeima", label: "Dr. S. Jaya Leima, MS, MCh" },
-      { value: "Dr ManojKumarSingh", label: "Dr. Manoj Kumar Singh, MS, MCh" },
-      { value: "Dr SoumyaGayen", label: "Dr. Soumya Gayen, MS, MCh" },
+
     ],
     "oral-maxillofacial-surgery-dentistry": [
       { value: "Dr MukeshChhetri", label: "Dr. Mukesh Chhetri, BDS" }
@@ -82,14 +75,7 @@ const Appointment = () => {
       { value: "Dr PunamSarkar", label: "Dr. Punam Sarkar, MS" },
       { value: "Dr NeelamSingla", label: "Dr. Neelam Singla, MD" },
     ],
-    ophthalmology: [
-      { value: "Dr AshishKumarBichpuria", label: "Dr. Ashish Kumar Bichpuria, MS" },
-      { value: "Dr NilanjanaHaldar", label: "Dr. Nilanjana Haldar, MS" },
-    ],
-    anaesthesiology: [
-      { value: "Dr SKKhutia", label: "Dr. S.K Khutia, MD, FIPM" },
-      { value: "Dr SChatterjee", label: "Dr. S. Chatterjee, MD" },
-    ],
+
     ent: [
       { value: "Dr ParthaPratimSaha", label: "Dr. Partha Pratim Saha, MS" },
       { value: "Dr SandeepGhosh", label: "Dr. Sandeep Ghosh, MS" },
@@ -97,15 +83,12 @@ const Appointment = () => {
     radiology: [
       { value: "Dr ChandanKumar", label: "Dr. Chandan Kumar, MD" }
     ],
-    "pain-medicine": [
-      { value: "Dr SKKhutia", label: "Dr. S.K Khutia, MD, FIPM" }
-    ],
+
     neurology: [
       { value: "Dr NRHaldar", label: "Dr. N.R. Haldar, MD, DM" }
     ],
     "internal-medicine-endocrinology": [
       { value: "Dr MKDas", label: "Dr. M.K Das, MD" },
-      { value: "Dr RSaha", label: "Dr. R. Saha, MD" },
       { value: "Dr SoumyaGhosh", label: "Dr. Soumya Ghosh, MD" },
     ],
     "gastroenterology-hepatology": [
@@ -114,12 +97,9 @@ const Appointment = () => {
     "paediatrics-neonatology": [
       { value: "Dr RajivAgarwal", label: "Dr. Rajiv Agarwal, MD" }
     ],
-    neuropsychiatry: [
-      { value: "Dr SantanuDe", label: "Dr. Santanu De, MD" }
-    ],
+
     pathology: [
       { value: "Dr PBera", label: "Dr. P. Bera, MD" },
-      { value: "Dr SantanuHazra", label: "Dr. Santanu Hazra, MD" },
       { value: "Dr NiladriHaldar", label: "Dr. Niladri Haldar, MD" }
     ]
   };
@@ -211,7 +191,7 @@ const Appointment = () => {
           <input
             type="text"
             name="phone"
-            placeholder="(123) 456 - 789"
+            placeholder="(+91) 12345-67890"
             value={formData.phone}
             onChange={handleChange}
             className="cs_form_field"
@@ -269,63 +249,62 @@ const Appointment = () => {
             <input
               type="time"
               name="time"
-              placeholder="10:00AM"
               value={formData.time}
               onChange={handleChange}
               className="cs_form_field cs_timepicker"
               required
             />
-            <i>
+            {/* <i>
               <Icon icon="fa6-regular:clock" />
-            </i>
+            </i> */}
           </div>
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
         <div className="col-lg-6">
-        <label htmlFor="options" className="cs_input_label cs_heading_color">
-          Specialization
-        </label>
-        <select
-          name="specialization"
-          id="options"
-          value={formData.specialization}
-          onChange={handleSpecializationChange}
-          className="cs_form_field"
-          required
-        >
-          <option value="">Choose specialization</option>
-          {Object.keys(specializations).map((key) => (
-            <option key={key} value={key}>
-              {key.replace(/-/g, " ").toUpperCase()}
-            </option>
-          ))}
-        </select>
-        <div className="cs_height_42 cs_height_xl_25" />
-      </div>
-
-      {formData.specialization && specializations[formData.specialization].length > 0 && (
-        <div className="col-lg-6">
-          <label htmlFor="doctor" className="cs_input_label cs_heading_color">
-            Doctor
+          <label htmlFor="options" className="cs_input_label cs_heading_color">
+            Specialization
           </label>
           <select
-            name="doctor"
-            id="doctor"
-            value={formData.doctor}
-            onChange={handleChange}
+            name="specialization"
+            id="options"
+            value={formData.specialization}
+            onChange={handleSpecializationChange}
             className="cs_form_field"
             required
           >
-            <option value="">Choose doctor</option>
-            {specializations[formData.specialization].map((doc) => (
-              <option key={doc.value} value={doc.value}>
-                {doc.label}
+            <option value="">Choose specialization</option>
+            {Object.keys(specializations).map((key) => (
+              <option key={key} value={key}>
+                {key.replace(/-/g, " ").toUpperCase()}
               </option>
             ))}
           </select>
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
-      )}
+
+        {formData.specialization && specializations[formData.specialization].length > 0 && (
+          <div className="col-lg-6">
+            <label htmlFor="doctor" className="cs_input_label cs_heading_color">
+              Doctor
+            </label>
+            <select
+              name="doctor"
+              id="doctor"
+              value={formData.doctor}
+              onChange={handleChange}
+              className="cs_form_field"
+              required
+            >
+              <option value="">Choose doctor</option>
+              {specializations[formData.specialization].map((doc) => (
+                <option key={doc.value} value={doc.value}>
+                  {doc.label}
+                </option>
+              ))}
+            </select>
+            <div className="cs_height_42 cs_height_xl_25" />
+          </div>
+        )}
         <div className="col-lg-12">
           <label className="cs_input_label cs_heading_color">
             Reason for Visit

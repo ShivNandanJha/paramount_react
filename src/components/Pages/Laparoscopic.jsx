@@ -46,30 +46,9 @@ const doctorData = [
     btnText: "Booking",
     btnUrl: "/appointments",
   },
-  {
-    imgUrl: "/images/doctors/PenzimBhutiya.webp",
-    name: "Dr. Penzim D Bhutia, MS",
-    designation: "Consultant General Surgeon",
-    description: "",
-    social: [],
-    availableUrl: "03 PM - 06 PM",
 
-    btnText: "Booking",
-    btnUrl: "/appointments",
-  },
   {
-    imgUrl: "/images/doctors/",
-    name: "Dr. Kalyan Mandal, MS",
-    designation: "Consultant General Surgeon",
-    description: "",
-    social: [],
-    availableUrl: " 07 PM - 08 PM",
-
-    btnText: "Booking",
-    btnUrl: "/appointments",
-  },
-  {
-    imgUrl: "/images/doctors/",
+    imgUrl: "/images/doctors/JameezulIrfan.webp",
     name: "Dr. J Jameezul Irfan, MS",
     designation: "Consultant General Surgeon",
     description: "",
@@ -90,7 +69,7 @@ export default function Neurology() {
         <AboutSectionStyle2
           title="Laparoscopic & General Surgery"
           subTitle="This department specializes in the care of infants, children, adolescents, and provides a range of services including preventive care, developmental screenings, and treatment of childhood illnesses and conditions."
-          imgUrl="/images/departments/surgery.jpg"
+          imgUrl="/images/departments/laparoscopic.webp"
         />
       </Section>
 
