@@ -164,23 +164,23 @@ const workingProcessData = [
     number: "05",
   },
 ];
-const blogData = [
-  {
-    title: "The Benefits of Mindfulness Meditation for Stress and Anxiety",
-    thumbUrl: "images/blog/blog1.webp",
-    date: "May 1, 2023",
-  },
-  {
-    title: "Healthy Eating on a Budget: Tips and Strategies",
-    thumbUrl: "images/blog/blog2.webp",
-    date: "May 4, 2023",
-  },
-  {
-    title: "The Importance of Regular Cancer Screenings and Early Detection",
-    thumbUrl: "images/blog/blog3.webp",
-    date: "May 1, 2023",
-  },
-];
+// const blogData = [
+//   {
+//     title: "The Benefits of Mindfulness Meditation for Stress and Anxiety",
+//     thumbUrl: "images/blog/blog1.webp",
+//     date: "May 1, 2023",
+//   },
+//   {
+//     title: "Healthy Eating on a Budget: Tips and Strategies",
+//     thumbUrl: "images/blog/blog2.webp",
+//     date: "May 4, 2023",
+//   },
+//   {
+//     title: "The Importance of Regular Cancer Screenings and Early Detection",
+//     thumbUrl: "images/blog/blog3.webp",
+//     date: "May 1, 2023",
+//   },
+// ];
 const faqData = [
   {
     title: "What services does Paramount Hospital offer?",
@@ -405,7 +405,7 @@ export default function HomeStyle2() {
 
         />
       </Section>
-      <Section
+      {/* <Section
         topMd={190}
         topLg={145}
         topXl={105}
@@ -420,7 +420,7 @@ export default function HomeStyle2() {
           sectionSubTitle=""
           data={blogData}
         />
-      </Section>
+      </Section> */}
       {/* Start FAQ Section */}
 
       <Section
