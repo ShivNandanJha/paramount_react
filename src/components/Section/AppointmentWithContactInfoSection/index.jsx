@@ -1,7 +1,7 @@
 
 import AppointmentForm from '../../AppointmentForm';
 const contactInfo = [
-  { title: 'Phone', subTitle: '98008 96529, 98008 96529' },
+  { title: 'Phone', subTitle: '+91 9800896511/16, +91 98008 96830' },
   { title: 'Email Us', subTitle: 'contact@paramouthospital.in' },
   { title: 'Our Location', subTitle: 'Mangal Pandey Road, Khalpara, Siliguri, West Bengal - 734005' },
 ];
