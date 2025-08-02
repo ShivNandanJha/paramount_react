@@ -16,7 +16,7 @@ const doctorData = [
     social: [],
     availableUrl: "09 AM - 02 PM",
     btnText: "Booking",
-    btnUrl: "/appointments",
+    btnUrl: "/appointment",
   },
   {
     imgUrl: "/images/doctors/SoumyaGhosh.webp",
@@ -26,7 +26,7 @@ const doctorData = [
     social: [],
     availableUrl: "09 AM - 04 PM & 06 PM - 08 PM",
     btnText: "Booking",
-    btnUrl: "/appointments",
+    btnUrl: "/appointment",
   },
 ];
 

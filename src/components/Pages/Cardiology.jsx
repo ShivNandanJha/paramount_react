@@ -44,7 +44,7 @@ const doctorData = [
     availableUrl: " 09 AM - 10 AM & 06 PM - 07 PM",
 
     btnText: "Booking",
-    btnUrl: "/appointments",
+    btnUrl: "/appointment",
   },
   {
     imgUrl: "/images/doctors/IndranilSen.webp",
@@ -55,7 +55,7 @@ const doctorData = [
     availableUrl: "09 AM - 11 AM & 04 PM - 07 PM",
 
     btnText: "Booking",
-    btnUrl: "/appointments",
+    btnUrl: "/appointment",
   },
  
 ];

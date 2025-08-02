@@ -14,41 +14,43 @@ import { pageTitle } from "../../helpers/PageTitle";
 import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 
 const departmentData1 = [
-  {
-    title: "Diagnostic testing",
-    subTitle:
-      "Blood tests, imaging studies, and other tests to diagnose health conditions",
+    {
+    title: "Trauma & Emergency Care",
+    subTitle: "24/7 emergency response and trauma management for critical injuries and accidents.",
     iconUrl: "/images/icons/calendar_white.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Rehabilitation services",
-    subTitle:
-      "Physical therapy, occupational therapy, and other services to help patients recover from injuries",
+    title: "Neuro-Cardio Cathlab",
+    subTitle: "Advanced diagnostics and interventional procedures for neurological and cardiac conditions.",
     iconUrl: "/images/icons/calendar_white.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Preventive care",
-    subTitle:
-      "Annual checkups, immunizations, and health screenings care preventive",
+    title: "Diagnostic Testing",
+    subTitle: "Blood work, imaging (X-rays, MRIs), and other tests to identify health conditions accurately.",
     iconUrl: "/images/icons/calendar_white.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Treatment for acute and chronic conditions",
-    subTitle:
-      "Medication management, disease management, and other treatments to improve health outcomes",
+    title: "Rehabilitation Services",
+    subTitle: "Physical and occupational therapy to help patients recover after injury or surgery.",
     iconUrl: "/images/icons/calendar_white.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Mental health services",
-    subTitle:
-      "Counseling, therapy, and other services to help patients manage mental health conditions",
+    title: "Preventive Care",
+    subTitle: "Routine check-ups, immunizations, and health screenings to maintain overall well-being.",
     iconUrl: "/images/icons/calendar_white.svg",
     href: "/departments/department-details",
   },
+  {
+    title: "Acute & Chronic Condition Treatment",
+    subTitle: "Disease management, medication, and long-term care for ongoing or sudden illnesses.",
+    iconUrl: "/images/icons/calendar_white.svg",
+    href: "/departments/department-details",
+  },
+ 
 ];
 const departmentData = [
   {
@@ -185,29 +187,30 @@ const faqData = [
   {
     title: "What services does Paramount Hospital offer?",
     content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
+      "Paramount Hospital offers a wide range of medical services including 24/7 trauma and emergency care, general and laparoscopic surgery, orthopaedics, cardiology, neurology, nephrology, urology, ENT, obstetrics & gynaecology, pediatrics, critical care, and more. We also provide diagnostic services, ICU facilities, and specialist consultations.",
   },
   {
     title: "How do I schedule an appointment with Paramount Hospital?",
     content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
+      "You can schedule an appointment by calling our front desk at +91 9800896511 / 9800896830 or by visiting our website and using the online appointment booking system. Walk-in appointments are also available based on doctor availability.",
   },
   {
     title: "Do you accept insurance?",
     content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
+      "Yes, Paramount Hospital accepts a wide range of health insurance and mediclaim policies. We are empanelled with several government and private insurance providers. For specific inquiries, please contact our billing department or check the insurance section on our website.",
   },
   {
     title: "What should I bring to my appointment?",
     content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
+      "Please bring a valid photo ID, your previous medical records (if any), prescriptions, test results, and your insurance/TPA card. If you're a new patient, arriving 10–15 minutes early is recommended to complete registration formalities.",
   },
   {
     title: "How do I request a prescription refill?",
     content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
+      "To request a prescription refill, you can contact our hospital directly via phone or visit the OPD reception. You may also request a refill during your follow-up consultation with your doctor. In some cases, the refill may require a short evaluation before being issued.",
   },
 ];
+
 const featureListData = [
   {
     title: "Experienced Medical Professionals",
@@ -401,7 +404,7 @@ export default function HomeStyle2() {
         }}
       >
         <BannerSectionStyle4
-          bgUrl="/images/home_2/care.webp"
+          bgUrl="/images/home_2/banner.webp"
 
         />
       </Section>

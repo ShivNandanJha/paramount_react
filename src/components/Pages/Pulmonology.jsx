@@ -16,7 +16,7 @@ const doctorData = [
         social: [],
         availableUrl: "09 AM - 04 PM & 06 PM - 08 PM",
         btnText: "Booking",
-        btnUrl: "/appointments",
+        btnUrl: "/appointment",
       },
 ];
 

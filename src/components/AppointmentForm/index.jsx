@@ -26,7 +26,7 @@ const Appointment = () => {
       { value: "Dr JameeezulIrfan", label: "Dr. J. Jameezul Irfan, MS" },
 
     ],
-    neurosurgery: [
+   " neurosurgery": [
       { value: "Dr SajalBiswas", label: "Dr. Sajal Biswas, MS, MCh" }
     ],
     "orthopaedic-joint-replacement-surgery": [
@@ -241,25 +241,7 @@ const Appointment = () => {
           </div>
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
-        <div className="col-lg-6">
-          <label className="cs_input_label cs_heading_color">
-            Preferred Time
-          </label>
-          <div className="cs_with_icon_input">
-            <input
-              type="time"
-              name="time"
-              value={formData.time}
-              onChange={handleChange}
-              className="cs_form_field cs_timepicker"
-              required
-            />
-            {/* <i>
-              <Icon icon="fa6-regular:clock" />
-            </i> */}
-          </div>
-          <div className="cs_height_42 cs_height_xl_25" />
-        </div>
+      
         <div className="col-lg-6">
           <label htmlFor="options" className="cs_input_label cs_heading_color">
             Specialization

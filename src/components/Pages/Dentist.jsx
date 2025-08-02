@@ -18,7 +18,7 @@ const doctorData = [
     availableUrl: "09 AM - 08 PM ",
 
     btnText: "Booking",
-    btnUrl: "/appointments",
+    btnUrl: "/appointment",
   },
 ];
 

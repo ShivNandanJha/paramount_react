@@ -45,7 +45,7 @@ const doctorData = [
     availableUrl: "09 AM - 10:30 AM & 02 PM - 04 PM ",
 
     btnText: "Booking",
-    btnUrl: "/appointments",
+    btnUrl: "/appointment",
   },
   {
     imgUrl: "/images/doctors/SandeepGhosh.webp",
@@ -56,7 +56,7 @@ const doctorData = [
     availableUrl: "Appointment Only",
 
     btnText: "Booking",
-    btnUrl: "/appointments",
+    btnUrl: "/appointment",
   },
 ];
 

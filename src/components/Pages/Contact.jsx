@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <>
       <BannerSectionStyle5
-        bgUrl="/images/contact/contact-bg.png"
+        bgUrl="/images/contact/contact-bg.jpg"
         imgUrl="/images/contact/banner_img.jpg"
         title="Contact Us"
         subTitle="Kindly reach us to get the fastest response and treatment"

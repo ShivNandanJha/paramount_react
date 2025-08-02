@@ -8,18 +8,15 @@ const menuDataOne = [
   { title: 'About Us', href: '/about' },
   { title: 'Departments', href: '/departments' },
   { title: 'Doctors', href: '/doctors' },
-  { title: 'Appointment', href: '/appointments' },
+  { title: 'Appointment', href: '/appointment' },
 ];
 
 const menuDataTwo = [
   { title: 'Testimonials', href: '/' },
-  { title: 'Blog', href: '/blog' },
+  { title: 'Blog', href: '/' },
   { title: 'Contact Us', href: '/' },
 ];
-const menuDataThree = [
-  { title: 'Privacy Policy', href: '/' },
-  { title: 'Terms and Conditions', href: '/blog' },
-];
+
 
 export default function FooterStyle4() {
   return (
@@ -48,7 +45,7 @@ export default function FooterStyle4() {
           </div>
           <div className="cs_footer_col">
             <div className="cs_footer_item">
-              <MenuWidget data={menuDataThree} />
+             
               <SocialWidget />
             </div>
           </div>

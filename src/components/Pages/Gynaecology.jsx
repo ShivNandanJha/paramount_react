@@ -45,7 +45,7 @@ const doctorData = [
     availableUrl: "10 AM - 08 PM ",
 
     btnText: "Booking",
-    btnUrl: "/appointments",
+    btnUrl: "/appointment",
   },
   {
     imgUrl: "/images/doctors/RanjanPal.webp",
@@ -56,7 +56,7 @@ const doctorData = [
     availableUrl: "Appointment Only",
 
     btnText: "Booking",
-    btnUrl: "/appointments",
+    btnUrl: "/appointment",
   },
 ];
 

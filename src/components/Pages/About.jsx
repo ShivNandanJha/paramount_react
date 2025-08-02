@@ -8,42 +8,46 @@ import GallerySection from "../Section/GallerySection";
 import AwardSectionStyle2 from "../Section/AwardSection/AwardSectionStyle2";
 import { pageTitle } from "../../helpers/PageTitle";
 const departmentData = [
-  {
-    title: "Diagnostic testing",
-    subTitle:
-      "Blood tests, imaging studies, and other tests to diagnose health conditions",
+    {
+    title: "Trauma & Emergency Care",
+    subTitle: "24/7 emergency response and trauma management for critical injuries and accidents.",
     iconUrl: "/images/icons/calendar_white.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Rehabilitation services",
-    subTitle:
-      "Physical therapy, occupational therapy, and other services to help patients recover from injuries",
+    title: "Neuro-Cardio Cathlab",
+    subTitle: "Advanced diagnostics and interventional procedures for neurological and cardiac conditions.",
     iconUrl: "/images/icons/calendar_white.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Preventive care",
-    subTitle:
-      "Annual checkups, immunizations, and health screenings care preventive",
+    title: "Diagnostic Testing",
+    subTitle: "Blood work, imaging (X-rays, MRIs), and other tests to identify health conditions accurately.",
     iconUrl: "/images/icons/calendar_white.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Treatment for acute and chronic conditions",
-    subTitle:
-      "Medication management, disease management, and other treatments to improve health outcomes",
+    title: "Rehabilitation Services",
+    subTitle: "Physical and occupational therapy to help patients recover after injury or surgery.",
     iconUrl: "/images/icons/calendar_white.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Mental health services",
-    subTitle:
-      "Counseling, therapy, and other services to help patients manage mental health conditions",
+    title: "Preventive Care",
+    subTitle: "Routine check-ups, immunizations, and health screenings to maintain overall well-being.",
     iconUrl: "/images/icons/calendar_white.svg",
     href: "/departments/department-details",
   },
+  {
+    title: "Acute & Chronic Condition Treatment",
+    subTitle: "Disease management, medication, and long-term care for ongoing or sudden illnesses.",
+    iconUrl: "/images/icons/calendar_white.svg",
+    href: "/departments/department-details",
+  },
+ 
+
 ];
+
 
 const featureListData = [
   {
@@ -95,7 +99,7 @@ const galleryData = [
 const awardData = [
   {
     iconUrl: "/images/icons/approved.png",
-    title: "WBHS ECHS RAIL approved",
+    title: "WBHS ECHS RAIL Empanelled",
   },
   {
     iconUrl: "/images/icons/approved2.png",
@@ -105,10 +109,7 @@ const awardData = [
     iconUrl: "/images/icons/approved3.png",
     title: "NABL Certified ",
   },
-  {
-    iconUrl: "/images/icons/approved3.png",
-    title: "NABL Certified ",
-  },
+  
 ];
 
 export default function About() {
@@ -171,7 +172,7 @@ export default function About() {
       </Section>
       <Section className="cs_footer_margin_0">
         <BannerSectionStyle4
-          bgUrl="images/about/banner.jpeg"
+          bgUrl="images/about/banner.webp"
           title="Don’t Let Your Health <br />Take a Backseat!"
           subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
           center

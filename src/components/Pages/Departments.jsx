@@ -204,7 +204,7 @@ export default function Departments() {
       </Section>
       <Section className="cs_footer_margin_0">
         <BannerSectionStyle4
-          bgUrl    = "/images/departments/banner_img.jpeg"
+          bgUrl    = "/images/departments/banner.webp"
           title    = "Don’t Let Your Health Take a Backseat!"
           subTitle = "Schedule an appointment with one of our <br />experienced medical professionals today!"
         />
