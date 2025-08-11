@@ -14,7 +14,7 @@ import { pageTitle } from "../../helpers/PageTitle";
 import BannerSectionStyle4 from "../Section/BannerSection/BannerSectionStyle4";
 
 const departmentData1 = [
-    {
+  {
     title: "Trauma & Emergency Care",
     subTitle: "24/7 emergency response and trauma management for critical injuries and accidents.",
     iconUrl: "/images/icons/calendar_white.svg",
@@ -50,7 +50,7 @@ const departmentData1 = [
     iconUrl: "/images/icons/calendar_white.svg",
     href: "/departments/department-details",
   },
- 
+
 ];
 const departmentData = [
   {
@@ -115,10 +115,10 @@ const testimonialData = [
     avatarDesignation: "Siliguri,West Bengal",
   },
   {
-    text        : "I truly appreciate Dr. Kundan Kumar’s expertise. His DJ stent removal felt like magic—painless and completed in just 2 minutes! Watching the procedure live was an incredible experience. His skill and efficiency reflect his vast experience. I am grateful for his outstanding treatment and highly recommend him.”",
+    text: "I truly appreciate Dr. Kundan Kumar’s expertise. His DJ stent removal felt like magic—painless and completed in just 2 minutes! Watching the procedure live was an incredible experience. His skill and efficiency reflect his vast experience. I am grateful for his outstanding treatment and highly recommend him.”",
     ratingNumber: "5",
-    avatarImgUrl     : "/images/home_2/user.png",
-    avatarName       : "D Fighter Lochan",
+    avatarImgUrl: "/images/home_2/user.png",
+    avatarName: "D Fighter Lochan",
     avatarDesignation: "Sikkim, Gangtok",
   },
   {
@@ -295,15 +295,14 @@ export default function HomeStyle2() {
         title="Compassionate care, exceptional results."
         subTitle="Our team of experienced doctors and healthcare professionals are committed to providing quality care and personalized attention to our patients."
         bgUrl="/images/home_2/bg.webp"
-        videoBtnText="See how we work"
-        videoUrl="/public/images/home_2/herobanner.mp4"
+    
         btnText="Paramount Hospital"
-        btnUrl="/"
+        btnUrl="/appointment"
         funfactList={[
-          { number: "28+", title: "Years of experience" },
+          { number: "29+", title: "Years of experience" },
           { number: "95%", title: "Patient satisfaction rating" },
           { number: "5000+", title: "Patients served annually" },
-          { number: "10+", title: "Healthcare providers on staff" },
+          { number: "20+", title: "Healthcare providers on staff" },
         ]}
       />
 
@@ -350,13 +349,7 @@ export default function HomeStyle2() {
           backgroundColor: "white",
         }}
       >
-        <Section topMd={200} topLg={150} topXl={110}>
-          <DepartmentSectionStyle2
-            sectionTitle="Our Best Services"
-            sectionTitleUp="SERVICES"
-            data={departmentData1}
-          />
-        </Section>
+         
         <DepartmentSectionStyle4
           sectionTitle="For Your Health"
           sectionTitleUp="OUR DEPARTMENTS"
@@ -404,7 +397,7 @@ export default function HomeStyle2() {
         }}
       >
         <BannerSectionStyle4
-          bgUrl="/images/home_2/banner.webp"
+          bgUrl="/images/home_2/banner.JPG"
 
         />
       </Section>

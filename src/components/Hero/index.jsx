@@ -33,15 +33,7 @@ export default function HeroStyle2({
       </div>
       <div className="container">
         <div className="cs_hero_bottom">
-          <div className="cs_hero_bottom_left">
-            <div className="cs_hero_btn_wrap">
-              <VideoModal
-                videoUrl={videoUrl}
-                videoBtnText={videoBtnText}
-                variant="cs_white_color"
-              />
-            </div>
-          </div>
+          
           <div className="cs_hero_bottom_right">
             {funfactList?.length > 0 && (
               <div className="cs_hero_funfact text-center">
