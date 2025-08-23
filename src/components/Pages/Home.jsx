@@ -101,10 +101,17 @@ const departmentData = [
 ];
 const testimonialData = [
   {
-    text: "Paramount Hospital in Siliguri provides exceptional care. During my emergency, I was met with professionalism and empathy. The staff explained every step clearly, and the clean facility created a comforting atmosphere. I felt completely safe throughout. They set a high standard for healthcare, and I highly recommend them”",
+    text: "Paramount Hospital in Siliguri provides exceptional care. During my emergency, I was met with professionalism and empathy. The staff explained every step clearly, and the clean facility created a comforting atmosphere. I felt completely safe throughout. They set a high standard for healthcare, and I highly recommend them",
     ratingNumber: "5",
     avatarImgUrl: "/images/home_2/user.png",
     avatarName: "Kishan Paswan",
+    avatarDesignation: "Siliguri,West Bengal",
+  },
+   {
+    text: "My wife was admitted in this hospital for C-section. The entire hospital staffs, nurses and everyone was very cooperative and understanding. The gynaecologist Dr. T Singla was very approachable, dedicated and outstanding as well as the paediatrician Dr. R. Agarwal was also very polite and cleared all our doubts regarding our newborn baby. Overall, the hospital is highly recommended.",
+    ratingNumber: "5",
+    avatarImgUrl: "/images/home_2/user.png",
+    avatarName: "Rajen Gurung",
     avatarDesignation: "Siliguri,West Bengal",
   },
   {
@@ -185,29 +192,29 @@ const workingProcessData = [
 // ];
 const faqData = [
   {
-    title: "What services does Paramount Hospital offer?",
+    title: "What specialties and medical services does Paramount Hospital in Siliguri offer?",
     content:
-      "Paramount Hospital offers a wide range of medical services including 24/7 trauma and emergency care, general and laparoscopic surgery, orthopaedics, cardiology, neurology, nephrology, urology, ENT, obstetrics & gynaecology, pediatrics, critical care, and more. We also provide diagnostic services, ICU facilities, and specialist consultations.",
+      "Paramount Hospital is the best multispeciality hospital in Siliguri, offering a full range of advanced medical and surgical services including cardiology, neurology, orthopedics, pediatrics, gynecology, and 24/7 emergency care. Our expert doctors provide personalized treatment using modern diagnostic technology to ensure the highest quality healthcare near you.",
   },
   {
-    title: "How do I schedule an appointment with Paramount Hospital?",
+    title: "How can I book an appointment with expert doctors at Paramount Hospital, Siliguri?",
     content:
       "You can schedule an appointment by calling our front desk at +91 9800896511 / 9800896830 or by visiting our website and using the online appointment booking system. Walk-in appointments are also available based on doctor availability.",
   },
   {
-    title: "Do you accept insurance?",
+    title: "Does Paramount Hospital Siliguri provide 24/7 emergency and trauma care?",
     content:
-      "Yes, Paramount Hospital accepts a wide range of health insurance and mediclaim policies. We are empanelled with several government and private insurance providers. For specific inquiries, please contact our billing department or check the insurance section on our website.",
+      "Yes, Paramount Hospital is a leading hospital in Siliguri with round-the-clock emergency and trauma care services. Our experienced medical team and state-of-the-art emergency facilities ensure you receive prompt and effective treatment whenever you need a hospital near me.",
   },
   {
-    title: "What should I bring to my appointment?",
+    title: "What insurance policies does Paramount Hospital accept in Siliguri?",
     content:
-      "Please bring a valid photo ID, your previous medical records (if any), prescriptions, test results, and your insurance/TPA card. If you're a new patient, arriving 10–15 minutes early is recommended to complete registration formalities.",
+      "Paramount Hospital accepts a wide range of health insurance and mediclaim plans. We work with multiple insurance providers to offer cashless facilities and hassle-free billing, making quality healthcare accessible for all our patients looking for the best hospital in Siliguri.",
   },
   {
-    title: "How do I request a prescription refill?",
+    title: "Why is Paramount Hospital considered the best hospital in Siliguri?",
     content:
-      "To request a prescription refill, you can contact our hospital directly via phone or visit the OPD reception. You may also request a refill during your follow-up consultation with your doctor. In some cases, the refill may require a short evaluation before being issued.",
+      "TParamount Hospital stands out as the best hospital in Siliguri due to its multispeciality approach, highly qualified expert doctors, modern infrastructure, 24/7 emergency care services, and a compassionate patient-centered philosophy. We are committed to delivering world-class healthcare close to you.",
   },
 ];
 
@@ -292,11 +299,12 @@ export default function HomeStyle2() {
       {/* HeroStyle2 Section overlapping the video */}
 
       <HeroStyle2
-        title="Compassionate care, exceptional results."
-        subTitle="Our team of experienced doctors and healthcare professionals are committed to providing quality care and personalized attention to our patients."
+        title="CBest Multispeciality Hospital in Siliguri with Expert Doctors"
+        subTitle="Paramount Hospital is Siliguri&apos;s trusted destination for advanced medical and surgical care. Our expert doctors, compassionate staff, and 24/7 emergency services ensure comprehensive healthcare for you and your family, right near you.
+"
         bgUrl="/images/home_2/bg.webp"
     
-        btnText="Paramount Hospital"
+        btnText="Book your appointment"
         btnUrl="/appointment"
         funfactList={[
           { number: "29+", title: "Years of experience" },
